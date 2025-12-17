@@ -1,0 +1,2517 @@
+[
+  {
+    "section": "Abstract",
+    "citation_count": 0,
+    "papers": []
+  },
+  {
+    "section": "Introduction",
+    "citation_count": 15,
+    "papers": [
+      {
+        "key": "Baek2024ResearchAgentIR",
+        "title": "ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models",
+        "authors": "Jinheon Baek and Sujay Kumar Jauhar and Silviu Cucerzan and Sung Ju Hwang",
+        "year": "2024",
+        "url": "https://api.semanticscholar.org/CorpusID:269042844"
+      },
+      {
+        "key": "Li2024ChainOI",
+        "title": "Chain of Ideas: Revolutionizing Research Via Novel Idea Development with LLM Agents",
+        "authors": "Long Li and Weiwen Xu and Jiayan Guo and Ruochen Zhao and Xinxuan Li and Yuqian Yuan and Boqiang Zhang and Yuming Jiang and Yifei Xin and Ronghao Dang and Deli Zhao and Yu Rong and Tian Feng and Li Bing",
+        "year": "2024",
+        "url": "https://api.semanticscholar.org/CorpusID:273403983"
+      },
+      {
+        "key": "Radensky2024ScideatorHS",
+        "title": "Scideator: Human-LLM Scientific Idea Generation Grounded in Research-Paper Facet Recombination",
+        "authors": "Marissa Radensky and Simra Shahid and Raymond Fok and Pao Siangliulue and Tom Hope and Daniel S. Weld",
+        "year": "2024",
+        "url": "https://api.semanticscholar.org/CorpusID:272827497"
+      },
+      {
+        "key": "Weng2024CycleResearcherIA",
+        "title": "CycleResearcher: Improving Automated Research via Automated Review",
+        "authors": "Yixuan Weng and Minjun Zhu and Guangsheng Bao and Hongbo Zhang and Jindong Wang and Yue Zhang and Linyi Yang",
+        "year": "2024",
+        "url": "https://api.semanticscholar.org/CorpusID:273811997"
+      },
+      {
+        "key": "boiko2023autonomous",
+        "title": "Autonomous chemical research with large language models",
+        "authors": "Boiko, Daniil A and MacKnight, Robert and Kline, Ben and Gomes, Gabe",
+        "year": "2023"
+      },
+      {
+        "key": "lu2024ai",
+        "title": "The ai scientist: Towards fully automated open-ended scientific discovery",
+        "authors": "Lu, Chris and Lu, Cong and Lange, Robert Tjarko and Foerster, Jakob and Clune, Jeff and Ha, David",
+        "year": "2024",
+        "url": "http://arxiv.org/abs/2408.06292"
+      },
+      {
+        "key": "m2024augmenting",
+        "title": "Augmenting large language models with chemistry tools",
+        "authors": "M. Bran, Andres and Cox, Sam and Schilter, Oliver and Baldassari, Carlo and White, Andrew D and Schwaller, Philippe",
+        "year": "2024",
+        "url": "https://www.nature.com/articles/s42256-024-00832-8"
+      },
+      {
+        "key": "szymanski2023autonomous",
+        "title": "An autonomous laboratory for the accelerated synthesis of novel materials",
+        "authors": "Szymanski, Nathan J and Rendy, Bernardus and Fei, Yuxing and Kumar, Rishi E and He, Tanjin and Milsted, David and McDermott, Matthew J and Gallant, Max and Cubuk, Ekin Dogus and Merchant, Amil and others",
+        "year": "2023",
+        "url": "https://www.nature.com/articles/s41586-023-06734-w"
+      },
+      {
+        "key": "tom2024self",
+        "title": "Self-driving laboratories for chemistry and materials science",
+        "authors": "Tom, Gary and Schmid, Stefan P and Baird, Sterling G and Cao, Yang and Darvish, Kourosh and Hao, Han and Lo, Stanley and Pablo-Garc{\\'\\i",
+        "year": "2024",
+        "url": "https://pubs.acs.org/doi/10.1021/acs.chemrev.4c00055"
+      },
+      {
+        "key": "wang2024geneagent",
+        "title": "GeneAgent: Self-verification Language Agent for Gene Set Knowledge Discovery using Domain Databases",
+        "authors": "Wang, Zhizheng and Jin, Qiao and Wei, Chih-Hsuan and Tian, Shubo and Lai, Po-Ting and Zhu, Qingqing and Day, Chi-Ping and Ross, Christina and Lu, Zhiyong",
+        "year": "2024",
+        "url": "http://arxiv.org/abs/2405.16205"
+      }
+    ]
+  },
+  {
+    "section": "Preliminary",
+    "citation_count": 1,
+    "papers": [
+      {
+        "key": "feifeili2024agentai",
+        "title": "Agent AI: Surveying the Horizons of Multimodal Interaction",
+        "authors": "Zane Durante and Qiuyuan Huang and Naoki Wake and Ran Gong and Jae Sung Park and Bidipta Sarkar and Rohan Taori and Yusuke Noda and Demetri Terzopoulos and Yejin Choi and Katsushi Ikeuchi and Hoi Vo and Li Fei-Fei and Jianfeng Gao",
+        "year": "2024"
+      }
+    ]
+  },
+  {
+    "section": "I/O for Scientific MLLMs",
+    "citation_count": 137,
+    "papers": [
+      {
+        "key": "Ahmed2022prottrans",
+        "title": "{ ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning",
+        "authors": "Elnaggar, Ahmed and Heinzinger, Michael and Dallago, Christian and Rehawi, Ghalia and Wang, Yu and Jones, Llion and Gibbs, Tom and Feher, Tamas and Angerer, Christoph and Steinegger, Martin and Bhowmik, Debsindhu and Rost, Burkhard",
+        "year": "2022",
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TPAMI.2021.3095381"
+      },
+      {
+        "key": "Heimberg2023scimilarity",
+        "title": "Scalable querying of human cell atlases via a foundational model reveals commonalities across fibrosis-associated macrophages",
+        "authors": "Heimberg, Graham and Kuo, Tony and DePianto, Daryle and Heigl, Tobias and Diamant, Nathaniel and Salem, Omar and Scalia, Gabriele and Biancalani, Tommaso and Turley, Shannon and Rock, Jason and Bravo, Héctor Corrada and Kaminker, Josh and Vander Heiden, Jason A. and Regev, Aviv",
+        "year": "2023",
+        "url": "https://www.biorxiv.org/content/10.1101/2023.07.18.549537v1"
+      },
+      {
+        "key": "NEURIPS2023_e1579096",
+        "title": "Advances in Neural Information Processing Systems",
+        "authors": "Subramanian, Shashank and Harrington, Peter and Keutzer, Kurt and Bhimji, Wahid and Morozov, Dmitriy and Mahoney, Michael W and Gholami, Amir",
+        "year": "2023",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/e15790966a4a9d85d688635c88ee6d8a-Paper-Conference.pdf"
+      },
+      {
+        "key": "NIPS2017_3f5ee243",
+        "title": "Advances in Neural Information Processing Systems",
+        "authors": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, \\L ukasz and Polosukhin, Illia",
+        "year": "2017",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf"
+      },
+      {
+        "key": "Ross2022Large-scale",
+        "title": "Large-scale chemical language representations capture molecular structure and properties",
+        "authors": "Ross, Jerret and Belgodere, Brian and Chenthamarakshan, Vijil and Padhi, Inkit and Mroueh, Youssef and Das, Payel",
+        "year": "2022",
+        "url": "https://doi.org/10.1038/s42256-022-00580-7"
+      },
+      {
+        "key": "Theodoris2023Geneformer",
+        "title": "Transfer learning enables predictions in network biology",
+        "authors": "Theodoris, Christina V and Xiao, Ling and Chopra, Anant and Chaffin, Mark D and Al Sayed, Zeina R and Hill, Matthew C and Mantineo, Helene and Brydon, Elizabeth M and Zeng, Zexian and Liu, X Shirley and others",
+        "year": "2023"
+      },
+      {
+        "key": "abdine2024prot2text",
+        "title": "Prot2text: Multimodal protein’s function generation with gnns and transformers",
+        "authors": "Abdine, Hadi and Chatzianastasis, Michail and Bouyioukos, Costas and Vazirgiannis, Michalis",
+        "year": "2024"
+      },
+      {
+        "key": "acosta2022multimodal",
+        "title": "Multimodal biomedical AI",
+        "authors": "Acosta, Juli{\\'a",
+        "year": "2022",
+        "url": "https://www.nature.com/articles/s41591-022-01981-2"
+      },
+      {
+        "key": "ahmad2022chemberta",
+        "title": "Chemberta-2: Towards chemical foundation models",
+        "authors": "Ahmad, Walid and Simon, Elana and Chithrananda, Seyone and Grand, Gabriel and Ramsundar, Bharath",
+        "year": "2022"
+      },
+      {
+        "key": "alotaibi2024graph",
+        "title": "Graph of logic: Enhancing llm reasoning with graphs and symbolic logic",
+        "authors": "Alotaibi, Fatimah and Kulkarni, Adithya and Zhou, Dawei",
+        "year": "2024"
+      },
+      {
+        "key": "balaji2023gpt",
+        "title": "Gpt-molberta: Gpt molecular features language model for molecular property prediction",
+        "authors": "Balaji, Suryanarayanan and Magar, Rishikesh and Jadhav, Yayati and Farimani, Amir Barati",
+        "year": "2023"
+      },
+      {
+        "key": "barman2025large",
+        "title": "Large Physics Models: Towards a collaborative approach with Large Language Models and Foundation Models",
+        "authors": "Barman, Kristian G and Caron, Sascha and Sullivan, Emily and de Regt, Henk W and de Austri, Roberto Ruiz and Boon, Mieke and F{\\",
+        "year": "2025"
+      },
+      {
+        "key": "burgess2025microvqa",
+        "title": "MicroVQA: A Multimodal Reasoning Benchmark for Microscopy-Based Scientific Research",
+        "authors": "James Burgess and Jeffrey J Nirschl and Laura Bravo-Sánchez and Alejandro Lozano and Sanket Rajan Gupte and Jesus G. Galaz-Montoya and Yuhui Zhang and Yuchang Su and Disha Bhowmik and Zachary Coman and Sarina M. Hasan and Alexandra Johannesson and William D. Leineweber and Malvika G Nair and Ridhi Yarlagadda and Connor Zuraski and Wah Chiu and Sarah Cohen and Jan N. Hansen and Manuel D Leonetti and Chad Liu and Emma Lundberg and Serena Yeung-Levy",
+        "year": "2025"
+      },
+      {
+        "key": "chen2023quotetarget",
+        "title": "QuoteTarget: A sequence-based transformer protein language model to identify potentially druggable protein targets",
+        "authors": "Chen, Jiaxiao and Gu, Zhonghui and Xu, Youjun and Deng, Minghua and Lai, Luhua and Pei, Jianfeng",
+        "year": "2023"
+      },
+      {
+        "key": "chen2024metapath",
+        "title": "MetaPath Chat: multimodal generative artificial intelligence chatbot for clinical pathology",
+        "authors": "Chen, Haizhu and Lin, Ruichong and Yunfang, Yu",
+        "year": "2024"
+      },
+      {
+        "key": "chen2024vision",
+        "title": "A Vision-Language foundation model to enhance efficiency of chest x-ray interpretation",
+        "authors": "Chen, Z and Varma, M and Delbrouck, JB and others",
+        "year": "2024"
+      },
+      {
+        "key": "chen2025visual",
+        "title": "A visual--omics foundation model to bridge histopathology with spatial transcriptomics",
+        "authors": "Chen, Weiqing and Zhang, Pengzhi and Tran, Tu N and Xiao, Yiwei and Li, Shengyu and Shah, Vrutant V and Cheng, Hao and Brannan, Kristopher W and Youker, Keith and Lai, Li and others",
+        "year": "2025"
+      },
+      {
+        "key": "cherian2024llmphy",
+        "title": "Llmphy: Complex physical reasoning using large language models and world models",
+        "authors": "Cherian, Anoop and Corcodel, Radu and Jain, Siddarth and Romeres, Diego",
+        "year": "2024"
+      },
+      {
+        "key": "cong2023satmaepret",
+        "title": "SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery",
+        "authors": "Yezhen Cong and Samar Khanna and Chenlin Meng and Patrick Liu and Erik Rozi and Yutong He and Marshall Burke and David B. Lobell and Stefano Ermon",
+        "year": "2023"
+      },
+      {
+        "key": "cui2024scgpt",
+        "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
+        "authors": "Cui, Haotian and Wang, Chloe and Maan, Hassaan and Pang, Kuan and Luo, Fengning and Duan, Nan and Wang, Bo",
+        "year": "2024"
+      },
+      {
+        "key": "de2025achieving",
+        "title": "Achieving GPT-4o level performance in astronomy with a specialized 8B-parameter large language model",
+        "authors": "de Haan, Tijmen and Ting, Yuan-Sen and Ghosal, Tirthankar and Nguyen, Tuan Dung and Accomazzi, Alberto and Wells, Azton and Ramachandra, Nesar and Pan, Rui and Sun, Zechang",
+        "year": "2025"
+      },
+      {
+        "key": "devlin2019bert",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "authors": "Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova",
+        "year": "2019"
+      },
+      {
+        "key": "dinu2024symbolicai",
+        "title": "SymbolicAI: A framework for logic-based approaches combining generative models and solvers",
+        "authors": "Marius-Constantin Dinu and Claudiu Leoveanu-Condrei and Markus Holzleitner and Werner Zellinger and Sepp Hochreiter",
+        "year": "2024"
+      },
+      {
+        "key": "eldele2025unifault",
+        "title": "Unifault: A fault diagnosis foundation model from bearing data",
+        "authors": "Eldele, Emadeldeen and Ragab, Mohamed and Qing, Xu and Chen, Zhenghua and Wu, Min and Li, Xiaoli and Lee, Jay and others",
+        "year": "2025"
+      },
+      {
+        "key": "fallahpour2025medrax",
+        "title": "MedRAX: Medical Reasoning Agent for Chest X-ray",
+        "authors": "Fallahpour, Adibvafa and Ma, Jun and Munim, Alif and Lyu, Hongwei and Wang, Bo",
+        "year": "2025",
+        "url": "https://arxiv.org/pdf/2502.02673"
+      },
+      {
+        "key": "fang2023kg",
+        "title": "Knowledge graph-enhanced molecular contrastive learning with functional prompt",
+        "authors": "Fang, Yin and Zhang, Qiang and Zhang, Ningyu and Chen, Zhuo and Zhuang, Xiang and Shao, Xin and Fan, Xiaohui and Chen, Huajun",
+        "year": "2023"
+      },
+      {
+        "key": "feng2024comprehensive",
+        "title": "A Comprehensive Survey of Dynamic Graph Neural Networks: Models, Frameworks, Benchmarks, Experiments and Challenges",
+        "authors": "ZhengZhao Feng and Rui Wang and TianXing Wang and Mingli Song and Sai Wu and Shuibing He",
+        "year": "2024"
+      },
+      {
+        "key": "fishman2025gena",
+        "title": "GENA-LM: a family of open-source foundational DNA language models for long sequences",
+        "authors": "Fishman, Veniamin and Kuratov, Yuri and Shmelev, Aleksei and Petrov, Maxim and Penzar, Dmitry and Shepelin, Denis and Chekanov, Nikolay and Kardymon, Olga and Burtsev, Mikhail",
+        "year": "2025"
+      },
+      {
+        "key": "gilmer2017neural",
+        "title": "Neural message passing for quantum chemistry",
+        "authors": "Gilmer, Justin and Schoenholz, Samuel S and Riley, Patrick F and Vinyals, Oriol and Dahl, George E",
+        "year": "2017"
+      },
+      {
+        "key": "guan2024decompdiff",
+        "title": "DecompDiff: diffusion models with decomposed priors for structure-based drug design",
+        "authors": "Guan, Jiaqi and Zhou, Xiangxin and Yang, Yuwei and Bao, Yu and Peng, Jian and Ma, Jianzhu and Liu, Qiang and Wang, Liang and Gu, Quanquan",
+        "year": "2024"
+      },
+      {
+        "key": "hao2024scfoundation",
+        "title": "Large-scale foundation model on single-cell transcriptomics",
+        "authors": "Hao, Minsheng and Gong, Jing and Zeng, Xin and Liu, Chiming and Guo, Yucheng and Cheng, Xingyi and Wang, Taifeng and Ma, Jianzhu and Zhang, Xuegong and Song, Le",
+        "year": "2024"
+      },
+      {
+        "key": "jiang2024visscience",
+        "title": "VisScience: An Extensive Benchmark for Evaluating K12 Educational Multi-modal Scientific Reasoning",
+        "authors": "Zhihuan Jiang and Zhen Yang and Jinhao Chen and Zhengxiao Du and Weihan Wang and Bin Xu and Jie Tang",
+        "year": "2024"
+      },
+      {
+        "key": "jumper2021highly",
+        "title": "Highly accurate protein structure prediction with AlphaFold",
+        "authors": "Jumper, John and Evans, Richard and Pritzel, Alexander and Green, Tim and Figurnov, Michael and Ronneberger, Olaf and Tunyasuvunakool, Kathryn and Bates, Russ and {\\v{Z",
+        "year": "2021"
+      },
+      {
+        "key": "jung2024multimodal",
+        "title": "A Multimodal Ensemble Deep Learning Model for Functional Outcome Prognosis of Stroke Patients",
+        "authors": "Jung, Hye-Soo and Lee, Eun-Jae and Chang, Dae-Il and Cho, Han Jin and Lee, Jun and Cha, Jae-Kwan and Park, Man-Seok and Yu, Kyung Ho and Jung, Jin-Man and Ahn, Seong Hwan and others",
+        "year": "2024"
+      },
+      {
+        "key": "kim2025small",
+        "title": "Small language models learn enhanced reasoning skills from medical textbooks",
+        "authors": "Kim, Hyunjae and Hwang, Hyeon and Lee, Jiwoo and Park, Sihyeon and Kim, Dain and Lee, Taewhoo and Yoon, Chanwoong and Sohn, Jiwoong and Park, Jungwoo and Reykhart, Olga and others",
+        "year": "2025"
+      },
+      {
+        "key": "krones2025review",
+        "title": "Review of multimodal machine learning approaches in healthcare",
+        "authors": "Krones, Felix and Marikkar, Umar and Parsons, Guy and Szmul, Adam and Mahdi, Adam",
+        "year": "2025"
+      },
+      {
+        "key": "kumar2023mycrunchgpt",
+        "title": "Mycrunchgpt: A llm assisted framework for scientific machine learning",
+        "authors": "Kumar, Varun and Gleyzer, Leonard and Kahana, Adar and Shukla, Khemraj and Karniadakis, George Em",
+        "year": "2023"
+      },
+      {
+        "key": "lei2024alzheimer",
+        "title": "Alzheimer’s disease diagnosis from multi-modal data via feature inductive learning and dual multilevel graph neural network",
+        "authors": "Lei, Baiying and Li, Yafeng and Fu, Wanyi and Yang, Peng and Chen, Shaobin and Wang, Tianfu and Xiao, Xiaohua and Niu, Tianye and Fu, Yu and Wang, Shuqiang and others",
+        "year": "2024"
+      },
+      {
+        "key": "lei2024bioimage",
+        "title": "BioImage. IO Chatbot: a community-driven AI assistant for integrative computational bioimaging",
+        "authors": "Lei, Wanlu and Fuster-Barcel{\\'o",
+        "year": "2024",
+        "url": "https://www.nature.com/articles/s41592-024-02370-y"
+      },
+      {
+        "key": "levine2023cell2sentence",
+        "title": "Cell2sentence: Teaching large language models the language of biology. bioRxiv",
+        "authors": "Levine, Daniel and L{\\'e",
+        "year": "2023"
+      },
+      {
+        "key": "li2022blipbootstrapping",
+        "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+        "authors": "Junnan Li and Dongxu Li and Caiming Xiong and Steven Hoi",
+        "year": "2022"
+      },
+      {
+        "key": "li2023frozenlanguagemodelhelps",
+        "title": "Frozen Language Model Helps ECG Zero-Shot Learning",
+        "authors": "Jun Li and Che Liu and Sibo Cheng and Rossella Arcucci and Shenda Hong",
+        "year": "2023"
+      },
+      {
+        "key": "li2023llava",
+        "title": "Llava-med: Training a large language-and-vision assistant for biomedicine in one day",
+        "authors": "Li, Chunyuan and Wong, Cliff and Zhang, Sheng and Usuyama, Naoto and Liu, Haotian and Yang, Jianwei and Naumann, Tristan and Poon, Hoifung and Gao, Jianfeng",
+        "year": "2023"
+      },
+      {
+        "key": "li2024mmsci",
+        "title": "MMSci: A Dataset for Graduate-Level Multi-Discipline Multimodal Scientific Understanding",
+        "authors": "Zekun Li and Xianjun Yang and Kyuri Choi and Wanrong Zhu and Ryan Hsieh and HyeonJung Kim and Jin Hyuk Lim and Sungyoung Ji and Byungju Lee and Xifeng Yan and Linda Ruth Petzold and Stephen D. Wilson and Woosang Lim and William Yang Wang",
+        "year": "2025"
+      },
+      {
+        "key": "li2024sensorllm",
+        "title": "Sensorllm: Aligning large language models with motion sensors for human activity recognition",
+        "authors": "Li, Zechen and Deldari, Shohreh and Chen, Linyao and Xue, Hao and Salim, Flora D",
+        "year": "2024"
+      },
+      {
+        "key": "li2025large",
+        "title": "Large Language Model powered Symbolic Execution",
+        "authors": "Yihe Li and Ruijie Meng and Gregory J. Duck",
+        "year": "2025"
+      },
+      {
+        "key": "liang2023drugchat",
+        "title": "DrugChat: towards enabling ChatGPT-like capabilities on drug molecule graphs",
+        "authors": "Liang, Youwei and Zhang, Ruiyi and Zhang, Li and Xie, Pengtao",
+        "year": "2023"
+      },
+      {
+        "key": "liang2024foundation",
+        "title": "Foundation models for time series analysis: A tutorial and survey",
+        "authors": "Liang, Yuxuan and Wen, Haomin and Nie, Yuqi and Jiang, Yushan and Jin, Ming and Song, Dongjin and Pan, Shirui and Wen, Qingsong",
+        "year": "2024"
+      },
+      {
+        "key": "lim2021temporal",
+        "title": "Temporal fusion transformers for interpretable multi-horizon time series forecasting",
+        "authors": "Lim, Bryan and Ar{\\i",
+        "year": "2021"
+      },
+      {
+        "key": "lin2023geogalactica",
+        "title": "Geogalactica: A scientific large language model in geoscience",
+        "authors": "Lin, Zhouhan and Deng, Cheng and Zhou, Le and Zhang, Tianhang and Xu, Yi and Xu, Yutong and He, Zhongmou and Shi, Yuanyuan and Dai, Beiya and Song, Yunchong and others",
+        "year": "2023"
+      },
+      {
+        "key": "liu2024git",
+        "title": "Git-mol: A multi-modal large language model for molecular science with graph, image, and text",
+        "authors": "Liu, Pengfei and Ren, Yiming and Tao, Jun and Ren, Zhixiang",
+        "year": "2024"
+      },
+      {
+        "key": "liu2024physics",
+        "title": "Physics-informed LLM-agent for automated modulation design in power electronics systems",
+        "authors": "Liu, Junhua and Lin, Fanfan and Li, Xinze and Lim, Kwan Hui and Zhao, Shuai",
+        "year": "2024"
+      },
+      {
+        "key": "liu2024survey",
+        "title": "Survey on foundation models for prognostics and health management in industrial cyber-physical systems",
+        "authors": "Liu, Ruonan and Zhang, Quanhu and Han, Te and Yang, Boyuan and Zhang, Weidong and Yin, Shen and Zhou, Donghua",
+        "year": "2024"
+      },
+      {
+        "key": "liu2025natures",
+        "title": "Nature's Insight: A Novel Framework and Comprehensive Analysis of Agentic Reasoning Through the Lens of Neuroscience",
+        "authors": "Zinan Liu and Haoran Li and Jingyi Lu and Gaoyuan Ma and Xu Hong and Giovanni Iacca and Arvind Kumar and Shaojun Tang and Lin Wang",
+        "year": "2025"
+      },
+      {
+        "key": "liu2025symagent",
+        "title": "SymAgent: A Neural-Symbolic Self-Learning Agent Framework for Complex Reasoning over Knowledge Graphs",
+        "authors": "Ben Liu and Jihai Zhang and Fangquan Lin and Cheng Yang and Min Peng and Wotao Yin",
+        "year": "2025"
+      },
+      {
+        "key": "lu2024multimodal",
+        "title": "A multimodal generative AI copilot for human pathology",
+        "authors": "Lu, Ming Y and Chen, Bowen and Williamson, Drew FK and Chen, Richard J and Zhao, Melissa and Chow, Aaron K and Ikemura, Kenji and Kim, Ahrong and Pouli, Dimitra and Patel, Ankush and others",
+        "year": "2024"
+      },
+      {
+        "key": "luo2023molfm",
+        "title": "Molfm: A multimodal molecular foundation model",
+        "authors": "Luo, Yizhen and Yang, Kai and Hong, Massimo and Liu, Xing Yi and Nie, Zaiqing",
+        "year": "2023"
+      },
+      {
+        "key": "luo2025freefoundationalsemanticrecognition",
+        "title": "FREE: The Foundational Semantic Recognition for Modeling Environmental Ecosystems",
+        "authors": "Shiyuan Luo and Juntong Ni and Shengyu Chen and Runlong Yu and Yiqun Xie and Licheng Liu and Zhenong Jin and Huaxiu Yao and Xiaowei Jia",
+        "year": "2025"
+      },
+      {
+        "key": "luo2025normwear",
+        "title": "Toward Foundation Model for Multivariate Wearable Sensing of Physiological Signals",
+        "authors": "Luo, Yunfei and Chen, Yuliang and Salekin, Asif and Rahman, Tauhidur",
+        "year": "2024"
+      },
+      {
+        "key": "lv2025prollama",
+        "title": "Prollama: A protein large language model for multi-task protein language processing",
+        "authors": "Lv, Liuzhenghao and Lin, Zongying and Li, Hao and Liu, Yuyang and Cui, Jiaxi and Chen, Calvin Yu-Chian and Yuan, Li and Tian, Yonghong",
+        "year": "2025"
+      },
+      {
+        "key": "ma2024segment",
+        "title": "Segment anything in medical images",
+        "authors": "Ma, Jun and He, Yuting and Li, Feifei and Han, Lin and You, Chenyu and Wang, Bo",
+        "year": "2024"
+      },
+      {
+        "key": "madani2020progen",
+        "title": "Progen: Language modeling for protein generation",
+        "authors": "Madani, Ali and McCann, Bryan and Naik, Nikhil and Keskar, Nitish Shirish and Anand, Namrata and Eguchi, Raphael R and Huang, Po-Ssu and Socher, Richard",
+        "year": "2020"
+      },
+      {
+        "key": "majumder2024discoverybench",
+        "title": "DiscoveryBench: Towards Data-Driven Discovery with Large Language Models",
+        "authors": "Bodhisattwa Prasad Majumder and Harshit Surana and Dhruv Agarwal and Bhavana Dalvi Mishra and Abhijeetsingh Meena and Aryan Prakhar and Tirth Vora and Tushar Khot and Ashish Sabharwal and Peter Clark",
+        "year": "2024"
+      },
+      {
+        "key": "matsumoto2025escargot",
+        "title": "ESCARGOT: an AI agent leveraging large language models, dynamic graph of thoughts, and biomedical knowledge graphs for enhanced reasoning",
+        "authors": "Matsumoto, Nicholas and Choi, Hyunjun and Moran, Jay and Hernandez, Miguel E and Venkatesan, Mythreye and Li, Xi and Chang, Jui-Hsuan and Wang, Paul and Moore, Jason H",
+        "year": "2025",
+        "url": "https://academic.oup.com/bioinformatics/article/41/2/btaf031/7972741"
+      },
+      {
+        "key": "meidani2023snip",
+        "title": "Snip: Bridging mathematical symbolic and numeric realms with unified pre-training",
+        "authors": "Meidani, Kazem and Shojaee, Parshin and Reddy, Chandan K and Farimani, Amir Barati",
+        "year": "2023"
+      },
+      {
+        "key": "moor2023foundation",
+        "title": "Foundation models for generalist medical artificial intelligence",
+        "authors": "Moor, Michael and Banerjee, Oishi and Abad, Zahra Shakeri Hossein and Krumholz, Harlan M and Leskovec, Jure and Topol, Eric J and Rajpurkar, Pranav",
+        "year": "2023",
+        "url": "https://www.nature.com/articles/s41586-023-05881-4"
+      },
+      {
+        "key": "nguyen2023climax",
+        "title": "ClimaX: A foundation model for weather and climate",
+        "authors": "Tung Nguyen and Johannes Brandstetter and Ashish Kapoor and Jayesh K. Gupta and Aditya Grover",
+        "year": "2023"
+      },
+      {
+        "key": "ni2023mechagents",
+        "title": "MechAgents: Large language model multi-agent collaborations can solve mechanics problems, generate new data, and integrate knowledge",
+        "authors": "Bo Ni and Markus J. Buehler",
+        "year": "2023"
+      },
+      {
+        "key": "oelhaf2025impact",
+        "title": "Impact of Data Sparsity on Machine Learning for Fault Detection in Power System Protection",
+        "authors": "Oelhaf, Julian and Kordowich, Georg and Kim, Changhun and Perez-Toro, Paula Andrea and Maier, Andreas and Jager, Johann and Bayer, Siming",
+        "year": "2025"
+      },
+      {
+        "key": "polu2020generative",
+        "title": "Generative Language Modeling for Automated Theorem Proving",
+        "authors": "Stanislas Polu and Ilya Sutskever",
+        "year": "2020",
+        "url": "https://arxiv.org/abs/2009.03393"
+      },
+      {
+        "key": "proano2022electromiographic",
+        "title": "Electromiographic signal processing using embedded artificial intelligence: An adaptive filtering approach",
+        "authors": "Proa{\\~n",
+        "year": "2022"
+      },
+      {
+        "key": "pyzer2025foundation",
+        "title": "Foundation models for materials discovery--current state and future directions",
+        "authors": "Pyzer-Knapp, Edward O and Manica, Matteo and Staar, Peter and Morin, Lucas and Ruch, Patrick and Laino, Teodoro and Smith, John R and Curioni, Alessandro",
+        "year": "2025"
+      },
+      {
+        "key": "qin2025btsegdiff",
+        "title": "BTSegDiff: Brain tumor segmentation based on multimodal MRI Dynamically guided diffusion probability model",
+        "authors": "Qin, Jiacheng and Xu, Dan and Zhang, Hao and Xiong, Zhaoyu and Yuan, Yejing and He, Kangjian",
+        "year": "2025"
+      },
+      {
+        "key": "radford2021learning",
+        "title": "Learning Transferable Visual Models From Natural Language Supervision",
+        "authors": "Alec Radford and Jong Wook Kim and Chris Hallacy and Aditya Ramesh and Gabriel Goh and Sandhini Agarwal and Girish Sastry and Amanda Askell and Pamela Mishkin and Jack Clark and Gretchen Krueger and Ilya Sutskever",
+        "year": "2021"
+      },
+      {
+        "key": "raffel2023exploring",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "authors": "Colin Raffel and Noam Shazeer and Adam Roberts and Katherine Lee and Sharan Narang and Michael Matena and Yanqi Zhou and Wei Li and Peter J. Liu",
+        "year": "2023"
+      },
+      {
+        "key": "reed2023scalema",
+        "title": "Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning",
+        "authors": "Colorado J. Reed and Ritwik Gupta and Shufan Li and Sarah Brockman and Christopher Funk and Brian Clipp and Kurt Keutzer and Salvatore Candido and Matt Uyttendaele and Trevor Darrell",
+        "year": "2023"
+      },
+      {
+        "key": "reiser2022graph",
+        "title": "Graph neural networks for materials science and chemistry",
+        "authors": "Reiser, Patrick and Neubert, Marlen and Eberhard, Andr{\\'e",
+        "year": "2022",
+        "url": "https://www.nature.com/articles/s43246-022-00315-6"
+      },
+      {
+        "key": "richard2024chatnt",
+        "title": "A multimodal conversational agent for DNA, RNA and protein tasks",
+        "authors": "de Almeida, Bernardo P. and Richard, Guillaume and Dalla-Torre, Hugo and Blum, Christopher and Hexemer, Lorenz and Pandey, Priyanka and Laurent, Stefan and Rajesh, Chandana and Lopez, Marie and Laterre, Alexandre and Lang, Maren and {\\c{S",
+        "year": "2025",
+        "url": "https://doi.org/10.1038/s42256-025-01047-1"
+      },
+      {
+        "key": "rosen2023uce",
+        "title": "Universal cell embeddings: A foundation model for cell biology",
+        "authors": "Rosen, Yanay and Roohani, Yusuf and Agarwal, Ayush and Samotor{\\v{c",
+        "year": "2023"
+      },
+      {
+        "key": "royer2024omega",
+        "title": "Omega—harnessing the power of large language models for bioimage analysis",
+        "authors": "Royer, Lo{\\",
+        "year": "2024",
+        "url": "https://www.nature.com/articles/s41592-024-02310-w"
+      },
+      {
+        "key": "russell1995modern",
+        "title": "A modern approach",
+        "authors": "Russell, Stuart and Norvig, Peter and Intelligence, Artificial",
+        "year": "1995"
+      },
+      {
+        "key": "sanchez2020learning",
+        "title": "Learning to simulate complex physics with graph networks",
+        "authors": "Sanchez-Gonzalez, Alvaro and Godwin, Jonathan and Pfaff, Tobias and Ying, Rex and Leskovec, Jure and Battaglia, Peter",
+        "year": "2020"
+      },
+      {
+        "key": "schaar2024nicheformer",
+        "title": "Nicheformer: a foundation model for single-cell and spatial omics",
+        "authors": "Schaar, Anna C and Tejada-Lapuerta, Alejandro and Palla, Giovanni and Gutgesell, Robert and Halle, Lennard and Minaeva, Mariia and Vornholz, Larsen and Dony, Leander and Drummer, Francesca and Bahrami, Mojtaba and others",
+        "year": "2024"
+      },
+      {
+        "key": "schmidgall2501agent",
+        "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+        "authors": "Samuel Schmidgall and Yusheng Su and Ze Wang and Ximeng Sun and Jialian Wu and Xiaodong Yu and Jiang Liu and Michael Moor and Zicheng Liu and Emad Barsoum",
+        "year": "2025"
+      },
+      {
+        "key": "schouten2024navigating",
+        "title": "Navigating the landscape of multimodal AI in medicine: a scoping review on technical challenges and clinical applications",
+        "authors": "Daan Schouten and Giulia Nicoletti and Bas Dille and Catherine Chia and Pierpaolo Vendittelli and Megan Schuurmans and Geert Litjens and Nadieh Khalili",
+        "year": "2024"
+      },
+      {
+        "key": "selinger2024framework",
+        "title": "A Framework for Autonomous AI-Driven Drug Discovery",
+        "authors": "Selinger, Douglas W and Wall, Timothy R and Stylianou, Eleni and Khalil, Ehab M and Gaetz, Jedidiah and Levy, Oren",
+        "year": "2024",
+        "url": "https://www.biorxiv.org/content/10.1101/2024.12.17.629024v2"
+      },
+      {
+        "key": "smbatyan2025aiagentsdesignimplement",
+        "title": "Can AI Agents Design and Implement Drug Discovery Pipelines?",
+        "authors": "Khachik Smbatyan and Tsolak Ghukasyan and Tigran Aghajanyan and Hovhannes Dabaghyan and Sergey Adamyan and Aram Bughdaryan and Vahagn Altunyan and Gagik Navasardyan and Aram Davtyan and Anush Hakobyan and Aram Gharibyan and Arman Fahradyan and Artur Hakobyan and Hasmik Mnatsakanyan and Narek Ginoyan and Garik Petrosyan",
+        "year": "2025"
+      },
+      {
+        "key": "song2023restgpt",
+        "title": "Restgpt: Connecting large language models with real-world applications via restful apis. corr, abs/2306.06624, 2023. doi: 10.48550",
+        "authors": "Song, Yifan and Xiong, Weimin and Zhu, Dawei and Li, Cheng and Wang, Ke and Tian, Ye and Li, Sujian",
+        "year": "2023"
+      },
+      {
+        "key": "song2025injecting",
+        "title": "Injecting Domain-Specific Knowledge into Large Language Models: A Comprehensive Survey",
+        "authors": "Zirui Song and Bin Yan and Yuhan Liu and Miao Fang and Mingzhe Li and Rui Yan and Xiuying Chen",
+        "year": "2025"
+      },
+      {
+        "key": "song2025leancopilot",
+        "title": "Lean Copilot: Large Language Models as Copilots for Theorem Proving in Lean",
+        "authors": "Peiyang Song and Kaiyu Yang and Anima Anandkumar",
+        "year": "2025"
+      },
+      {
+        "key": "sun2024pathasst",
+        "title": "PathAsst: A Generative Foundation AI Assistant Towards Artificial General Intelligence of Pathology",
+        "authors": "Yuxuan Sun and Chenglu Zhu and Sunyi Zheng and Kai Zhang and Lin Sun and Zhongyi Shui and Yunlong Zhang and Honglin Li and Lin Yang",
+        "year": "2024"
+      },
+      {
+        "key": "tang2024biocoder",
+        "title": "BioCoder: A Benchmark for Bioinformatics Code Generation with Large Language Models",
+        "authors": "Xiangru Tang and Bill Qian and Rick Gao and Jiakang Chen and Xinyun Chen and Mark Gerstein",
+        "year": "2024"
+      },
+      {
+        "key": "thakur2023context",
+        "title": "An in-context learning agent for formal theorem-proving",
+        "authors": "Thakur, Amitayush and Tsoukalas, George and Wen, Yeming and Xin, Jimmy and Chaudhuri, Swarat",
+        "year": "2023"
+      },
+      {
+        "key": "tu2024Med-PaLM-M",
+        "title": "Towards generalist biomedical AI",
+        "authors": "Tu, Tao and Azizi, Shekoofeh and Driess, Danny and Schaekermann, Mike and Amin, Mohamed and Chang, Pi-Chuan and Carroll, Andrew and Lau, Charles and Tanno, Ryutaro and Ktena, Ira and others",
+        "year": "2024"
+      },
+      {
+        "key": "wang2022imageforeignlanguagebeit",
+        "title": "Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks",
+        "authors": "Wenhui Wang and Hangbo Bao and Li Dong and Johan Bjorck and Zhiliang Peng and Qiang Liu and Kriti Aggarwal and Owais Khan Mohammed and Saksham Singhal and Subhojit Som and Furu Wei",
+        "year": "2022"
+      },
+      {
+        "key": "wang2023biobridge",
+        "title": "Biobridge: Bridging biomedical foundation models via knowledge graphs",
+        "authors": "Wang, Zifeng and Wang, Zichen and Srinivasan, Balasubramaniam and Ioannidis, Vassilis N and Rangwala, Huzefa and Anubhai, Rishita",
+        "year": "2023"
+      },
+      {
+        "key": "wang2023clinicalgpt",
+        "title": "ClinicalGPT: large language models finetuned with diverse medical data and comprehensive evaluation",
+        "authors": "Wang, Guangyu and Yang, Guoxing and Du, Zongxin and Fan, Longjun and Li, Xiaohu",
+        "year": "2023"
+      },
+      {
+        "key": "wang2023scientific",
+        "title": "Scientific discovery in the age of artificial intelligence",
+        "authors": "Wang, Hanchen and Fu, Tianfan and Du, Yuanqi and Gao, Wenhao and Huang, Kexin and Liu, Ziming and Chandak, Payal and Liu, Shengchao and Van Katwyk, Peter and Deac, Andreea and others",
+        "year": "2023"
+      },
+      {
+        "key": "wei2022chain",
+        "title": "Chain-of-thought prompting elicits reasoning in large language models",
+        "authors": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others",
+        "year": "2022"
+      },
+      {
+        "key": "wen2022transformers",
+        "title": "Transformers in time series: A survey",
+        "authors": "Wen, Qingsong and Zhou, Tian and Zhang, Chaoli and Chen, Weiqi and Ma, Ziqing and Yan, Junchi and Sun, Liang",
+        "year": "2022"
+      },
+      {
+        "key": "wen2023single",
+        "title": "Single cells are spatial tokens: Transformers for spatial transcriptomic data imputation",
+        "authors": "Wen, Hongzhi and Tang, Wenzhuo and Jin, Wei and Ding, Jiayuan and Liu, Renming and Dai, Xinnan and Shi, Feng and Shang, Lulu and Liu, Hui and Xie, Yuying",
+        "year": "2023"
+      },
+      {
+        "key": "wen2024cellplm",
+        "title": "CellPLM: pre-training of cell language model beyond single cells",
+        "authors": "Wen, Hongzhi and Tang, Wenzhuo and Dai, Xinnan and Ding, Jiayuan and Jin, Wei and Xie, Yuying and Tang, Jiliang",
+        "year": "2023"
+      },
+      {
+        "key": "wen2024diffstg",
+        "title": "DiffSTG: Probabilistic Spatio-Temporal Graph Forecasting with Denoising Diffusion Models",
+        "authors": "Haomin Wen and Youfang Lin and Yutong Xia and Huaiyu Wan and Qingsong Wen and Roger Zimmermann and Yuxuan Liang",
+        "year": "2024"
+      },
+      {
+        "key": "wu2023amr",
+        "title": "CAMR: cross-aligned multimodal representation learning for cancer survival prediction",
+        "authors": "Wu, Xingqi and Shi, Yi and Wang, Minghui and Li, Ao",
+        "year": "2023"
+      },
+      {
+        "key": "wu2024pmc",
+        "title": "PMC-LLaMA: toward building open-source language models for medicine",
+        "authors": "Wu, Chaoyi and Lin, Weixiong and Zhang, Xiaoman and Zhang, Ya and Xie, Weidi and Wang, Yanfeng",
+        "year": "2024"
+      },
+      {
+        "key": "wu2025multi-omics",
+        "title": "AI-driven multi-omics integration for multi-scale predictive modeling of genotype-environment-phenotype relationships",
+        "authors": "Wu, You and Xie, Lei",
+        "year": "2025"
+      },
+      {
+        "key": "xu2023multimodal",
+        "title": "Multimodal biological knowledge graph completion via triple co-attention mechanism",
+        "authors": "Xu, Derong and Zhou, Jingbo and Xu, Tong and Xia, Yuan and Liu, Ji and Chen, Enhong and Dou, Dejing",
+        "year": "2023"
+      },
+      {
+        "key": "yan2024urbanclip",
+        "title": "Urbanclip: Learning text-enhanced urban region profiling with contrastive language-image pretraining from the web",
+        "authors": "Yan, Yibo and Wen, Haomin and Zhong, Siru and Chen, Wei and Chen, Haodong and Wen, Qingsong and Zimmermann, Roger and Liang, Yuxuan",
+        "year": "2024"
+      },
+      {
+        "key": "yang2022scbert",
+        "title": "scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data",
+        "authors": "Yang, Fan and Wang, Wenchuan and Wang, Fang and Fang, Yuan and Tang, Duyu and Huang, Junzhou and Lu, Hui and Yao, Jianhua",
+        "year": "2022"
+      },
+      {
+        "key": "yang2023GeneCompass",
+        "title": "GeneCompass: deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species foundation model",
+        "authors": "Yang, Xiaodong and Liu, Guole and Feng, Guihai and Bu, Dechao and Wang, Pengfei and Jiang, Jie and Chen, Shubai and Yang, Qinmeng and Miao, Hefan and Zhang, Yiyang and others",
+        "year": "2024"
+      },
+      {
+        "key": "yang2024formalmathematicalreasoningnew",
+        "title": "Formal mathematical reasoning: A new frontier in ai",
+        "authors": "Yang, Kaiyu and Poesia, Gabriel and He, Jingxuan and Li, Wenda and Lauter, Kristin and Chaudhuri, Swarat and Song, Dawn",
+        "year": "2024"
+      },
+      {
+        "key": "yao2023tree",
+        "title": "Tree of thoughts: Deliberate problem solving with large language models",
+        "authors": "Yao, Shunyu and Yu, Dian and Zhao, Jeffrey and Shafran, Izhak and Griffiths, Tom and Cao, Yuan and Narasimhan, Karthik",
+        "year": "2023"
+      },
+      {
+        "key": "yi2022graph",
+        "title": "Graph representation learning in bioinformatics: trends, methods and applications",
+        "authors": "Yi, Hai-Cheng and You, Zhu-Hong and Huang, De-Shuang and Kwoh, Chee Keong",
+        "year": "2022"
+      },
+      {
+        "key": "yue2024ct",
+        "title": "Clinicalagent: Clinical trial multi-agent system with large language model-based reasoning",
+        "authors": "Yue, Ling and Xing, Sixue and Chen, Jintai and Fu, Tianfan",
+        "year": "2024",
+        "url": "https://arxiv.org/abs/2404.14777"
+      },
+      {
+        "key": "zeng2019graphsaint",
+        "title": "GraphSAINT: Graph Sampling Based Inductive Learning Method",
+        "authors": "Hanqing Zeng and Hongkuan Zhou and Ajitesh Srivastava and Rajgopal Kannan and Viktor K. Prasanna",
+        "year": "2019",
+        "url": "http://arxiv.org/abs/1907.04931"
+      },
+      {
+        "key": "zhang2023biomedclip",
+        "title": "A Multimodal Biomedical Foundation Model Trained from Fifteen Million Image–Text Pairs",
+        "authors": "Sheng Zhang and Yanbo Xu and Naoto Usuyama and Hanwen Xu and Jaspreet Bagga and Robert Tinn and Sam Preston and Rajesh Rao and Mu Wei and Naveen Valluri and Cliff Wong and Andrea Tupini and Yu Wang and Matt Mazzola and Swadheen Shukla and Lars Liden and Jianfeng Gao and Angela Crabtree and Brian Piening and Carlo Bifulco and Matthew P. Lungren and Tristan Naumann and Sheng Wang and Hoifung Poon",
+        "year": "2025",
+        "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2400640"
+      },
+      {
+        "key": "zhang2023graphtoolformer",
+        "title": "Graph-ToolFormer: To Empower LLMs with Graph Reasoning Ability via Prompt Augmented by ChatGPT",
+        "authors": "Jiawei Zhang",
+        "year": "2023"
+      },
+      {
+        "key": "zhang2024biomedclip",
+        "title": "BiomedCLIP: a multimodal biomedical foundation model pretrained from fifteen million scientific image-text pairs",
+        "authors": "Sheng Zhang and Yanbo Xu and Naoto Usuyama and Hanwen Xu and Jaspreet Bagga and Robert Tinn and Sam Preston and Rajesh Rao and Mu Wei and Naveen Valluri and Cliff Wong and Andrea Tupini and Yu Wang and Matt Mazzola and Swadheen Shukla and Lars Liden and Jianfeng Gao and Angela Crabtree and Brian Piening and Carlo Bifulco and Matthew P. Lungren and Tristan Naumann and Sheng Wang and Hoifung Poon",
+        "year": "2024"
+      },
+      {
+        "key": "zhang2024foundation",
+        "title": "Foundation model for generalist remote sensing intelligence: Potentials and prospects",
+        "authors": "Zhang, Mi and Yang, Bingnan and Hu, Xiangyun and Gong, Jianya and Zhang, Zuxun",
+        "year": "2024"
+      },
+      {
+        "key": "zhang2024robust",
+        "title": "Robust sensor selection based on maximum correntropy criterion for ocean data reconstruction",
+        "authors": "Zhang, Qiannan and Wu, Huafeng and Liang, Li’nian and Mei, Xiaojun and Xian, Jiangfeng",
+        "year": "2024"
+      },
+      {
+        "key": "zhang2025unigenxuni",
+        "title": "UniGenX: Unified Generation of Sequence and Structure with Autoregressive Diffusion",
+        "authors": "Gongbo Zhang and Yanting Li and Renqian Luo and Pipi Hu and Zeru Zhao and Lingbo Li and Guoqing Liu and Zun Wang and Ran Bi and Kaiyuan Gao and Liya Guo and Yu Xie and Chang Liu and Jia Zhang and Tian Xie and Robert Pinsler and Claudio Zeni and Ziheng Lu and Yingce Xia and Marwin Segler and Maik Riechert and Li Yuan and Lei Chen and Haiguang Liu and Tao Qin",
+        "year": "2025"
+      },
+      {
+        "key": "zhou2024ai",
+        "title": "An AI Agent for Fully Automated Multi-Omic Analyses",
+        "authors": "Zhou, Juexiao and Zhang, Bin and Li, Guowei and Chen, Xiuying and Li, Haoyang and Xu, Xiaopeng and Chen, Siyuan and He, Wenjia and Xu, Chencheng and Liu, Liwei and others",
+        "year": "2024",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202407094"
+      }
+    ]
+  },
+  {
+    "section": "Methods for Scientific MLLM Agents",
+    "citation_count": 114,
+    "papers": [
+      {
+        "key": "LU2025491",
+        "title": "Semi-supervised learning-based virtual adversarial training on graph for molecular property prediction",
+        "authors": "Yong Lu and Chenxu Wang and Ze Wang and Xukun Zhang and Guifei Zhou and Chunyan Li",
+        "year": "2025",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1110016824015813"
+      },
+      {
+        "key": "NEURIPS2024_90d1fc07",
+        "title": "Advances in Neural Information Processing Systems",
+        "authors": "Kim, Yubin and Park, Chanwoo and Jeong, Hyewon and Chan, Yik Siu and Xu, Xuhai and McDuff, Daniel and Lee, Hyeonhoon and Ghassemi, Marzyeh and Breazeal, Cynthia and Park, Hae Won",
+        "year": "2024",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/90d1fc07f46e31387978b88e7e057a31-Paper-Conference.pdf"
+      },
+      {
+        "key": "Volk2023alphaFlow",
+        "title": "AlphaFlow: autonomous discovery and optimization of multi-step chemistry using a self-driven fluidic lab guided by reinforcement learning",
+        "authors": "Amanda A. Volk and Robert W. Epps and Daniel T. Yonemoto and Benjamin S. Masters and Felix N. Castellano and Kristofer G. Reyes and Milad Abolhasani",
+        "year": "2023",
+        "url": "https://doi.org/10.1038/s41467-023-37139-y"
+      },
+      {
+        "key": "Wang_2022DRLinFluids",
+        "title": "DRLinFluids: An open-source Python platform of coupling deep reinforcement learning and OpenFOAM",
+        "authors": "Wang, Qiulei and Yan, Lei and Hu, Gang and Li, Chao and Xiao, Yiqing and Xiong, Hao and Rabault, Jean and Noack, Bernd R.",
+        "year": "2022",
+        "url": "http://dx.doi.org/10.1063/5.0103113"
+      },
+      {
+        "key": "aamer2025automating",
+        "title": "Automating AI Discovery for Biomedicine Through Knowledge Graphs And LLM Agents",
+        "authors": "Aamer, Naafey and Asim, Muhammad Nabeel and Munir, Shan and Dengel, Andreas",
+        "year": "2025",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.05.08.652829v2"
+      },
+      {
+        "key": "ahmed2025improving",
+        "title": "Improving Targeted Molecule Generation through Language Model Fine-Tuning Via Reinforcement Learning",
+        "authors": "Salma J. Ahmed and Emad A. Mohammed",
+        "year": "2025"
+      },
+      {
+        "key": "ansari2024agent",
+        "title": "Agent-based learning of materials datasets from the scientific literature",
+        "authors": "Ansari, Mehrad and Moosavi, Seyed Mohamad",
+        "year": "2024",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00252k"
+      },
+      {
+        "key": "belouadi2024automatik",
+        "title": "AutomaTikZ: Text-Guided Synthesis of Scientific Vector Graphics with TikZ",
+        "authors": "Jonas Belouadi and Anne Lauscher and Steffen Eger",
+        "year": "2024"
+      },
+      {
+        "key": "bertsch2025incontextlearning",
+        "title": "In-Context Learning with Long-Context Models: An In-Depth Exploration",
+        "authors": "Amanda Bertsch and Maor Ivgi and Emily Xiao and Uri Alon and Jonathan Berant and Matthew R. Gormley and Graham Neubig",
+        "year": "2025"
+      },
+      {
+        "key": "boiko2023autonomous",
+        "title": "Autonomous chemical research with large language models",
+        "authors": "Boiko, Daniil A and MacKnight, Robert and Kline, Ben and Gomes, Gabe",
+        "year": "2023"
+      },
+      {
+        "key": "bran2023chemcrow",
+        "title": "ChemCrow: Augmenting large-language models with chemistry tools",
+        "authors": "Andres M Bran and Sam Cox and Oliver Schilter and Carlo Baldassari and Andrew D White and Philippe Schwaller",
+        "year": "2023"
+      },
+      {
+        "key": "brown2020language",
+        "title": "Language Models are Few-Shot Learners",
+        "authors": "Tom B. Brown and Benjamin Mann and Nick Ryder and Melanie Subbiah and Jared Kaplan and Prafulla Dhariwal and Arvind Neelakantan and Pranav Shyam and Girish Sastry and Amanda Askell and Sandhini Agarwal and Ariel Herbert-Voss and Gretchen Krueger and Tom Henighan and Rewon Child and Aditya Ramesh and Daniel M. Ziegler and Jeffrey Wu and Clemens Winter and Christopher Hesse and Mark Chen and Eric Sigler and Mateusz Litwin and Scott Gray and Benjamin Chess and Jack Clark and Christopher Berner and Sam McCandlish and Alec Radford and Ilya Sutskever and Dario Amodei",
+        "year": "2020"
+      },
+      {
+        "key": "cai2024comprehensive",
+        "title": "Comprehensive evaluation of molecule property prediction with ChatGPT",
+        "authors": "Cai, Xibao and Lai, Houtim and Wang, Xing and Wang, Longyue and Liu, Wei and Wang, Yijun and Wang, Zixu and Cao, Dongsheng and Zeng, Xiangxiang",
+        "year": "2024"
+      },
+      {
+        "key": "chen2024reconcile",
+        "title": "ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs",
+        "authors": "Justin Chih-Yao Chen and Swarnadeep Saha and Mohit Bansal",
+        "year": "2024"
+      },
+      {
+        "key": "chen2024triplet",
+        "title": "Triplet Contrastive Learning Framework With Adversarial Hard-Negative Sample Generation for Multimodal Remote Sensing Images",
+        "authors": "Chen, Zhengyi and Zhang, Chunmin and Zhang, Biyun and He, Yifan",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/TGRS.2024.3354304"
+      },
+      {
+        "key": "chen2025enhancing",
+        "title": "Enhancing diagnostic capability with multi-agents conversational large language models",
+        "authors": "Chen, Xi and Yi, Huahui and You, Mingke and Liu, WeiZhi and Wang, Li and Li, Hairui and Zhang, Xue and Guo, Yingman and Fan, Lei and Chen, Gang and others",
+        "year": "2025",
+        "url": "https://www.nature.com/articles/s41746-025-01550-0"
+      },
+      {
+        "key": "cherian2024llmphy",
+        "title": "Llmphy: Complex physical reasoning using large language models and world models",
+        "authors": "Cherian, Anoop and Corcodel, Radu and Jain, Siddarth and Romeres, Diego",
+        "year": "2024"
+      },
+      {
+        "key": "cretu2025synflownet",
+        "title": "SynFlowNet: Design of Diverse and Novel Molecules with Synthesis Constraints",
+        "authors": "Miruna Cretu and Charles Harris and Ilia Igashov and Arne Schneuing and Marwin Segler and Bruno Correia and Julien Roy and Emmanuel Bengio and Pietro Liò",
+        "year": "2025"
+      },
+      {
+        "key": "deepmind_imo_silver_2024",
+        "title": "AI achieves silver-medal standard solving International Mathematical Olympiad problems",
+        "authors": "{AlphaProof and AlphaGeometry teams",
+        "year": "2024"
+      },
+      {
+        "key": "dong2024surveyicl",
+        "title": "A Survey on In-context Learning",
+        "authors": "Qingxiu Dong and Lei Li and Damai Dai and Ce Zheng and Jingyuan Ma and Rui Li and Heming Xia and Jingjing Xu and Zhiyong Wu and Tianyu Liu and Baobao Chang and Xu Sun and Lei Li and Zhifang Sui",
+        "year": "2024"
+      },
+      {
+        "key": "fallahpour2025medrax",
+        "title": "MedRAX: Medical Reasoning Agent for Chest X-ray",
+        "authors": "Fallahpour, Adibvafa and Ma, Jun and Munim, Alif and Lyu, Hongwei and Wang, Bo",
+        "year": "2025",
+        "url": "https://arxiv.org/pdf/2502.02673"
+      },
+      {
+        "key": "ghafarollahi2024protagents",
+        "title": "ProtAgents: protein discovery via large language model multi-agent collaborations combining physics and machine learning",
+        "authors": "Ghafarollahi, Alireza and Buehler, Markus J",
+        "year": "2024",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00013g"
+      },
+      {
+        "key": "giuffre2024optimizing",
+        "title": "Optimizing large language models in digestive disease: strategies and challenges to improve clinical outcomes",
+        "authors": "Giuffr{\\`e",
+        "year": "2024"
+      },
+      {
+        "key": "hong2024argmed",
+        "title": "2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
+        "authors": "Hong, Shengxin and Xiao, Liang and Zhang, Xin and Chen, Jianxia",
+        "year": "2024",
+        "url": "https://arxiv.org/abs/2403.06294"
+      },
+      {
+        "key": "horwood2020molecular",
+        "title": "Molecular design in synthetically accessible chemical space via deep reinforcement learning",
+        "authors": "Horwood, Julien and Noutahi, Emmanuel",
+        "year": "2020"
+      },
+      {
+        "key": "hu2025evaluation",
+        "title": "Evaluation of large language models for discovery of gene set function",
+        "authors": "Hu, Mengzhou and Alkhairy, Sahar and Lee, Ingoo and Pillich, Rudolf T and Fong, Dylan and Smith, Kevin and Bachelder, Robin and Ideker, Trey and Pratt, Dexter",
+        "year": "2025"
+      },
+      {
+        "key": "huang2024crispr",
+        "title": "Crispr-GPT: An LLM agent for automated design of gene-editing experiments",
+        "authors": "Huang, Kaixuan and Qu, Yuanhao and Cousins, Henry and Johnson, William A and Yin, Di and Shah, Mihir and Zhou, Denny and Altman, Russ and Wang, Mengdi and Cong, Le",
+        "year": "2024",
+        "url": "http://arxiv.org/abs/2404.18021"
+      },
+      {
+        "key": "jha2024rlsf",
+        "title": "RLSF: Fine-tuning LLMs via Symbolic Feedback",
+        "authors": "Jha, Piyush and Jana, Prithwish and Suresh, Pranavkrishna and Arora, Arnav and Ganesh, Vijay",
+        "year": "2024"
+      },
+      {
+        "key": "ji2025leanabellproverv2",
+        "title": "Leanabell-Prover-V2: Verifier-integrated Reasoning for Formal Theorem Proving via Reinforcement Learning",
+        "authors": "Xingguang Ji and Yahui Liu and Qi Wang and Jingyuan Zhang and Yang Yue and Rui Shi and Chenxi Sun and Fuzheng Zhang and Guorui Zhou and Kun Gai",
+        "year": "2025"
+      },
+      {
+        "key": "kasaura2025discovering",
+        "title": "Discovering New Theorems via LLMs with In-Context Proof Learning in Lean",
+        "authors": "Kazumi Kasaura and Naoto Onda and Yuta Oriike and Masaya Taniguchi and Akiyoshi Sannai and Sho Sonoda",
+        "year": "2025"
+      },
+      {
+        "key": "kim2025mt",
+        "title": "MT-Mol: Multi Agent System with Tool-based Reasoning for Molecular Optimization",
+        "authors": "Kim, Hyomin and Jang, Yunhui and Ahn, Sungsoo",
+        "year": "2025",
+        "url": "http://arxiv.org/abs/2505.20820"
+      },
+      {
+        "key": "kumar2024visual",
+        "title": "2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "authors": "Kumar, Neelesh and Aran, Oya and Vasudevan, Venugopal",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/EMBC53108.2024.10781985"
+      },
+      {
+        "key": "lai2025survey",
+        "title": "A Survey of Post-Training Scaling in Large Language Models",
+        "authors": "Lai, Hanyu and Liu, Xiao and Gao, Junjie and Cheng, Jiale and Qi, Zehan and Xu, Yifan and Yao, Shuntian and Zhang, Dan and Du, Jinhua and Hou, Zhenyu and others",
+        "year": "2025"
+      },
+      {
+        "key": "lambert2023history",
+        "title": "The history and risks of reinforcement learning and human feedback",
+        "authors": "Lambert, Nathan and Gilbert, Thomas Krendl and Zick, Tom",
+        "year": "2023"
+      },
+      {
+        "key": "lan2024generating",
+        "title": "Generating mutants of monotone affinity towards stronger protein complexes through adversarial learning",
+        "authors": "Lan, Tian and Su, Shuquan and Ping, Pengyao and Hutvagner, Gyorgy and Liu, Tao and Pan, Yi and Li, Jinyan",
+        "year": "2024"
+      },
+      {
+        "key": "lee2023recent",
+        "title": "Recent advances in generative adversarial networks for gene expression data: a comprehensive review",
+        "authors": "Lee, Minhyeok",
+        "year": "2023"
+      },
+      {
+        "key": "lei2024bioimage",
+        "title": "BioImage. IO Chatbot: a community-driven AI assistant for integrative computational bioimaging",
+        "authors": "Lei, Wanlu and Fuster-Barcel{\\'o",
+        "year": "2024",
+        "url": "https://www.nature.com/articles/s41592-024-02370-y"
+      },
+      {
+        "key": "lei2025stma",
+        "title": "STMA: A spatio-temporal memory agent for long-horizon embodied task planning",
+        "authors": "Lei, Mingcong and Zhao, Yiming and Wang, Ge and Mai, Zhixin and Cui, Shuguang and Han, Yatong and Ren, Jinke",
+        "year": "2025"
+      },
+      {
+        "key": "li2021dual",
+        "title": "Dual-stream multiple instance learning network for whole slide image classification with self-supervised contrastive learning",
+        "authors": "Li, Bin and Li, Yin and Eliceiri, Kevin W",
+        "year": "2021"
+      },
+      {
+        "key": "li2024ArXivQA",
+        "title": "Multimodal ArXiv: A Dataset for Improving Scientific Comprehension of Large Vision-Language Models",
+        "authors": "Lei Li and Yuqi Wang and Runxin Xu and Peiyi Wang and Xiachong Feng and Lingpeng Kong and Qi Liu",
+        "year": "2024",
+        "url": "https://api.semanticscholar.org/CorpusID:268201930"
+      },
+      {
+        "key": "li2024agent",
+        "title": "Agent hospital: A simulacrum of hospital with evolvable medical agents",
+        "authors": "Li, Junkai and Lai, Yunghwei and Li, Weitao and Ren, Jingyi and Zhang, Meng and Kang, Xinhui and Wang, Siyu and Li, Peng and Zhang, Ya-Qin and Ma, Weizhi and others",
+        "year": "2024"
+      },
+      {
+        "key": "li2024drug",
+        "title": "Drug repositioning based on residual attention network and free multiscale adversarial training",
+        "authors": "Li, Guanghui and Li, Shuwen and Liang, Cheng and Xiao, Qiu and Luo, Jiawei",
+        "year": "2024"
+      },
+      {
+        "key": "li2025large",
+        "title": "Large Language Model powered Symbolic Execution",
+        "authors": "Yihe Li and Ruijie Meng and Gregory J. Duck",
+        "year": "2025"
+      },
+      {
+        "key": "liang2024enco",
+        "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+        "authors": "Tian Liang and Zhiwei He and Wenxiang Jiao and Xing Wang and Yan Wang and Rui Wang and Yujiu Yang and Shuming Shi and Zhaopeng Tu",
+        "year": "2024"
+      },
+      {
+        "key": "liu2021makes",
+        "title": "What Makes Good In-Context Examples for GPT-$3 $?",
+        "authors": "Liu, Jiachang and Shen, Dinghan and Zhang, Yizhe and Dolan, Bill and Carin, Lawrence and Chen, Weizhu",
+        "year": "2021"
+      },
+      {
+        "key": "liu2024drugagent",
+        "title": "Drugagent: Automating ai-aided drug discovery programming through llm multi-agent collaboration",
+        "authors": "Liu, Sizhe and Lu, Yizhou and Chen, Siyu and Hu, Xiyang and Zhao, Jieyu and Lu, Yingzhou and Zhao, Yue",
+        "year": "2024",
+        "url": "http://arxiv.org/abs/2411.15692"
+      },
+      {
+        "key": "liu2024what",
+        "title": "What Makes In-context Learning Effective for Mathematical Reasoning: A Theoretical Analysis",
+        "authors": "Jiayu Liu and Zhenya Huang and Chaokun Wang and Xunpeng Huang and Chengxiang Zhai and Enhong Chen",
+        "year": "2024"
+      },
+      {
+        "key": "lu2024multimodal",
+        "title": "A multimodal generative AI copilot for human pathology",
+        "authors": "Lu, Ming Y and Chen, Bowen and Williamson, Drew FK and Chen, Richard J and Zhao, Melissa and Chow, Aaron K and Ikemura, Kenji and Kim, Ahrong and Pouli, Dimitra and Patel, Ankush and others",
+        "year": "2024"
+      },
+      {
+        "key": "ma2025ai",
+        "title": "AI agents in chemical research: GVIM--an intelligent research assistant system",
+        "authors": "Ma, Kangyong",
+        "year": "2025",
+        "url": "https://pubs.rsc.org/en/content/articlelanding/2025/dd/d4dd00398e"
+      },
+      {
+        "key": "ma2025prottex",
+        "title": "Prottex: Structure-in-context reasoning and editing of proteins with large language models",
+        "authors": "Ma, Zicheng and Fan, Chuanliu and Wang, Zhicong and Chen, Zhenyu and Lin, Xiaohan and Li, Yanheng and Feng, Shihao and Cao, Ziqiang and Zhang, Jun and Gao, Yi Qin",
+        "year": "2025"
+      },
+      {
+        "key": "maleki2025efficient",
+        "title": "Efficient Fine-Tuning of Single-Cell Foundation Models Enables Zero-Shot Molecular Perturbation Prediction",
+        "authors": "Sepideh Maleki and Jan-Christian Huetter and Kangway V. Chuang and David Richmond and Gabriele Scalia and Tommaso Biancalani",
+        "year": "2025"
+      },
+      {
+        "key": "mansourian2024chatgeoai",
+        "title": "ChatGeoAI: Enabling Geospatial Analysis for Public through Natural Language, with Large Language Models",
+        "authors": "Ali Mansourian and Rachid Oucheikh",
+        "year": "2024",
+        "url": "https://www.mdpi.com/2220-9964/13/10/348/htm https://www.mdpi.com/2220-9964/13/10/348"
+      },
+      {
+        "key": "marktechpost2024_mctsr",
+        "title": "Enhancing Mathematical Reasoning in LLMs: Integrating Monte Carlo Tree Search with Self-Refinement",
+        "authors": "MarkTechPost",
+        "year": "2024"
+      },
+      {
+        "key": "matsumoto2025escargot",
+        "title": "ESCARGOT: an AI agent leveraging large language models, dynamic graph of thoughts, and biomedical knowledge graphs for enhanced reasoning",
+        "authors": "Matsumoto, Nicholas and Choi, Hyunjun and Moran, Jay and Hernandez, Miguel E and Venkatesan, Mythreye and Li, Xi and Chang, Jui-Hsuan and Wang, Paul and Moore, Jason H",
+        "year": "2025",
+        "url": "https://academic.oup.com/bioinformatics/article/41/2/btaf031/7972741"
+      },
+      {
+        "key": "mcnaughton2024cactus",
+        "title": "CACTUS: Chemistry Agent Connecting Tool Usage to Science",
+        "authors": "McNaughton, Andrew D. and Sankar Ramalaxmi, Gautham Krishna and Kruel, Agustin and Knutson, Carter R. and Varikoti, Rohith A. and Kumar, Neeraj",
+        "year": "2024",
+        "url": "https://doi.org/10.1021/acsomega.4c08408"
+      },
+      {
+        "key": "oh2025raisee",
+        "title": "RAISE: Enhancing Scientific Reasoning in LLMs via Step-by-Step Retrieval",
+        "authors": "Minhae Oh and Jeonghye Kim and Nakyung Lee and Donggeon Seo and Taeuk Kim and Jungwoo Lee",
+        "year": "2025"
+      },
+      {
+        "key": "openai2025bioretro",
+        "title": "Accelerating life sciences research",
+        "authors": "{OpenAI",
+        "year": "2025"
+      },
+      {
+        "key": "openai2025chatgpt",
+        "title": "ChatGPT",
+        "authors": "OpenAI",
+        "year": "2025"
+      },
+      {
+        "key": "oquab2023dinov2",
+        "title": "Dinov2: Learning robust visual features without supervision",
+        "authors": "Oquab, Maxime and Darcet, Timoth{\\'e",
+        "year": "2023"
+      },
+      {
+        "key": "ouyang2022training",
+        "title": "Training language models to follow instructions with human feedback",
+        "authors": "Long Ouyang and Jeff Wu and Xu Jiang and Diogo Almeida and Carroll L. Wainwright and Pamela Mishkin and Chong Zhang and Sandhini Agarwal and Katarina Slama and Alex Ray and John Schulman and Jacob Hilton and Fraser Kelton and Luke Miller and Maddie Simens and Amanda Askell and Peter Welinder and Paul Christiano and Jan Leike and Ryan Lowe",
+        "year": "2022"
+      },
+      {
+        "key": "phan2025humanity",
+        "title": "Humanity's Last Exam",
+        "authors": "Long Phan and Alice Gatti and Ziwen Han and Nathaniel Li and Josephina Hu and Hugh Zhang and Chen Bo Calvin Zhang and Mohamed Shaaban and John Ling and Sean Shi and Michael Choi and Anish Agrawal and Arnav Chopra and Adam Khoja and Ryan Kim and Richard Ren and Jason Hausenloy and Oliver Zhang and Mantas Mazeika and Dmitry Dodonov and Tung Nguyen and Jaeho Lee and Daron Anderson and Mikhail Doroshenko and Alun Cennyth Stokes and Mobeen Mahmood and Oleksandr Pokutnyi and Oleg Iskra and Jessica P. Wang and John-Clark Levin and Mstyslav Kazakov and Fiona Feng and Steven Y. Feng and Haoran Zhao and Michael Yu and Varun Gangal and Chelsea Zou and Zihan Wang and Serguei Popov and Robert Gerbicz and Geoff Galgon and Johannes Schmitt and Will Yeadon and Yongki Lee and Scott Sauers and Alvaro Sanchez and Fabian Giska and Marc Roth and Søren Riis and Saiteja Utpala and Noah Burns and Gashaw M. Goshu and Mohinder Maheshbhai Naiya and Chidozie Agu and Zachary Giboney and Antrell Cheatom and Francesco Fournier-Facio and Sarah-Jane Crowson and Lennart Finke and Zerui Cheng and Jennifer Zampese and Ryan G. Hoerr and Mark Nandor and Hyunwoo Park and Tim Gehrunger and Jiaqi Cai and Ben McCarty and Alexis C Garretson and Edwin Taylor and Damien Sileo and Qiuyu Ren and Usman Qazi and Lianghui Li and Jungbae Nam and John B. Wydallis and Pavel Arkhipov and Jack Wei Lun Shi and Aras Bacho and Chris G. Willcocks and Hangrui Cao and Sumeet Motwani and Emily de Oliveira Santos and Johannes Veith and Edward Vendrow and Doru Cojoc and Kengo Zenitani and Joshua Robinson and Longke Tang and Yuqi Li and Joshua Vendrow and Natanael Wildner Fraga and Vladyslav Kuchkin and Andrey Pupasov Maksimov and Pierre Marion and Denis Efremov and Jayson Lynch and Kaiqu Liang and Aleksandar Mikov and Andrew Gritsevskiy and Julien Guillod and Gözdenur Demir and Dakotah Martinez and Ben Pageler and Kevin Zhou and Saeed Soori and Ori Press and Henry Tang and Paolo Rissone and Sean R. Green and Lina Brüssel and Moon Twayana and Aymeric Dieuleveut and Joseph Marvin Imperial and Ameya Prabhu and Jinzhou Yang and Nick Crispino and Arun Rao and Dimitri Zvonkine and Gabriel Loiseau and Mikhail Kalinin and Marco Lukas and Ciprian Manolescu and Nate Stambaugh and Subrata Mishra and Tad Hogg and Carlo Bosio and Brian P Coppola and Julian Salazar and Jaehyeok Jin and Rafael Sayous and Stefan Ivanov and Philippe Schwaller and Shaipranesh Senthilkuma and Andres M Bran and Andres Algaba and Kelsey Van den Houte and Lynn Van Der Sypt and Brecht Verbeken and David Noever and Alexei Kopylov and Benjamin Myklebust and Bikun Li and Lisa Schut and Evgenii Zheltonozhskii and Qiaochu Yuan and Derek Lim and Richard Stanley and Tong Yang and John Maar and Julian Wykowski and Martí Oller and Anmol Sahu and Cesare Giulio Ardito and Yuzheng Hu and Ariel Ghislain Kemogne Kamdoum and Alvin Jin and Tobias Garcia Vilchis and Yuexuan Zu and Martin Lackner and James Koppel and Gongbo Sun and Daniil S. Antonenko and Steffi Chern and Bingchen Zhao and Pierrot Arsene and Joseph M Cavanagh and Daofeng Li and Jiawei Shen and Donato Crisostomi and Wenjin Zhang and Ali Dehghan and Sergey Ivanov and David Perrella and Nurdin Kaparov and Allen Zang and Ilia Sucholutsky and Arina Kharlamova and Daniil Orel and Vladislav Poritski and Shalev Ben-David and Zachary Berger and Parker Whitfill and Michael Foster and Daniel Munro and Linh Ho and Shankar Sivarajan and Dan Bar Hava and Aleksey Kuchkin and David Holmes and Alexandra Rodriguez-Romero and Frank Sommerhage and Anji Zhang and Richard Moat and Keith Schneider and Zakayo Kazibwe and Don Clarke and Dae Hyun Kim and Felipe Meneguitti Dias and Sara Fish and Veit Elser and Tobias Kreiman and Victor Efren Guadarrama Vilchis and Immo Klose and Ujjwala Anantheswaran and Adam Zweiger and Kaivalya Rawal and Jeffery Li and Jeremy Nguyen and Nicolas Daans and Haline Heidinger and Maksim Radionov and Václav Rozhoň and Vincent Ginis and Christian Stump and Niv Cohen and Rafał Poświata and Josef Tkadlec and Alan Goldfarb and Chenguang Wang and Piotr Padlewski and Stanislaw Barzowski and Kyle Montgomery and Ryan Stendall and Jamie Tucker-Foltz and Jack Stade and T. Ryan Rogers and Tom Goertzen and Declan Grabb and Abhishek Shukla and Alan Givré and John Arnold Ambay and Archan Sen and Muhammad Fayez Aziz and Mark H Inlow and Hao He and Ling Zhang and Younesse Kaddar and Ivar Ängquist and Yanxu Chen and Harrison K Wang and Kalyan Ramakrishnan and Elliott Thornley and Antonio Terpin and Hailey Schoelkopf and Eric Zheng and Avishy Carmi and Ethan D. L. Brown and Kelin Zhu and Max Bartolo and Richard Wheeler and Martin Stehberger and Peter Bradshaw and JP Heimonen and Kaustubh Sridhar and Ido Akov and Jennifer Sandlin and Yury Makarychev and Joanna Tam and Hieu Hoang and David M. Cunningham and Vladimir Goryachev and Demosthenes Patramanis and Michael Krause and Andrew Redenti and David Aldous and Jesyin Lai and Shannon Coleman and Jiangnan Xu and Sangwon Lee and Ilias Magoulas and Sandy Zhao and Ning Tang and Michael K. Cohen and Orr Paradise and Jan Hendrik Kirchner and Maksym Ovchynnikov and Jason O. Matos and Adithya Shenoy and Michael Wang and Yuzhou Nie and Anna Sztyber-Betley and Paolo Faraboschi and Robin Riblet and Jonathan Crozier and Shiv Halasyamani and Shreyas Verma and Prashant Joshi and Eli Meril and Ziqiao Ma and Jérémy Andréoletti and Raghav Singhal and Jacob Platnick and Volodymyr Nevirkovets and Luke Basler and Alexander Ivanov and Seri Khoury and Nils Gustafsson and Marco Piccardo and Hamid Mostaghimi and Qijia Chen and Virendra Singh and Tran Quoc Khánh and Paul Rosu and Hannah Szlyk and Zachary Brown and Himanshu Narayan and Aline Menezes and Jonathan Roberts and William Alley and Kunyang Sun and Arkil Patel and Max Lamparth and Anka Reuel and Linwei Xin and Hanmeng Xu and Jacob Loader and Freddie Martin and Zixuan Wang and Andrea Achilleos and Thomas Preu and Tomek Korbak and Ida Bosio and Fereshteh Kazemi and Ziye Chen and Biró Bálint and Eve J. Y. Lo and Jiaqi Wang and Maria Inês S. Nunes and Jeremiah Milbauer and M Saiful Bari and Zihao Wang and Behzad Ansarinejad and Yewen Sun and Stephane Durand and Hossam Elgnainy and Guillaume Douville and Daniel Tordera and George Balabanian and Hew Wolff and Lynna Kvistad and Hsiaoyun Milliron and Ahmad Sakor and Murat Eron and Andrew Favre D. O. and Shailesh Shah and Xiaoxiang Zhou and Firuz Kamalov and Sherwin Abdoli and Tim Santens and Shaul Barkan and Allison Tee and Robin Zhang and Alessandro Tomasiello and G. Bruno De Luca and Shi-Zhuo Looi and Vinh-Kha Le and Noam Kolt and Jiayi Pan and Emma Rodman and Jacob Drori and Carl J Fossum and Niklas Muennighoff and Milind Jagota and Ronak Pradeep and Honglu Fan and Jonathan Eicher and Michael Chen and Kushal Thaman and William Merrill and Moritz Firsching and Carter Harris and Stefan Ciobâcă and Jason Gross and Rohan Pandey and Ilya Gusev and Adam Jones and Shashank Agnihotri and Pavel Zhelnov and Mohammadreza Mofayezi and Alexander Piperski and David K. Zhang and Kostiantyn Dobarskyi and Roman Leventov and Ignat Soroko and Joshua Duersch and Vage Taamazyan and Andrew Ho and Wenjie Ma and William Held and Ruicheng Xian and Armel Randy Zebaze and Mohanad Mohamed and Julian Noah Leser and Michelle X Yuan and Laila Yacar and Johannes Lengler and Katarzyna Olszewska and Claudio Di Fratta and Edson Oliveira and Joseph W. Jackson and Andy Zou and Muthu Chidambaram and Timothy Manik and Hector Haffenden and Dashiell Stander and Ali Dasouqi and Alexander Shen and Bita Golshani and David Stap and Egor Kretov and Mikalai Uzhou and Alina Borisovna Zhidkovskaya and Nick Winter and Miguel Orbegozo Rodriguez and Robert Lauff and Dustin Wehr and Colin Tang and Zaki Hossain and Shaun Phillips and Fortuna Samuele and Fredrik Ekström and Angela Hammon and Oam Patel and Faraz Farhidi and George Medley and Forough Mohammadzadeh and Madellene Peñaflor and Haile Kassahun and Alena Friedrich and Rayner Hernandez Perez and Daniel Pyda and Taom Sakal and Omkar Dhamane and Ali Khajegili Mirabadi and Eric Hallman and Kenchi Okutsu and Mike Battaglia and Mohammad Maghsoudimehrabani and Alon Amit and Dave Hulbert and Roberto Pereira and Simon Weber and Handoko and Anton Peristyy and Stephen Malina and Mustafa Mehkary and Rami Aly and Frank Reidegeld and Anna-Katharina Dick and Cary Friday and Mukhwinder Singh and Hassan Shapourian and Wanyoung Kim and Mariana Costa and Hubeyb Gurdogan and Harsh Kumar and Chiara Ceconello and Chao Zhuang and Haon Park and Micah Carroll and Andrew R. Tawfeek and Stefan Steinerberger and Daattavya Aggarwal and Michael Kirchhof and Linjie Dai and Evan Kim and Johan Ferret and Jainam Shah and Yuzhou Wang and Minghao Yan and Krzysztof Burdzy and Lixin Zhang and Antonio Franca and Diana T. Pham and Kang Yong Loh and Joshua Robinson and Abram Jackson and Paolo Giordano and Philipp Petersen and Adrian Cosma and Jesus Colino and Colin White and Jacob Votava and Vladimir Vinnikov and Ethan Delaney and Petr Spelda and Vit Stritecky and Syed M. Shahid and Jean-Christophe Mourrat and Lavr Vetoshkin and Koen Sponselee and Renas Bacho and Zheng-Xin Yong and Florencia de la Rosa and Nathan Cho and Xiuyu Li and Guillaume Malod and Orion Weller and Guglielmo Albani and Leon Lang and Julien Laurendeau and Dmitry Kazakov and Fatimah Adesanya and Julien Portier and Lawrence Hollom and Victor Souza and Yuchen Anna Zhou and Julien Degorre and Yiğit Yalın and Gbenga Daniel Obikoya and Rai and Filippo Bigi and M. C. Boscá and Oleg Shumar and Kaniuar Bacho and Gabriel Recchia and Mara Popescu and Nikita Shulga and Ngefor Mildred Tanwie and Thomas C. H. Lux and Ben Rank and Colin Ni and Matthew Brooks and Alesia Yakimchyk and Huanxu and Liu and Stefano Cavalleri and Olle Häggström and Emil Verkama and Joshua Newbould and Hans Gundlach and Leonor Brito-Santana and Brian Amaro and Vivek Vajipey and Rynaa Grover and Ting Wang and Yosi Kratish and Wen-Ding Li and Sivakanth Gopi and Andrea Caciolai and Christian Schroeder de Witt and Pablo Hernández-Cámara and Emanuele Rodolà and Jules Robins and Dominic Williamson and Vincent Cheng and Brad Raynor and Hao Qi and Ben Segev and Jingxuan Fan and Sarah Martinson and Erik Y. Wang and Kaylie Hausknecht and Michael P. Brenner and Mao Mao and Christoph Demian and Peyman Kassani and Xinyu Zhang and David Avagian and Eshawn Jessica Scipio and Alon Ragoler and Justin Tan and Blake Sims and Rebeka Plecnik and Aaron Kirtland and Omer Faruk Bodur and D. P. Shinde and Yan Carlos Leyva Labrador and Zahra Adoul and Mohamed Zekry and Ali Karakoc and Tania C. B. Santos and Samir Shamseldeen and Loukmane Karim and Anna Liakhovitskaia and Nate Resman and Nicholas Farina and Juan Carlos Gonzalez and Gabe Maayan and Earth Anderson and Rodrigo De Oliveira Pena and Elizabeth Kelley and Hodjat Mariji and Rasoul Pouriamanesh and Wentao Wu and Ross Finocchio and Ismail Alarab and Joshua Cole and Danyelle Ferreira and Bryan Johnson and Mohammad Safdari and Liangti Dai and Siriphan Arthornthurasuk and Isaac C. McAlister and Alejandro José Moyano and Alexey Pronin and Jing Fan and Angel Ramirez-Trinidad and Yana Malysheva and Daphiny Pottmaier and Omid Taheri and Stanley Stepanic and Samuel Perry and Luke Askew and Raúl Adrián Huerta Rodríguez and Ali M. R. Minissi and Ricardo Lorena and Krishnamurthy Iyer and Arshad Anil Fasiludeen and Ronald Clark and Josh Ducey and Matheus Piza and Maja Somrak and Eric Vergo and Juehang Qin and Benjámin Borbás and Eric Chu and Jack Lindsey and Antoine Jallon and I. M. J. McInnis and Evan Chen and Avi Semler and Luk Gloor and Tej Shah and Marc Carauleanu and Pascal Lauer and Tran Đuc Huy and Hossein Shahrtash and Emilien Duc and Lukas Lewark and Assaf Brown and Samuel Albanie and Brian Weber and Warren S. Vaz and Pierre Clavier and Yiyang Fan and Gabriel Poesia Reis e Silva and Long and Lian and Marcus Abramovitch and Xi Jiang and Sandra Mendoza and Murat Islam and Juan Gonzalez and Vasilios Mavroudis and Justin Xu and Pawan Kumar and Laxman Prasad Goswami and Daniel Bugas and Nasser Heydari and Ferenc Jeanplong and Thorben Jansen and Antonella Pinto and Archimedes Apronti and Abdallah Galal and Ng Ze-An and Ankit Singh and Tong Jiang and Joan of Arc Xavier and Kanu Priya Agarwal and Mohammed Berkani and Gang Zhang and Zhehang Du and Benedito Alves de Oliveira Junior and Dmitry Malishev and Nicolas Remy and Taylor D. Hartman and Tim Tarver and Stephen Mensah and Gautier Abou Loume and Wiktor Morak and Farzad Habibi and Sarah Hoback and Will Cai and Javier Gimenez and Roselynn Grace Montecillo and Jakub Łucki and Russell Campbell and Asankhaya Sharma and Khalida Meer and Shreen Gul and Daniel Espinosa Gonzalez and Xavier Alapont and Alex Hoover and Gunjan Chhablani and Freddie Vargus and Arunim Agarwal and Yibo Jiang and Deepakkumar Patil and David Outevsky and Kevin Joseph Scaria and Rajat Maheshwari and Abdelkader Dendane and Priti Shukla and Ashley Cartwright and Sergei Bogdanov and Niels Mündler and Sören Möller and Luca Arnaboldi and Kunvar Thaman and Muhammad Rehan Siddiqi and Prajvi Saxena and Himanshu Gupta and Tony Fruhauff and Glen Sherman and Mátyás Vincze and Siranut Usawasutsakorn and Dylan Ler and Anil Radhakrishnan and Innocent Enyekwe and Sk Md Salauddin and Jiang Muzhen and Aleksandr Maksapetyan and Vivien Rossbach and Chris Harjadi and Mohsen Bahaloohoreh and Claire Sparrow and Jasdeep Sidhu and Sam Ali and Song Bian and John Lai and Eric Singer and Justine Leon Uro and Greg Bateman and Mohamed Sayed and Ahmed Menshawy and Darling Duclosel and Dario Bezzi and Yashaswini Jain and Ashley Aaron and Murat Tiryakioglu and Sheeshram Siddh and Keith Krenek and Imad Ali Shah and Jun Jin and Scott Creighton and Denis Peskoff and Zienab EL-Wasif and Ragavendran P V and Michael Richmond and Joseph McGowan and Tejal Patwardhan and Hao-Yu Sun and Ting Sun and Nikola Zubić and Samuele Sala and Stephen Ebert and Jean Kaddour and Manuel Schottdorf and Dianzhuo Wang and Gerol Petruzella and Alex Meiburg and Tilen Medved and Ali ElSheikh and S Ashwin Hebbar and Lorenzo Vaquero and Xianjun Yang and Jason Poulos and Vilém Zouhar and Sergey Bogdanik and Mingfang Zhang and Jorge Sanz-Ros and David Anugraha and Yinwei Dai and Anh N. Nhu and Xue Wang and Ali Anil Demircali and Zhibai Jia and Yuyin Zhou and Juncheng Wu and Mike He and Nitin Chandok and Aarush Sinha and Gaoxiang Luo and Long Le and Mickaël Noyé and Michał Perełkiewicz and Ioannis Pantidis and Tianbo Qi and Soham Sachin Purohit and Letitia Parcalabescu and Thai-Hoa Nguyen and Genta Indra Winata and Edoardo M. Ponti and Hanchen Li and Kaustubh Dhole and Jongee Park and Dario Abbondanza and Yuanli Wang and Anupam Nayak and Diogo M. Caetano and Antonio A. W. L. Wong and Maria del Rio-Chanona and Dániel Kondor and Pieter Francois and Ed Chalstrey and Jakob Zsambok and Dan Hoyer and Jenny Reddish and Jakob Hauser and Francisco-Javier Rodrigo-Ginés and Suchandra Datta and Maxwell Shepherd and Thom Kamphuis and Qizheng Zhang and Hyunjun Kim and Ruiji Sun and Jianzhu Yao and Franck Dernoncourt and Satyapriya Krishna and Sina Rismanchian and Bonan Pu and Francesco Pinto and Yingheng Wang and Kumar Shridhar and Kalon J. Overholt and Glib Briia and Hieu Nguyen and David and Soler Bartomeu and Tony CY Pang and Adam Wecker and Yifan Xiong and Fanfei Li and Lukas S. Huber and Joshua Jaeger and Romano De Maddalena and Xing Han Lù and Yuhui Zhang and Claas Beger and Patrick Tser Jern Kon and Sean Li and Vivek Sanker and Ming Yin and Yihao Liang and Xinlu Zhang and Ankit Agrawal and Li S. Yifei and Zechen Zhang and Mu Cai and Yasin Sonmez and Costin Cozianu and Changhao Li and Alex Slen and Shoubin Yu and Hyun Kyu Park and Gabriele Sarti and Marcin Briański and Alessandro Stolfo and Truong An Nguyen and Mike Zhang and Yotam Perlitz and Jose Hernandez-Orallo and Runjia Li and Amin Shabani and Felix Juefei-Xu and Shikhar Dhingra and Orr Zohar and My Chiffon Nguyen and Alexander Pondaven and Abdurrahim Yilmaz and Xuandong Zhao and Chuanyang Jin and Muyan Jiang and Stefan Todoran and Xinyao Han and Jules Kreuer and Brian Rabern and Anna Plassart and Martino Maggetti and Luther Yap and Robert Geirhos and Jonathon Kean and Dingsu Wang and Sina Mollaei and Chenkai Sun and Yifan Yin and Shiqi Wang and Rui Li and Yaowen Chang and Anjiang Wei and Alice Bizeul and Xiaohan Wang and Alexandre Oliveira Arrais and Kushin Mukherjee and Jorge Chamorro-Padial and Jiachen Liu and Xingyu Qu and Junyi Guan and Adam Bouyamourn and Shuyu Wu and Martyna Plomecka and Junda Chen and Mengze Tang and Jiaqi Deng and Shreyas Subramanian and Haocheng Xi and Haoxuan Chen and Weizhi Zhang and Yinuo Ren and Haoqin Tu and Sejong Kim and Yushun Chen and Sara Vera Marjanović and Junwoo Ha and Grzegorz Luczyna and Jeff J. Ma and Zewen Shen and Dawn Song and Cedegao E. Zhang and Zhun Wang and Gaël Gendron and Yunze Xiao and Leo Smucker and Erica Weng and Kwok Hao Lee and Zhe Ye and Stefano Ermon and Ignacio D. Lopez-Miguel and Theo Knights and Anthony Gitter and Namkyu Park and Boyi Wei and Hongzheng Chen and Kunal Pai and Ahmed Elkhanany and Han Lin and Philipp D. Siedler and Jichao Fang and Ritwik Mishra and Károly Zsolnai-Fehér and Xilin Jiang and Shadab Khan and Jun Yuan and Rishab Kumar Jain and Xi Lin and Mike Peterson and Zhe Wang and Aditya Malusare and Maosen Tang and Isha Gupta and Ivan Fosin and Timothy Kang and Barbara Dworakowska and Kazuki Matsumoto and Guangyao Zheng and Gerben Sewuster and Jorge Pretel Villanueva and Ivan Rannev and Igor Chernyavsky and Jiale Chen and Deepayan Banik and Ben Racz and Wenchao Dong and Jianxin Wang and Laila Bashmal and Duarte V. Gonçalves and Wei Hu and Kaushik Bar and Ondrej Bohdal and Atharv Singh Patlan and Shehzaad Dhuliawala and Caroline Geirhos and Julien Wist and Yuval Kansal and Bingsen Chen and Kutay Tire and Atak Talay Yücel and Brandon Christof and Veerupaksh Singla and Zijian Song and Sanxing Chen and Jiaxin Ge and Kaustubh Ponkshe and Isaac Park and Tianneng Shi and Martin Q. Ma and Joshua Mak and Sherwin Lai and Antoine Moulin and Zhuo Cheng and Zhanda Zhu and Ziyi Zhang and Vaidehi Patil and Ketan Jha and Qiutong Men and Jiaxuan Wu and Tianchi Zhang and Bruno Hebling Vieira and Alham Fikri Aji and Jae-Won Chung and Mohammed Mahfoud and Ha Thi Hoang and Marc Sperzel and Wei Hao and Kristof Meding and Sihan Xu and Vassilis Kostakos and Davide Manini and Yueying Liu and Christopher Toukmaji and Jay Paek and Eunmi Yu and Arif Engin Demircali and Zhiyi Sun and Ivan Dewerpe and Hongsen Qin and Roman Pflugfelder and James Bailey and Johnathan Morris and Ville Heilala and Sybille Rosset and Zishun Yu and Peter E. Chen and Woongyeong Yeo and Eeshaan Jain and Ryan Yang and Sreekar Chigurupati and Julia Chernyavsky and Sai Prajwal Reddy and Subhashini Venugopalan and Hunar Batra and Core Francisco Park and Hieu Tran and Guilherme Maximiano and Genghan Zhang and Yizhuo Liang and Hu Shiyu and Rongwu Xu and Rui Pan and Siddharth Suresh and Ziqi Liu and Samaksh Gulati and Songyang Zhang and Peter Turchin and Christopher W. Bartlett and Christopher R. Scotese and Phuong M. Cao and Aakaash Nattanmai and Gordon McKellips and Anish Cheraku and Asim Suhail and Ethan Luo and Marvin Deng and Jason Luo and Ashley Zhang and Kavin Jindel and Jay Paek and Kasper Halevy and Allen Baranov and Michael Liu and Advaith Avadhanam and David Zhang and Vincent Cheng and Brad Ma and Evan Fu and Liam Do and Joshua Lass and Hubert Yang and Surya Sunkari and Vishruth Bharath and Violet Ai and James Leung and Rishit Agrawal and Alan Zhou and Kevin Chen and Tejas Kalpathi and Ziqi Xu and Gavin Wang and Tyler Xiao and Erik Maung and Sam Lee and Ryan Yang and Roy Yue and Ben Zhao and Julia Yoon and Sunny Sun and Aryan Singh and Ethan Luo and Clark Peng and Tyler Osbey and Taozhi Wang and Daryl Echeazu and Hubert Yang and Timothy Wu and Spandan Patel and Vidhi Kulkarni and Vijaykaarti Sundarapandiyan and Ashley Zhang and Andrew Le and Zafir Nasim and Srikar Yalam and Ritesh Kasamsetty and Soham Samal and Hubert Yang and David Sun and Nihar Shah and Abhijeet Saha and Alex Zhang and Leon Nguyen and Laasya Nagumalli and Kaixin Wang and Alan Zhou and Aidan Wu and Jason Luo and Anwith Telluri and Summer Yue and Alexandr Wang and Dan Hendrycks",
+        "year": "2025"
+      },
+      {
+        "key": "qiao2024autoact",
+        "title": "AutoAct: Automatic Agent Learning from Scratch for QA via Self-Planning",
+        "authors": "Shuofei Qiao and Ningyu Zhang and Runnan Fang and Yujie Luo and Wangchunshu Zhou and Yuchen Eleanor Jiang and Chengfei Lv and Huajun Chen",
+        "year": "2024"
+      },
+      {
+        "key": "rafailov2024directpre",
+        "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+        "authors": "Rafael Rafailov and Archit Sharma and Eric Mitchell and Stefano Ermon and Christopher D. Manning and Chelsea Finn",
+        "year": "2024"
+      },
+      {
+        "key": "rasmussen2025zep",
+        "title": "Zep: a temporal knowledge graph architecture for agent memory",
+        "authors": "Rasmussen, Preston and Paliychuk, Pavlo and Beauvais, Travis and Ryan, Jack and Chalef, Daniel",
+        "year": "2025"
+      },
+      {
+        "key": "rawat2025preact",
+        "title": "Pre-Act: Multi-Step Planning and Reasoning Improves Acting in LLM Agents",
+        "authors": "Mrinal Rawat and Ambuje Gupta and Rushil Goomer and Alessandro Di Bari and Neha Gupta and Roberto Pieraccini",
+        "year": "2025"
+      },
+      {
+        "key": "richard2024chatnt",
+        "title": "A multimodal conversational agent for DNA, RNA and protein tasks",
+        "authors": "de Almeida, Bernardo P. and Richard, Guillaume and Dalla-Torre, Hugo and Blum, Christopher and Hexemer, Lorenz and Pandey, Priyanka and Laurent, Stefan and Rajesh, Chandana and Lopez, Marie and Laterre, Alexandre and Lang, Maren and {\\c{S",
+        "year": "2025",
+        "url": "https://doi.org/10.1038/s42256-025-01047-1"
+      },
+      {
+        "key": "roschewitz2025robust",
+        "title": "Robust image representations with counterfactual contrastive learning",
+        "authors": "Roschewitz, M{\\'e",
+        "year": "2025"
+      },
+      {
+        "key": "royer2024omega",
+        "title": "Omega—harnessing the power of large language models for bioimage analysis",
+        "authors": "Royer, Lo{\\",
+        "year": "2024",
+        "url": "https://www.nature.com/articles/s41592-024-02310-w"
+      },
+      {
+        "key": "ruan2024automatic",
+        "title": "An automatic end-to-end chemical synthesis development platform powered by large language models",
+        "authors": "Ruan, Yixiang and Lu, Chenyin and Xu, Ning and He, Yuchen and Chen, Yixin and Zhang, Jian and Xuan, Jun and Pan, Jianzhang and Fang, Qun and Gao, Hanyu and others",
+        "year": "2024"
+      },
+      {
+        "key": "salimans2016improvedtechniquestraininggans",
+        "title": "Improved Techniques for Training GANs",
+        "authors": "Tim Salimans and Ian Goodfellow and Wojciech Zaremba and Vicki Cheung and Alec Radford and Xi Chen",
+        "year": "2016"
+      },
+      {
+        "key": "sawamura2025evaluation",
+        "title": "An evaluation of the performance of OpenAI-o1 and GPT-4o in the Japanese National Examination for Physical Therapists",
+        "authors": "Sawamura, Shogo and Kohiyama, Kengo and Takenaka, Takahiro and Sera, Tatsuya and Inoue, Tadatoshi and Nagai, Takashi",
+        "year": "2025"
+      },
+      {
+        "key": "selinger2024framework",
+        "title": "A Framework for Autonomous AI-Driven Drug Discovery",
+        "authors": "Selinger, Douglas W and Wall, Timothy R and Stylianou, Eleni and Khalil, Ehab M and Gaetz, Jedidiah and Levy, Oren",
+        "year": "2024",
+        "url": "https://www.biorxiv.org/content/10.1101/2024.12.17.629024v2"
+      },
+      {
+        "key": "sheikholeslami2024druggen",
+        "title": "DrugGen: Advancing Drug Discovery with Large Language Models and Reinforcement Learning Feedback",
+        "authors": "Mahsa Sheikholeslami and Navid Mazrouei and Yousof Gheisari and Afshin Fasihi and Matin Irajpour and Ali Motahharynia",
+        "year": "2024"
+      },
+      {
+        "key": "shi2025hypercube",
+        "title": "Hypercube-Based Retrieval-Augmented Generation for Scientific Question-Answering",
+        "authors": "Jimeng Shi and Sizhe Zhou and Bowen Jin and Wei Hu and Runchu Tian and Shaowen Wang and Giri Narasimhan and Jiawei Han",
+        "year": "2025"
+      },
+      {
+        "key": "shinn2023reflexion",
+        "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+        "authors": "Noah Shinn and Federico Cassano and Edward Berman and Ashwin Gopinath and Karthik Narasimhan and Shunyu Yao",
+        "year": "2023"
+      },
+      {
+        "key": "singh2024geollm",
+        "title": "GeoLLM-Engine: A Realistic Environment for Building Geospatial Copilots",
+        "authors": "Simranjit Singh and Michael Fore and Dimitrios Stamoulis",
+        "year": "2024"
+      },
+      {
+        "key": "snell2024testtimecompute",
+        "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+        "authors": "Charlie Snell and Jaehoon Lee and Kelvin Xu and Aviral Kumar",
+        "year": "2024"
+      },
+      {
+        "key": "sun2023aligning",
+        "title": "Aligning Large Multimodal Models with Factually Augmented RLHF",
+        "authors": "Zhiqing Sun and Sheng Shen and Shengcao Cao and Haotian Liu and Chunyuan Li and Yikang Shen and Chuang Gan and Liang-Yan Gui and Yu-Xiong Wang and Yiming Yang and Kurt Keutzer and Trevor Darrell",
+        "year": "2023"
+      },
+      {
+        "key": "supremix_2023",
+        "title": "SupReMix: Supervised Contrastive Learning for Medical Imaging Regression with Mixup",
+        "authors": "Yilei Wu and Zijian Dong and Chongyao Chen and Wangchunshu Zhou and Juan Helen Zhou",
+        "year": "2025"
+      },
+      {
+        "key": "tran2025multiage",
+        "title": "Multi-Agent Collaboration Mechanisms: A Survey of LLMs",
+        "authors": "Khanh-Tung Tran and Dung Dao and Minh-Duong Nguyen and Quoc-Viet Pham and Barry O'Sullivan and Hoang D. Nguyen",
+        "year": "2025"
+      },
+      {
+        "key": "wang2023instructprotein",
+        "title": "InstructProtein: Aligning Human and Protein Language via Knowledge Instruction",
+        "authors": "Zeyuan Wang and Qiang Zhang and Keyan Ding and Ming Qin and Xiang Zhuang and Xiaotong Li and Huajun Chen",
+        "year": "2023"
+      },
+      {
+        "key": "wang2024colacare",
+        "title": "ColaCare: Enhancing Electronic Health Record Modeling through Large Language Model-Driven Multi-Agent Collaboration",
+        "authors": "Wang, Zixiang and Zhu, Yinghao and Zhao, Huiya and Zheng, Xiaochen and Sui, Dehao and Wang, Tianlong and Tang, Wen and Wang, Yasha and Harrison, Ewen and Pan, Chengwei and Gao, Junyi and Ma, Liantao",
+        "year": "2025",
+        "url": "https://doi.org/10.1145/3696410.3714877"
+      },
+      {
+        "key": "wang2024geneagent",
+        "title": "GeneAgent: Self-verification Language Agent for Gene Set Knowledge Discovery using Domain Databases",
+        "authors": "Wang, Zhizheng and Jin, Qiao and Wei, Chih-Hsuan and Tian, Shubo and Lai, Po-Ting and Zhu, Qingqing and Day, Chi-Ping and Ross, Christina and Lu, Zhiyong",
+        "year": "2024",
+        "url": "http://arxiv.org/abs/2405.16205"
+      },
+      {
+        "key": "wang2025medagent",
+        "title": "MedAgent-Pro: Towards Evidence-Based Multi-Modal Medical Diagnosis via Reasoning Agentic Workflow",
+        "authors": "Wang, Ziyue and Wu, Junde and Low, Chang Han and Jin, Yueming",
+        "year": "2025",
+        "url": "http://arxiv.org/abs/2503.18968"
+      },
+      {
+        "key": "wang2025txgemma",
+        "title": "Txgemma: Efficient and agentic llms for therapeutics",
+        "authors": "Wang, Eric and Schmidgall, Samuel and Jaeger, Paul F and Zhang, Fan and Pilgrim, Rory and Matias, Yossi and Barral, Joelle and Fleet, David and Azizi, Shekoofeh",
+        "year": "2025",
+        "url": "http://arxiv.org/abs/2504.06196"
+      },
+      {
+        "key": "wei2022chain",
+        "title": "Chain-of-thought prompting elicits reasoning in large language models",
+        "authors": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others",
+        "year": "2022"
+      },
+      {
+        "key": "wei2022finetuned",
+        "title": "Finetuned Language Models Are Zero-Shot Learners",
+        "authors": "Jason Wei and Maarten Bosma and Vincent Y. Zhao and Kelvin Guu and Adams Wei Yu and Brian Lester and Nan Du and Andrew M. Dai and Quoc V. Le",
+        "year": "2022"
+      },
+      {
+        "key": "xia2025mmedrag",
+        "title": "MMed-RAG: Versatile Multimodal RAG System for Medical Vision Language Models",
+        "authors": "Peng Xia and Kangyu Zhu and Haoran Li and Tianze Wang and Weijia Shi and Sheng Wang and Linjun Zhang and James Zou and Huaxiu Yao",
+        "year": "2025"
+      },
+      {
+        "key": "xiao2025epipdlf",
+        "title": "EPIPDLF: a pretrained deep learning framework for predicting enhancer--promoter interactions",
+        "authors": "Xiao, Zhichao and Li, Yan and Ding, Yijie and Yu, Liang",
+        "year": "2025"
+      },
+      {
+        "key": "xiong2024improving",
+        "title": "Improving retrieval-augmented generation in medicine with iterative follow-up questions",
+        "authors": "Xiong, Guangzhi and Jin, Qiao and Wang, Xiao and Zhang, Minjia and Lu, Zhiyong and Zhang, Aidong",
+        "year": "2024",
+        "url": "https://www.worldscientific.com/doi/pdf/10.1142/9789819807024_0015"
+      },
+      {
+        "key": "xu2025medagentgym",
+        "title": "MedAgentGym: Training LLM Agents for Code-Based Medical Reasoning at Scale",
+        "authors": "Xu, Ran and Zhuang, Yuchen and Zhong, Yishan and Yu, Yue and Tang, Xiangru and Wu, Hang and Wang, May D and Ruan, Peifeng and Yang, Donghan and Wang, Tao and others",
+        "year": "2025",
+        "url": "http://arxiv.org/abs/2506.04405"
+      },
+      {
+        "key": "yan2025triple",
+        "title": "Triple-effect correction for Cell Painting data with contrastive and domain-adversarial learning",
+        "authors": "Yan, Chengwei and Zhang, Yu and Feng, Jiuxin and Hua, Heyang and Ruan, Zhihan and Li, Zhen and Li, Siyu and Yan, Chaoyang and Li, Pingjing and Liu, Jian and others",
+        "year": "2025"
+      },
+      {
+        "key": "yao2023reactsynergizingreasoningacting",
+        "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+        "authors": "Shunyu Yao and Jeffrey Zhao and Dian Yu and Nan Du and Izhak Shafran and Karthik Narasimhan and Yuan Cao",
+        "year": "2023"
+      },
+      {
+        "key": "zhang2024mavis",
+        "title": "Mavis: Mathematical visual instruction tuning with an automatic data engine",
+        "authors": "Zhang, Renrui and Wei, Xinyu and Jiang, Dongzhi and Guo, Ziyu and Li, Shicheng and Zhang, Yichi and Tong, Chengzhuo and Liu, Jiaming and Zhou, Aojun and Wei, Bin and others",
+        "year": "2024"
+      },
+      {
+        "key": "zhang2025rlrl",
+        "title": "Generation of Rational Drug-like Molecular Structures Through a Multiple-Objective Reinforcement Learning Framework",
+        "authors": "Zhang,Xiangying and Gao,Haotian and Qi,Yifei and Li,Yan and Wang,Renxiao",
+        "year": "2025",
+        "url": "https://www.proquest.com/scholarly-journals/generation-rational-drug-like-molecular/docview/3153791278/se-2"
+      },
+      {
+        "key": "zhao2024adversarialtrainingsurvey",
+        "title": "Adversarial Training: A Survey",
+        "authors": "Mengnan Zhao and Lihe Zhang and Jingwen Ye and Huchuan Lu and Baocai Yin and Xinchao Wang",
+        "year": "2024"
+      },
+      {
+        "key": "zholus2025bindgpt",
+        "title": "Bindgpt: A scalable framework for 3d molecular design via language modeling and reinforcement learning",
+        "authors": "Zholus, Artem and Kuznetsov, Maksim and Schutski, Roman and Shayakhmetov, Rim and Polykovskiy, Daniil and Chandar, Sarath and Zhavoronkov, Alex",
+        "year": "2025"
+      },
+      {
+        "key": "zhou2023foundation",
+        "title": "A foundation model for generalizable disease detection from retinal images",
+        "authors": "Zhou, Yukun and Chia, Mark A and Wagner, Siegfried K and Ayhan, Murat S and Williamson, Dominic J and Struyven, Robbert R and Liu, Timing and Xu, Moucheng and Lozano, Mateo G and Woodward-Court, Peter and others",
+        "year": "2023"
+      },
+      {
+        "key": "zhou2024ai",
+        "title": "An AI Agent for Fully Automated Multi-Omic Analyses",
+        "authors": "Zhou, Juexiao and Zhang, Bin and Li, Guowei and Chen, Xiuying and Li, Haoyang and Xu, Xiaopeng and Chen, Siyuan and He, Wenjia and Xu, Chencheng and Liu, Liwei and others",
+        "year": "2024",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202407094"
+      },
+      {
+        "key": "zhou2024webarenar",
+        "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+        "authors": "Shuyan Zhou and Frank F. Xu and Hao Zhu and Xuhui Zhou and Robert Lo and Abishek Sridhar and Xianyi Cheng and Tianyue Ou and Yonatan Bisk and Daniel Fried and Uri Alon and Graham Neubig",
+        "year": "2024"
+      }
+    ]
+  },
+  {
+    "section": "Evaluation",
+    "citation_count": 90,
+    "papers": [
+      {
+        "key": "Autoscience2025meet",
+        "title": "Meet Carl: The first AI system to produce academically peer-reviewed research",
+        "authors": "{Autoscience Institute",
+        "year": "2025"
+      },
+      {
+        "key": "Balasubramanian2025AcceleratingRW",
+        "title": "Accelerating Research with Automated Literature Reviews: A Rag-Based Framework",
+        "authors": "Abhinav Balasubramanian",
+        "year": "2025",
+        "url": "https://api.semanticscholar.org/CorpusID:277095571"
+      },
+      {
+        "key": "BenAtya2025AgentBasedUA",
+        "title": "Agent-Based Uncertainty Awareness Improves Automated Radiology Report Labeling with an Open-Source Large Language Model",
+        "authors": "Hadas Ben-Atya and Naama Gavrielov and Zvi Badash and Gili Focht and Ruth Cytter-Kuint and Talar Hagopian and Dan Turner and Moti Freiman",
+        "year": "2025",
+        "url": "https://api.semanticscholar.org/CorpusID:276106818"
+      },
+      {
+        "key": "Borghoff_2025",
+        "title": "Human-artificial interaction in the age of agentic AI: a system-theoretical approach",
+        "authors": "Borghoff, Uwe M. and Bottoni, Paolo and Pareschi, Remo",
+        "year": "2025",
+        "url": "http://dx.doi.org/10.3389/fhumd.2025.1579166"
+      },
+      {
+        "key": "Cai2024UniSMARTUS",
+        "title": "Uni-SMART: Universal Science Multimodal Analysis and Research Transformer",
+        "authors": "Hengxing Cai and Xiaochen Cai and Shuwen Yang and Jiankun Wang and Lin Yao and Zhifeng Gao and Junhan Chang and Sihang Li and Mingjun Xu and Changxin Wang and Hongshuai Wang and Yongge Li and Mujie Lin and Yaqi Li and Yuqi Yin and Linfeng Zhang and Guolin Ke",
+        "year": "2024",
+        "url": "https://api.semanticscholar.org/CorpusID:268509923"
+      },
+      {
+        "key": "Chen2024DetectingAE",
+        "title": "Detecting and Evaluating Medical Hallucinations in Large Vision Language Models",
+        "authors": "Jiawei Chen and Dingkang Yang and Tong Wu and Yue Jiang and Xiaolu Hou and Mingcheng Li and Shunli Wang and Dongling Xiao and Ke Li and Lihua Zhang",
+        "year": "2024",
+        "url": "https://api.semanticscholar.org/CorpusID:270521409"
+      },
+      {
+        "key": "Cheng2024HaveAT",
+        "title": "Have AI-Generated Texts from LLM Infiltrated the Realm of Scientific Writing? A Large-Scale Analysis of Preprint Platforms",
+        "authors": "Huzi Cheng and Bin Sheng and Aaron Y. Lee and Varun Chaudary and Atanas Georgiev Atanasov and Nan Liu and Yue Qiu and Tien Yin Wong and Yih-Chung Tham and Yingfeng Zheng",
+        "year": "2024",
+        "url": "https://api.semanticscholar.org/CorpusID:268724393"
+      },
+      {
+        "key": "Contaldo2024AIIR",
+        "title": "AI in Radiology: Navigating Medical Responsibility",
+        "authors": "Maria Teresa Contaldo and Giovanni Pasceri and Giacomo Vignati and Laura Bracchi and Sonia Triggiani and Gianpaolo Carrafiello",
+        "year": "2024",
+        "url": "https://api.semanticscholar.org/CorpusID:271168475"
+      },
+      {
+        "key": "Cornelio2024RecoverAN",
+        "title": "Recover: A Neuro-Symbolic Framework for Failure Detection and Recovery",
+        "authors": "Cristina Cornelio and Mohammed Diab",
+        "year": "2024",
+        "url": "https://api.semanticscholar.org/CorpusID:268819965"
+      },
+      {
+        "key": "He2021automlsurvey",
+        "title": "AutoML: A survey of the state-of-the-art",
+        "authors": "He, Xin and Zhao, Kaiyong and Chu, Xiaowen",
+        "year": "2021",
+        "url": "http://dx.doi.org/10.1016/j.knosys.2020.106622"
+      },
+      {
+        "key": "Huang2025AutomatedHV",
+        "title": "Automated Hypothesis Validation with Agentic Sequential Falsifications",
+        "authors": "Kexin Huang and Ying Jin and Ryan Li and Michael Y. Li and Emmanuel Cand{\\`e",
+        "year": "2025",
+        "url": "https://api.semanticscholar.org/CorpusID:276394614"
+      },
+      {
+        "key": "Kargupta2025TreeofDebateMD",
+        "title": "Tree-of-Debate: Multi-Persona Debate Trees Elicit Critical Thinking for Scientific Comparative Analysis",
+        "authors": "Priyanka Kargupta and Ishika Agarwal and Tal August and Jiawei Han",
+        "year": "2025",
+        "url": "https://api.semanticscholar.org/CorpusID:276482936"
+      },
+      {
+        "key": "Li2023DeceptiveSS",
+        "title": "Deceptive Semantic Shortcuts on Reasoning Chains: How Far Can Models Go without Hallucination?",
+        "authors": "Bangzheng Li and Ben Zhou and Fei Wang and Xingyu Fu and Dan Roth and Muhao Chen",
+        "year": "2023",
+        "url": "https://api.semanticscholar.org/CorpusID:265220880"
+      },
+      {
+        "key": "Li2025HowTD",
+        "title": "How to Detect and Defeat Molecular Mirage: A Metric-Driven Benchmark for Hallucination in LLM-based Molecular Comprehension",
+        "authors": "Hao Li and Liuzhenghao Lv and He Cao and Zijing Liu and Zhiyuan Yan and Yu Wang and Yonghong Tian and Yu Li and Li Yuan",
+        "year": "2025",
+        "url": "https://api.semanticscholar.org/CorpusID:277857308"
+      },
+      {
+        "key": "Liu2025HypoBenchTS",
+        "title": "HypoBench: Towards Systematic and Principled Benchmarking for Hypothesis Generation",
+        "authors": "Haokun Liu and Sicong Huang and Jingyu Hu and Yangqiaoyu Zhou and Chenhao Tan",
+        "year": "2025",
+        "url": "https://api.semanticscholar.org/CorpusID:277824142"
+      },
+      {
+        "key": "Liu2025ResearchBenchBL",
+        "title": "ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition",
+        "authors": "Yujie Liu and Zonglin Yang and Tong Xie and Jinjie Ni and Ben Gao and Yuqiang Li and Shixiang Tang and Wanli Ouyang and Erik Cambria and Dongzhan Zhou",
+        "year": "2025",
+        "url": "https://api.semanticscholar.org/CorpusID:277349293"
+      },
+      {
+        "key": "Monaghan2021FoundationalSP",
+        "title": "Foundational Statistical Principles in Medical Research: Sensitivity, Specificity, Positive Predictive Value, and Negative Predictive Value",
+        "authors": "Thomas F. Monaghan and Syed N. Rahman and Christina W. Agudelo and Alan J. Wein and Jason M. Lazar and Karel Everaert and Roger R Dmochowski",
+        "year": "2021",
+        "url": "https://api.semanticscholar.org/CorpusID:235229140"
+      },
+      {
+        "key": "Qi2024GenerationOS",
+        "title": "Generation of Scientific Literature Surveys Based on Large Language Models (LLM) and Multi-Agent Systems (MAS)",
+        "authors": "Ruihua Qi and Weilong Li and Haobo Lyu",
+        "year": "2024",
+        "url": "https://api.semanticscholar.org/CorpusID:274130228"
+      },
+      {
+        "key": "Xiong2024ImprovingSH",
+        "title": "Improving Scientific Hypothesis Generation with Knowledge Grounded Large Language Models",
+        "authors": "Guangzhi Xiong and Eric Xie and Amir Hassan Shariatmadari and Sikun Guo and Stefan Bekiranov and Aidong Zhang",
+        "year": "2024",
+        "url": "https://api.semanticscholar.org/CorpusID:273821167"
+      },
+      {
+        "key": "Yang2024ConfidenceCA",
+        "title": "Confidence Calibration and Rationalization for LLMs via Multi-Agent Deliberation",
+        "authors": "Ruixin Yang and Dheeraj Rajagopal and Shirley Anugrah Hayati and Bin Hu and Dongyeop Kang",
+        "year": "2024",
+        "url": "https://api.semanticscholar.org/CorpusID:269149545"
+      },
+      {
+        "key": "Yuan2024LLaMPLL",
+        "title": "LLaMP: Large Language Model Made Powerful for High-fidelity Materials Knowledge Retrieval and Distillation",
+        "authors": "Chiang Yuan and Chia-Hong Chou and Janosh Riebesell",
+        "year": "2024",
+        "url": "https://api.semanticscholar.org/CorpusID:267320899"
+      },
+      {
+        "key": "Zhang2025MAPSAM",
+        "title": "Maps: A multi-agent framework based on big seven personality and socratic guidance for multimodal scientific problem solving",
+        "authors": "Zhang, Jian and Wang, Zhiyuan and Wang, Zhangqi and Zhang, Xinyu and Xu, Fangzhi and Lin, Qika and Mao, Rui and Cambria, Erik and Liu, Jun",
+        "year": "2025"
+      },
+      {
+        "key": "agarwal2025litllms",
+        "title": "LitLLMs, LLMs for Literature Review: Are we there yet?",
+        "authors": "Shubham Agarwal and Gaurav Sahu and Abhay Puri and Issam H. Laradji and Krishnamurthy DJ Dvijotham and Jason Stanley and Laurent Charlin and Christopher Pal",
+        "year": "2025"
+      },
+      {
+        "key": "alkan2025surveyhypothesis",
+        "title": "A Survey on Hypothesis Generation for Scientific Discovery in the Era of Large Language Models",
+        "authors": "Alkan, Atilla Kaan and Sourav, Shashwat and Jablonska, Maja and Astarita, Simone and Chakrabarty, Rishabh and Garuda, Nikhil and Khetarpal, Pranav and Pi{\\'o",
+        "year": "2025"
+      },
+      {
+        "key": "anjuma2025domain",
+        "title": "Domain Specific Benchmarks for Evaluating Multimodal Large Language Models",
+        "authors": "Anjuma, Khizar and Arshad, Muhammad Arbab and Hayawi, Kadhim and Polyzos, Efstathios and Tariq, Asadullah and Serhani, Mohamed Adel and Batool, Laiba and Lund, Brady and Mannuru, Nishith Reddy and Bevara, Ravi Varma Kumar and others",
+        "year": "2025"
+      },
+      {
+        "key": "atf2025challenge",
+        "title": "The challenge of uncertainty quantification of large language models in medicine",
+        "authors": "Zahra Atf and Seyed Amir Ahmad Safavi-Naini and Peter R. Lewis and Aref Mahjoubfar and Nariman Naderi and Thomas R. Savage and Ali Soroush",
+        "year": "2025"
+      },
+      {
+        "key": "bran2023chemcrow",
+        "title": "ChemCrow: Augmenting large-language models with chemistry tools",
+        "authors": "Andres M Bran and Sam Cox and Oliver Schilter and Carlo Baldassari and Andrew D White and Philippe Schwaller",
+        "year": "2023"
+      },
+      {
+        "key": "burgess2025microvqa",
+        "title": "MicroVQA: A Multimodal Reasoning Benchmark for Microscopy-Based Scientific Research",
+        "authors": "James Burgess and Jeffrey J Nirschl and Laura Bravo-Sánchez and Alejandro Lozano and Sanket Rajan Gupte and Jesus G. Galaz-Montoya and Yuhui Zhang and Yuchang Su and Disha Bhowmik and Zachary Coman and Sarina M. Hasan and Alexandra Johannesson and William D. Leineweber and Malvika G Nair and Ridhi Yarlagadda and Connor Zuraski and Wah Chiu and Sarah Cohen and Jan N. Hansen and Manuel D Leonetti and Chad Liu and Emma Lundberg and Serena Yeung-Levy",
+        "year": "2025"
+      },
+      {
+        "key": "cao2021scbenchmark",
+        "title": "A benchmark study of simulation methods for single-cell RNA sequencing data",
+        "authors": "Yue Cao and Kejie Li and Nicolas M{\\",
+        "year": "2021",
+        "url": "https://www.nature.com/articles/s41467-021-27130-w"
+      },
+      {
+        "key": "feurer2015efficient",
+        "title": "Efficient and robust automated machine learning",
+        "authors": "Feurer, Matthias and Klein, Aaron and Eggensperger, Katharina and Springenberg, Jost and Blum, Manuel and Hutter, Frank",
+        "year": "2015"
+      },
+      {
+        "key": "ghafarollahi2024protagents",
+        "title": "ProtAgents: protein discovery via large language model multi-agent collaborations combining physics and machine learning",
+        "authors": "Ghafarollahi, Alireza and Buehler, Markus J",
+        "year": "2024",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00013g"
+      },
+      {
+        "key": "ghareeb2025robin",
+        "title": "Robin: A multi-agent system for automating scientific discovery",
+        "authors": "Ghareeb, Ali Essam and Chang, Benjamin and Mitchener, Ludovico and Yiu, Angela and Szostkiewicz, Caralyn J and Laurent, Jon M and Razzak, Muhammed T and White, Andrew D and Hinks, Michaela M and Rodriques, Samuel G",
+        "year": "2025",
+        "url": "http://arxiv.org/abs/2505.13400"
+      },
+      {
+        "key": "gottweis2025accelerating",
+        "title": "Accelerating scientific breakthroughs with an AI co-scientist",
+        "authors": "Gottweis, Juraj and Natarajan, Vivek",
+        "year": "2025"
+      },
+      {
+        "key": "gottweis2025towards",
+        "title": "Towards an AI co-scientist",
+        "authors": "Gottweis, Juraj and Weng, Wei-Hung and Daryin, Alexander and Tu, Tao and Palepu, Anil and Sirkovic, Petar and Myaskovsky, Artiom and Weissenberger, Felix and Rong, Keran and Tanno, Ryutaro and others",
+        "year": "2025",
+        "url": "http://arxiv.org/abs/2502.18864"
+      },
+      {
+        "key": "guo2024ds",
+        "title": "Ds-agent: Automated data science by empowering large language models with case-based reasoning",
+        "authors": "Guo, Siyuan and Deng, Cheng and Wen, Ying and Chen, Hechang and Chang, Yi and Wang, Jun",
+        "year": "2024"
+      },
+      {
+        "key": "hamill2024ai",
+        "title": "AI Scientist LLM goes rogue: Creators warn of",
+        "authors": "Hamill, Jasper",
+        "year": "2024"
+      },
+      {
+        "key": "hemberg2024evolving",
+        "title": "Evolving Code with A Large Language Model",
+        "authors": "Erik Hemberg and Stephen Moskal and Una-May O'Reilly",
+        "year": "2024"
+      },
+      {
+        "key": "hou2025modelcontextprotocol",
+        "title": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions",
+        "authors": "Xinyi Hou and Yanjie Zhao and Shenao Wang and Haoyu Wang",
+        "year": "2025"
+      },
+      {
+        "key": "huang2024crispr",
+        "title": "Crispr-GPT: An LLM agent for automated design of gene-editing experiments",
+        "authors": "Huang, Kaixuan and Qu, Yuanhao and Cousins, Henry and Johnson, William A and Yin, Di and Shah, Mihir and Zhou, Denny and Altman, Russ and Wang, Mengdi and Cong, Le",
+        "year": "2024",
+        "url": "http://arxiv.org/abs/2404.18021"
+      },
+      {
+        "key": "jansen2024discoveryworld",
+        "title": "Discoveryworld: A virtual environment for developing and evaluating automated scientific discovery agents",
+        "authors": "Jansen, Peter and C{\\^o",
+        "year": "2024"
+      },
+      {
+        "key": "jansen2025codescientist",
+        "title": "Codescientist: End-to-end semi-automated scientific discovery with code-based experimentation",
+        "authors": "Jansen, Peter and Tafjord, Oyvind and Radensky, Marissa and Siangliulue, Pao and Hope, Tom and Mishra, Bhavana Dalvi and Majumder, Bodhisattwa Prasad and Weld, Daniel S and Clark, Peter",
+        "year": "2025"
+      },
+      {
+        "key": "jiang2025benchmarking",
+        "title": "Benchmarking large language models on multiple tasks in bioinformatics nlp with prompting",
+        "authors": "Jiang, Jiyue and Chen, Pengan and Wang, Jiuming and He, Dongchen and Wei, Ziqin and Hong, Liang and Zong, Licheng and Wang, Sheng and Yu, Qinze and Ma, Zixian and others",
+        "year": "2025"
+      },
+      {
+        "key": "jin2019pubmedqa",
+        "title": "PubMedQA: A Dataset for Biomedical Research Question Answering",
+        "authors": "Qiao Jin and Bhuwan Dhingra and Zhengping Liu and William W. Cohen and Xinghua Lu",
+        "year": "2019"
+      },
+      {
+        "key": "keat2024pgxqa",
+        "title": "PGxQA: A resource for evaluating LLM performance for pharmacogenomic QA tasks",
+        "authors": "Keat, Karl and Venkatesh, Rasika and Huang, Yidi and Kumar, Rachit and Tuteja, Sony and Sangkuhl, Katrin and Li, Binglan and Gong, Li and Whirl-Carrillo, Michelle and Klein, Teri E and others",
+        "year": "2024"
+      },
+      {
+        "key": "khandekar2024medcalc",
+        "title": "Medcalc-bench: Evaluating large language models for medical calculations",
+        "authors": "Khandekar, Nikhil and Jin, Qiao and Xiong, Guangzhi and Dunn, Soren and Applebaum, Serina and Anwar, Zain and Sarfo-Gyamfi, Maame and Safranek, Conrad and Anwar, Abid and Zhang, Andrew and others",
+        "year": "2024"
+      },
+      {
+        "key": "lee2024evaluating",
+        "title": "Evaluating Human-Language Model Interaction",
+        "authors": "Mina Lee and Megha Srivastava and Amelia Hardy and John Thickstun and Esin Durmus and Ashwin Paranjape and Ines Gerard-Ursin and Xiang Lisa Li and Faisal Ladhak and Frieda Rong and Rose E. Wang and Minae Kwon and Joon Sung Park and Hancheng Cao and Tony Lee and Rishi Bommasani and Michael Bernstein and Percy Liang",
+        "year": "2024"
+      },
+      {
+        "key": "li2023scigraphqa",
+        "title": "Scigraphqa: A large-scale synthetic multi-turn question-answering dataset for scientific graphs",
+        "authors": "Li, Shengzhi and Tajbakhsh, Nima",
+        "year": "2023"
+      },
+      {
+        "key": "li2024automated",
+        "title": "Automated statistical model discovery with language models",
+        "authors": "Li, Michael Y and Fox, Emily B and Goodman, Noah D",
+        "year": "2024"
+      },
+      {
+        "key": "lin2004rouge",
+        "title": "Rouge: A package for automatic evaluation of summaries",
+        "authors": "Lin, Chin-Yew",
+        "year": "2004"
+      },
+      {
+        "key": "liu2024drugagent",
+        "title": "Drugagent: Automating ai-aided drug discovery programming through llm multi-agent collaboration",
+        "authors": "Liu, Sizhe and Lu, Yizhou and Chen, Siyu and Hu, Xiyang and Zhao, Jieyu and Lu, Yingzhou and Zhao, Yue",
+        "year": "2024",
+        "url": "http://arxiv.org/abs/2411.15692"
+      },
+      {
+        "key": "liu2024tais",
+        "title": "Toward a Team of AI-made Scientists for Scientific Discovery from Gene Expression Data",
+        "authors": "Haoyang Liu and Yijiang Li and Jinglin Jian and Yuxuan Cheng and Jianrong Lu and Shuyi Guo and Jinglei Zhu and Mianchen Zhang and Miantong Zhang and Haohan Wang",
+        "year": "2024"
+      },
+      {
+        "key": "liu2025bioprobench",
+        "title": "BioProBench: Comprehensive Dataset and Benchmark in Biological Protocol Understanding and Reasoning",
+        "authors": "Yuyang Liu and Liuzhenghao Lv and Xiancheng Zhang and Li Yuan and Yonghong Tian",
+        "year": "2025"
+      },
+      {
+        "key": "liu2025vision",
+        "title": "A vision for auto research with llm agents",
+        "authors": "Liu, Chengwei and Wang, Chong and Cao, Jiayue and Ge, Jingquan and Wang, Kun and Zhang, Lyuye and Cheng, Ming-Ming and Zhao, Penghai and Li, Tianlin and Jia, Xiaojun and others",
+        "year": "2025"
+      },
+      {
+        "key": "lu2022scienceqa",
+        "title": "Perspectives for multimessenger astronomy with the next generation of gravitational-wave detectors and high-energy satellites",
+        "authors": "Ronchini, S. and Branchesi, M. and Oganesyan, G. and Banerjee, B. and Dupletsa, U. and Ghirlanda, G. and Harms, J. and Mapelli, M. and Santoliquido, F.",
+        "year": "2022",
+        "url": "http://dx.doi.org/10.1051/0004-6361/202243705"
+      },
+      {
+        "key": "lu2024ai",
+        "title": "The ai scientist: Towards fully automated open-ended scientific discovery",
+        "authors": "Lu, Chris and Lu, Cong and Lange, Robert Tjarko and Foerster, Jakob and Clune, Jeff and Ha, David",
+        "year": "2024",
+        "url": "http://arxiv.org/abs/2408.06292"
+      },
+      {
+        "key": "lu2024moleculeqa",
+        "title": "MoleculeQA: A dataset to evaluate factual accuracy in molecular comprehension",
+        "authors": "Lu, Xingyu and Cao, He and Liu, Zijing and Bai, Shengyuan and Chen, Leqing and Yao, Yuan and Zheng, Hai-Tao and Li, Yu",
+        "year": "2024"
+      },
+      {
+        "key": "luo2025benchmarking",
+        "title": "Benchmarking AI scientists in omics data-driven biological research",
+        "authors": "Luo, Erpai and Jia, Jinmeng and Xiong, Yifan and Li, Xiangyu and Guo, Xiaobo and Yu, Baoqi and Wei, Lei and Zhang, Xuegong",
+        "year": "2025"
+      },
+      {
+        "key": "luo2025intention",
+        "title": "From intention to implementation: automating biomedical research via LLMs",
+        "authors": "Luo, Yi and Shi, Linghang and Li, Yihao and Zhuang, Aobo and Gong, Yeyun and Liu, Ling and Lin, Chen",
+        "year": "2025"
+      },
+      {
+        "key": "m2024augmenting",
+        "title": "Augmenting large language models with chemistry tools",
+        "authors": "M. Bran, Andres and Cox, Sam and Schilter, Oliver and Baldassari, Carlo and White, Andrew D and Schwaller, Philippe",
+        "year": "2024",
+        "url": "https://www.nature.com/articles/s42256-024-00832-8"
+      },
+      {
+        "key": "mysinger2012dud-e",
+        "title": "Directory of Useful Decoys, Enhanced (DUD-E): Better Ligands and Decoys for Better Benchmarking",
+        "authors": "Mysinger, Michael M. and Carchia, Michael and Irwin, John. J. and Shoichet, Brian K.",
+        "year": "2012",
+        "url": "https://doi.org/10.1021/jm300687e"
+      },
+      {
+        "key": "odonoghue2023bioplanner",
+        "title": "BioPlanner: Automatic Evaluation of LLMs on Protocol Planning in Biology",
+        "authors": "Odhran O'Donoghue and Aleksandar Shtedritski and John Ginger and Ralph Abboud and Ali Essa Ghareeb and Justin Booth and Samuel G Rodriques",
+        "year": "2023"
+      },
+      {
+        "key": "padhi2025calibrating",
+        "title": "Calibrating Uncertainty Quantification of Multi-Modal LLMs using Grounding",
+        "authors": "Trilok Padhi and Ramneet Kaur and Adam D. Cobb and Manoj Acharya and Anirban Roy and Colin Samplawski and Brian Matejek and Alexander M. Berenbeim and Nathaniel D. Bastian and Susmit Jha",
+        "year": "2025"
+      },
+      {
+        "key": "papineni2002bleu",
+        "title": "Bleu: a method for automatic evaluation of machine translation",
+        "authors": "Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing",
+        "year": "2002"
+      },
+      {
+        "key": "qi2024largelanguagemodelsbiomedical",
+        "title": "Large Language Models as Biomedical Hypothesis Generators: A Comprehensive Evaluation",
+        "authors": "Biqing Qi and Kaiyan Zhang and Kai Tian and Haoxiang Li and Zhang-Ren Chen and Sihang Zeng and Ermo Hua and Hu Jinfang and Bowen Zhou",
+        "year": "2024"
+      },
+      {
+        "key": "royer2024omega",
+        "title": "Omega—harnessing the power of large language models for bioimage analysis",
+        "authors": "Royer, Lo{\\",
+        "year": "2024",
+        "url": "https://www.nature.com/articles/s41592-024-02310-w"
+      },
+      {
+        "key": "schmidgall2501agent",
+        "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+        "authors": "Samuel Schmidgall and Yusheng Su and Ze Wang and Ximeng Sun and Jialian Wu and Xiaodong Yu and Jiang Liu and Michael Moor and Zicheng Liu and Emad Barsoum",
+        "year": "2025"
+      },
+      {
+        "key": "selinger2024framework",
+        "title": "A Framework for Autonomous AI-Driven Drug Discovery",
+        "authors": "Selinger, Douglas W and Wall, Timothy R and Stylianou, Eleni and Khalil, Ehab M and Gaetz, Jedidiah and Levy, Oren",
+        "year": "2024",
+        "url": "https://www.biorxiv.org/content/10.1101/2024.12.17.629024v2"
+      },
+      {
+        "key": "shao2025cogym",
+        "title": "Collaborative Gym: A Framework for Enabling and Evaluating Human-Agent Collaboration",
+        "authors": "Yijia Shao and Vinay Samuel and Yucheng Jiang and John Yang and Diyi Yang",
+        "year": "2025"
+      },
+      {
+        "key": "si2024llmsgeneratenovelresearch",
+        "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers",
+        "authors": "Chenglei Si and Diyi Yang and Tatsunori Hashimoto",
+        "year": "2024"
+      },
+      {
+        "key": "skarlinski2025futurehouse",
+        "title": "Futurehouse platform: Superintelligent ai agents for scientific discovery",
+        "authors": "Skarlinski, Michael and Nadolski, Tyler and Braza, James and Storni, Remo and Caldas, Mayk and Mitchener, Ludovico and Hinks, Michaela and White, Andrew and Rodriques, Sam",
+        "year": "2025"
+      },
+      {
+        "key": "swanson2025virtual",
+        "title": "The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies",
+        "authors": "Swanson, Kyle and Wu, Wesley and Bulaong, Nash L and Pak, John E and Zou, James",
+        "year": "2025"
+      },
+      {
+        "key": "szymanski2023autonomous",
+        "title": "An autonomous laboratory for the accelerated synthesis of novel materials",
+        "authors": "Szymanski, Nathan J and Rendy, Bernardus and Fei, Yuxing and Kumar, Rishi E and He, Tanjin and Milsted, David and McDermott, Matthew J and Gallant, Max and Cubuk, Ekin Dogus and Merchant, Amil and others",
+        "year": "2023",
+        "url": "https://www.nature.com/articles/s41586-023-06734-w"
+      },
+      {
+        "key": "tang2023biocoder",
+        "title": "Biocoder: A benchmark for bioinformatics code generation with contextual pragmatic knowledge",
+        "authors": "Tang, Xiangru and Qian, Bill and Gao, Rick and Chen, Jiakang and Chen, Xinyun and Gerstein, Mark",
+        "year": "2023"
+      },
+      {
+        "key": "tang2025airesearcher",
+        "title": "AI-Researcher: Autonomous Scientific Innovation",
+        "authors": "Jiabin Tang and Lianghao Xia and Zhonghang Li and Chao Huang",
+        "year": "2025"
+      },
+      {
+        "key": "tu2024Med-PaLM-M",
+        "title": "Towards generalist biomedical AI",
+        "authors": "Tu, Tao and Azizi, Shekoofeh and Driess, Danny and Schaekermann, Mike and Amin, Mohamed and Chang, Pi-Chuan and Carroll, Andrew and Lau, Charles and Tanno, Ryutaro and Ktena, Ira and others",
+        "year": "2024"
+      },
+      {
+        "key": "wang2023proteinlmbench",
+        "title": "A Fine-tuning Dataset and Benchmark for Large Language Models for Protein Understanding",
+        "authors": "Yiqing Shen and Zan Chen and Michail Mamalakis and Luhan He and Haiyang Xia and Tianbin Li and Yanzhou Su and Junjun He and Yu Guang Wang",
+        "year": "2024"
+      },
+      {
+        "key": "wang2024scimon",
+        "title": "SciMON: Scientific Inspiration Machines Optimized for Novelty",
+        "authors": "Wang, Qingyun and Downey, Doug and Ji, Heng and Hope, Tom",
+        "year": "2024",
+        "url": "http://dx.doi.org/10.18653/v1/2024.acl-long.18"
+      },
+      {
+        "key": "xue2025improve",
+        "title": "Improve: Iterative model pipeline refinement and optimization leveraging llm agents",
+        "authors": "Xue, Eric and Huang, Zeyi and Ji, Yuyang and Wang, Haohan",
+        "year": "2025"
+      },
+      {
+        "key": "yamada2025ai",
+        "title": "The ai scientist-v2: Workshop-level automated scientific discovery via agentic tree search",
+        "authors": "Yamada, Yutaro and Lange, Robert Tjarko and Lu, Cong and Hu, Shengran and Lu, Chris and Foerster, Jakob and Clune, Jeff and Ha, David",
+        "year": "2025"
+      },
+      {
+        "key": "yang2024moose",
+        "title": "MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses",
+        "authors": "Zonglin Yang and Wanhao Liu and Ben Gao and Tong Xie and Yuqiang Li and Wanli Ouyang and Soujanya Poria and Erik Cambria and Dongzhan Zhou",
+        "year": "2025"
+      },
+      {
+        "key": "zhang2020bertscore",
+        "title": "BERTScore: Evaluating Text Generation with BERT",
+        "authors": "Tianyi Zhang and Varsha Kishore and Felix Wu and Kilian Q. Weinberger and Yoav Artzi",
+        "year": "2020"
+      },
+      {
+        "key": "zhang2025evolving",
+        "title": "The Evolving Role of Large Language Models in Scientific Innovation: Evaluator, Collaborator, and Scientist",
+        "authors": "Haoxuan Zhang and Ruochi Li and Yang Zhang and Ting Xiao and Jiangping Chen and Junhua Ding and Haihua Chen",
+        "year": "2025"
+      },
+      {
+        "key": "zhang2025exploring",
+        "title": "Exploring Collaboration Patterns and Strategies in Human-AI Co-creation through the Lens of Agency: A Scoping Review of the Top-tier HCI Literature",
+        "authors": "Zhang, Shuning and Wang, Hui and Yi, Xin",
+        "year": "2025"
+      },
+      {
+        "key": "zhou2024ai",
+        "title": "An AI Agent for Fully Automated Multi-Omic Analyses",
+        "authors": "Zhou, Juexiao and Zhang, Bin and Li, Guowei and Chen, Xiuying and Li, Haoyang and Xu, Xiaopeng and Chen, Siyuan and He, Wenjia and Xu, Chencheng and Liu, Liwei and others",
+        "year": "2024",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202407094"
+      }
+    ]
+  },
+  {
+    "section": "Related Survey",
+    "citation_count": 58,
+    "papers": [
+      {
+        "key": "Ahmed2022prottrans",
+        "title": "{ ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning",
+        "authors": "Elnaggar, Ahmed and Heinzinger, Michael and Dallago, Christian and Rehawi, Ghalia and Wang, Yu and Jones, Llion and Gibbs, Tom and Feher, Tamas and Angerer, Christoph and Steinegger, Martin and Bhowmik, Debsindhu and Rost, Burkhard",
+        "year": "2022",
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TPAMI.2021.3095381"
+      },
+      {
+        "key": "Theodoris2023Geneformer",
+        "title": "Transfer learning enables predictions in network biology",
+        "authors": "Theodoris, Christina V and Xiao, Ling and Chopra, Anant and Chaffin, Mark D and Al Sayed, Zeina R and Hill, Matthew C and Mantineo, Helene and Brydon, Elizabeth M and Zeng, Zexian and Liu, X Shirley and others",
+        "year": "2023"
+      },
+      {
+        "key": "ahmad2022chemberta",
+        "title": "Chemberta-2: Towards chemical foundation models",
+        "authors": "Ahmad, Walid and Simon, Elana and Chithrananda, Seyone and Grand, Gabriel and Ramsundar, Bharath",
+        "year": "2022"
+      },
+      {
+        "key": "barman2025large",
+        "title": "Large Physics Models: Towards a collaborative approach with Large Language Models and Foundation Models",
+        "authors": "Barman, Kristian G and Caron, Sascha and Sullivan, Emily and de Regt, Henk W and de Austri, Roberto Ruiz and Boon, Mieke and F{\\",
+        "year": "2025"
+      },
+      {
+        "key": "beltagy2019scibert",
+        "title": "SciBERT: A pretrained language model for scientific text",
+        "authors": "Beltagy, Iz and Lo, Kyle and Cohan, Arman",
+        "year": "2019"
+      },
+      {
+        "key": "burgess2025microvqa",
+        "title": "MicroVQA: A Multimodal Reasoning Benchmark for Microscopy-Based Scientific Research",
+        "authors": "James Burgess and Jeffrey J Nirschl and Laura Bravo-Sánchez and Alejandro Lozano and Sanket Rajan Gupte and Jesus G. Galaz-Montoya and Yuhui Zhang and Yuchang Su and Disha Bhowmik and Zachary Coman and Sarina M. Hasan and Alexandra Johannesson and William D. Leineweber and Malvika G Nair and Ridhi Yarlagadda and Connor Zuraski and Wah Chiu and Sarah Cohen and Jan N. Hansen and Manuel D Leonetti and Chad Liu and Emma Lundberg and Serena Yeung-Levy",
+        "year": "2025"
+      },
+      {
+        "key": "chen2024vision",
+        "title": "A Vision-Language foundation model to enhance efficiency of chest x-ray interpretation",
+        "authors": "Chen, Z and Varma, M and Delbrouck, JB and others",
+        "year": "2024"
+      },
+      {
+        "key": "cox2024brainsegfounder",
+        "title": "BrainSegFounder: towards 3D foundation models for neuroimage segmentation",
+        "authors": "Cox, Joseph and Liu, Peng and Stolte, Skylar E and Yang, Yunchao and Liu, Kang and See, Kyle B and Ju, Huiwen and Fang, Ruogu",
+        "year": "2024"
+      },
+      {
+        "key": "cui2024scgpt",
+        "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
+        "authors": "Cui, Haotian and Wang, Chloe and Maan, Hassaan and Pang, Kuan and Luo, Fengning and Duan, Nan and Wang, Bo",
+        "year": "2024"
+      },
+      {
+        "key": "dinu2024symbolicai",
+        "title": "SymbolicAI: A framework for logic-based approaches combining generative models and solvers",
+        "authors": "Marius-Constantin Dinu and Claudiu Leoveanu-Condrei and Markus Holzleitner and Werner Zellinger and Sepp Hochreiter",
+        "year": "2024"
+      },
+      {
+        "key": "fang2023kg",
+        "title": "Knowledge graph-enhanced molecular contrastive learning with functional prompt",
+        "authors": "Fang, Yin and Zhang, Qiang and Zhang, Ningyu and Chen, Zhuo and Zhuang, Xiang and Shao, Xin and Fan, Xiaohui and Chen, Huajun",
+        "year": "2023"
+      },
+      {
+        "key": "gilmer2017neural",
+        "title": "Neural message passing for quantum chemistry",
+        "authors": "Gilmer, Justin and Schoenholz, Samuel S and Riley, Patrick F and Vinyals, Oriol and Dahl, George E",
+        "year": "2017"
+      },
+      {
+        "key": "gridach2025agentic",
+        "title": "Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions",
+        "authors": "Mourad Gridach and Jay Nanavati and Khaldoun Zine El Abidine and Lenon Mendes and Christina Mack",
+        "year": "2025"
+      },
+      {
+        "key": "gu2021domain",
+        "title": "Domain-specific language model pretraining for biomedical natural language processing",
+        "authors": "Gu, Yu and Tinn, Robert and Cheng, Hao and Lucas, Michael and Usuyama, Naoto and Liu, Xiaodong and Naumann, Tristan and Gao, Jianfeng and Poon, Hoifung",
+        "year": "2021"
+      },
+      {
+        "key": "hu2025surveyscientificlargelanguage",
+        "title": "A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers",
+        "authors": "Ming Hu and Chenglong Ma and Wei Li and Wanghan Xu and Jiamin Wu and Jucheng Hu and Tianbin Li and Guohang Zhuang and Jiaqi Liu and Yingzhou Lu and Ying Chen and Chaoyang Zhang and Cheng Tan and Jie Ying and Guocheng Wu and Shujian Gao and Pengcheng Chen and Jiashi Lin and Haitao Wu and Lulu Chen and Fengxiang Wang and Yuanyuan Zhang and Xiangyu Zhao and Feilong Tang and Encheng Su and Junzhi Ning and Xinyao Liu and Ye Du and Changkai Ji and Cheng Tang and Huihui Xu and Ziyang Chen and Ziyan Huang and Jiyao Liu and Pengfei Jiang and Yizhou Wang and Chen Tang and Jianyu Wu and Yuchen Ren and Siyuan Yan and Zhonghua Wang and Zhongxing Xu and Shiyan Su and Shangquan Sun and Runkai Zhao and Zhisheng Zhang and Yu Liu and Fudi Wang and Yuanfeng Ji and Yanzhou Su and Hongming Shan and Chunmei Feng and Jiahao Xu and Jiangtao Yan and Wenhao Tang and Diping Song and Lihao Liu and Yanyan Huang and Lequan Yu and Bin Fu and Shujun Wang and Xiaomeng Li and Xiaowei Hu and Yun Gu and Ben Fei and Zhongying Deng and Benyou Wang and Yuewen Cao and Minjie Shen and Haodong Duan and Jie Xu and Yirong Chen and Fang Yan and Hongxia Hao and Jielan Li and Jiajun Du and Yanbo Wang and Imran Razzak and Chi Zhang and Lijun Wu and Conghui He and Zhaohui Lu and Jinhai Huang and Yihao Liu and Fenghua Ling and Yuqiang Li and Aoran Wang and Qihao Zheng and Nanqing Dong and Tianfan Fu and Dongzhan Zhou and Yan Lu and Wenlong Zhang and Jin Ye and Jianfei Cai and Wanli Ouyang and Yu Qiao and Zongyuan Ge and Shixiang Tang and Junjun He and Chunfeng Song and Lei Bai and Bowen Zhou",
+        "year": "2025"
+      },
+      {
+        "key": "jumper2021highly",
+        "title": "Highly accurate protein structure prediction with AlphaFold",
+        "authors": "Jumper, John and Evans, Richard and Pritzel, Alexander and Green, Tim and Figurnov, Michael and Ronneberger, Olaf and Tunyasuvunakool, Kathryn and Bates, Russ and {\\v{Z",
+        "year": "2021"
+      },
+      {
+        "key": "lei2024bioimage",
+        "title": "BioImage. IO Chatbot: a community-driven AI assistant for integrative computational bioimaging",
+        "authors": "Lei, Wanlu and Fuster-Barcel{\\'o",
+        "year": "2024",
+        "url": "https://www.nature.com/articles/s41592-024-02370-y"
+      },
+      {
+        "key": "levine2023cell2sentence",
+        "title": "Cell2sentence: Teaching large language models the language of biology. bioRxiv",
+        "authors": "Levine, Daniel and L{\\'e",
+        "year": "2023"
+      },
+      {
+        "key": "li2023llava",
+        "title": "Llava-med: Training a large language-and-vision assistant for biomedicine in one day",
+        "authors": "Li, Chunyuan and Wong, Cliff and Zhang, Sheng and Usuyama, Naoto and Liu, Haotian and Yang, Jianwei and Naumann, Tristan and Poon, Hoifung and Gao, Jianfeng",
+        "year": "2023"
+      },
+      {
+        "key": "lim2021temporal",
+        "title": "Temporal fusion transformers for interpretable multi-horizon time series forecasting",
+        "authors": "Lim, Bryan and Ar{\\i",
+        "year": "2021"
+      },
+      {
+        "key": "lu2024multimodal",
+        "title": "A multimodal generative AI copilot for human pathology",
+        "authors": "Lu, Ming Y and Chen, Bowen and Williamson, Drew FK and Chen, Richard J and Zhao, Melissa and Chow, Aaron K and Ikemura, Kenji and Kim, Ahrong and Pouli, Dimitra and Patel, Ankush and others",
+        "year": "2024"
+      },
+      {
+        "key": "luo2025llm4sr",
+        "title": "LLM4SR: A Survey on Large Language Models for Scientific Research",
+        "authors": "Ziming Luo and Zonglin Yang and Zexin Xu and Wei Yang and Xinya Du",
+        "year": "2025"
+      },
+      {
+        "key": "ma2024segment",
+        "title": "Segment anything in medical images",
+        "authors": "Ma, Jun and He, Yuting and Li, Feifei and Han, Lin and You, Chenyu and Wang, Bo",
+        "year": "2024"
+      },
+      {
+        "key": "meidani2023snip",
+        "title": "Snip: Bridging mathematical symbolic and numeric realms with unified pre-training",
+        "authors": "Meidani, Kazem and Shojaee, Parshin and Reddy, Chandan K and Farimani, Amir Barati",
+        "year": "2023"
+      },
+      {
+        "key": "newman2011structure",
+        "title": "The structure and dynamics of networks",
+        "authors": "Newman, Mark and Barab{\\'a",
+        "year": "2011"
+      },
+      {
+        "key": "paliwal2019graph",
+        "title": "Graph Representations for Higher-Order Logic and Theorem Proving",
+        "authors": "Paliwal, Aditya and Loos, Sarah M. and Rabe, Markus N. and Bansal, Kshitij and Szegedy, Christian",
+        "year": "2019"
+      },
+      {
+        "key": "polu2020generative",
+        "title": "Generative Language Modeling for Automated Theorem Proving",
+        "authors": "Stanislas Polu and Ilya Sutskever",
+        "year": "2020",
+        "url": "https://arxiv.org/abs/2009.03393"
+      },
+      {
+        "key": "pyzer2025foundation",
+        "title": "Foundation models for materials discovery--current state and future directions",
+        "authors": "Pyzer-Knapp, Edward O and Manica, Matteo and Staar, Peter and Morin, Lucas and Ruch, Patrick and Laino, Teodoro and Smith, John R and Curioni, Alessandro",
+        "year": "2025"
+      },
+      {
+        "key": "ren2025scientific",
+        "title": "Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents",
+        "authors": "Shuo Ren and Pu Jian and Zhenjiang Ren and Chunlin Leng and Can Xie and Jiajun Zhang",
+        "year": "2025"
+      },
+      {
+        "key": "richard2024chatnt",
+        "title": "A multimodal conversational agent for DNA, RNA and protein tasks",
+        "authors": "de Almeida, Bernardo P. and Richard, Guillaume and Dalla-Torre, Hugo and Blum, Christopher and Hexemer, Lorenz and Pandey, Priyanka and Laurent, Stefan and Rajesh, Chandana and Lopez, Marie and Laterre, Alexandre and Lang, Maren and {\\c{S",
+        "year": "2025",
+        "url": "https://doi.org/10.1038/s42256-025-01047-1"
+      },
+      {
+        "key": "royer2024omega",
+        "title": "Omega—harnessing the power of large language models for bioimage analysis",
+        "authors": "Royer, Lo{\\",
+        "year": "2024",
+        "url": "https://www.nature.com/articles/s41592-024-02310-w"
+      },
+      {
+        "key": "schaar2024nicheformer",
+        "title": "Nicheformer: a foundation model for single-cell and spatial omics",
+        "authors": "Schaar, Anna C and Tejada-Lapuerta, Alejandro and Palla, Giovanni and Gutgesell, Robert and Halle, Lennard and Minaeva, Mariia and Vornholz, Larsen and Dony, Leander and Drummer, Francesca and Bahrami, Mojtaba and others",
+        "year": "2024"
+      },
+      {
+        "key": "selinger2024framework",
+        "title": "A Framework for Autonomous AI-Driven Drug Discovery",
+        "authors": "Selinger, Douglas W and Wall, Timothy R and Stylianou, Eleni and Khalil, Ehab M and Gaetz, Jedidiah and Levy, Oren",
+        "year": "2024",
+        "url": "https://www.biorxiv.org/content/10.1101/2024.12.17.629024v2"
+      },
+      {
+        "key": "shin2020biomegatron",
+        "title": "BioMegatron: larger biomedical domain language model",
+        "authors": "Shin, Hoo-Chang and Zhang, Yang and Bakhturina, Evelina and Puri, Raul and Patwary, Mostofa and Shoeybi, Mohammad and Mani, Raghav",
+        "year": "2020"
+      },
+      {
+        "key": "smbatyan2025aiagentsdesignimplement",
+        "title": "Can AI Agents Design and Implement Drug Discovery Pipelines?",
+        "authors": "Khachik Smbatyan and Tsolak Ghukasyan and Tigran Aghajanyan and Hovhannes Dabaghyan and Sergey Adamyan and Aram Bughdaryan and Vahagn Altunyan and Gagik Navasardyan and Aram Davtyan and Anush Hakobyan and Aram Gharibyan and Arman Fahradyan and Artur Hakobyan and Hasmik Mnatsakanyan and Narek Ginoyan and Garik Petrosyan",
+        "year": "2025"
+      },
+      {
+        "key": "song2025leancopilot",
+        "title": "Lean Copilot: Large Language Models as Copilots for Theorem Proving in Lean",
+        "authors": "Peiyang Song and Kaiyu Yang and Anima Anandkumar",
+        "year": "2025"
+      },
+      {
+        "key": "touati2020anomaly",
+        "title": "Anomaly feature learning for unsupervised change detection in heterogeneous images: A deep sparse residual model",
+        "authors": "Touati, Redha and Mignotte, Max and Dahmane, Mohamed",
+        "year": "2020"
+      },
+      {
+        "key": "trinh2024solving",
+        "title": "Solving olympiad geometry without human demonstrations",
+        "authors": "Trinh, Trieu H and Wu, Yuhuai and Le, Quoc V and He, He and Luong, Thang",
+        "year": "2024"
+      },
+      {
+        "key": "tu2024Med-PaLM-M",
+        "title": "Towards generalist biomedical AI",
+        "authors": "Tu, Tao and Azizi, Shekoofeh and Driess, Danny and Schaekermann, Mike and Amin, Mohamed and Chang, Pi-Chuan and Carroll, Andrew and Lau, Charles and Tanno, Ryutaro and Ktena, Ira and others",
+        "year": "2024"
+      },
+      {
+        "key": "wang2019SMILES-BERT",
+        "title": "SMILES-BERT: Large Scale Unsupervised Pre-Training for Molecular Property Prediction",
+        "authors": "Wang, Sheng and Guo, Yuzhi and Wang, Yuhong and Sun, Hongmao and Huang, Junzhou",
+        "year": "2019",
+        "url": "https://doi.org/10.1145/3307339.3342186"
+      },
+      {
+        "key": "wei2025fromaiforscience",
+        "title": "From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery",
+        "authors": "Jiaqi Wei and Yuejin Yang and Xiang Zhang and Yuhan Chen and Xiang Zhuang and Zhangyang Gao and Dongzhan Zhou and Guangshuai Wang and Zhiqiang Gao and Juntai Cao and Zijie Qiu and Xuming He and Qiang Zhang and Chenyu You and Shuangjia Zheng and Ning Ding and Wanli Ouyang and Nanqing Dong and Yu Cheng and Siqi Sun and Lei Bai and Bowen Zhou",
+        "year": "2025"
+      },
+      {
+        "key": "wen2022transformers",
+        "title": "Transformers in time series: A survey",
+        "authors": "Wen, Qingsong and Zhou, Tian and Zhang, Chaoli and Chen, Weiqi and Ma, Ziqing and Yan, Junchi and Sun, Liang",
+        "year": "2022"
+      },
+      {
+        "key": "wen2023single",
+        "title": "Single cells are spatial tokens: Transformers for spatial transcriptomic data imputation",
+        "authors": "Wen, Hongzhi and Tang, Wenzhuo and Jin, Wei and Ding, Jiayuan and Liu, Renming and Dai, Xinnan and Shi, Feng and Shang, Lulu and Liu, Hui and Xie, Yuying",
+        "year": "2023"
+      },
+      {
+        "key": "wen2024cellplm",
+        "title": "CellPLM: pre-training of cell language model beyond single cells",
+        "authors": "Wen, Hongzhi and Tang, Wenzhuo and Dai, Xinnan and Ding, Jiayuan and Jin, Wei and Xie, Yuying and Tang, Jiliang",
+        "year": "2023"
+      },
+      {
+        "key": "wu2019survey",
+        "title": "A Comprehensive Survey on Graph Neural Networks",
+        "authors": "Zonghan Wu and Shirui Pan and Fengwen Chen and Guodong Long and Chengqi Zhang and Philip S. Yu",
+        "year": "2019",
+        "url": "http://arxiv.org/abs/1901.00596"
+      },
+      {
+        "key": "xiang2024molecular",
+        "title": "A molecular video-derived foundation model for scientific drug discovery",
+        "authors": "Xiang, Hongxin and Zeng, Li and Hou, Linlin and Li, Kenli and Fu, Zhimin and Qiu, Yunguang and Nussinov, Ruth and Hu, Jianying and Rosen-Zvi, Michal and Zeng, Xiangxiang and others",
+        "year": "2024"
+      },
+      {
+        "key": "xu2023multimodal",
+        "title": "Multimodal biological knowledge graph completion via triple co-attention mechanism",
+        "authors": "Xu, Derong and Zhou, Jingbo and Xu, Tong and Xia, Yuan and Liu, Ji and Chen, Enhong and Dou, Dejing",
+        "year": "2023"
+      },
+      {
+        "key": "zeng2019graphsaint",
+        "title": "GraphSAINT: Graph Sampling Based Inductive Learning Method",
+        "authors": "Hanqing Zeng and Hongkuan Zhou and Ajitesh Srivastava and Rajgopal Kannan and Viktor K. Prasanna",
+        "year": "2019",
+        "url": "http://arxiv.org/abs/1907.04931"
+      },
+      {
+        "key": "zhang2023biomedclip",
+        "title": "A Multimodal Biomedical Foundation Model Trained from Fifteen Million Image–Text Pairs",
+        "authors": "Sheng Zhang and Yanbo Xu and Naoto Usuyama and Hanwen Xu and Jaspreet Bagga and Robert Tinn and Sam Preston and Rajesh Rao and Mu Wei and Naveen Valluri and Cliff Wong and Andrea Tupini and Yu Wang and Matt Mazzola and Swadheen Shukla and Lars Liden and Jianfeng Gao and Angela Crabtree and Brian Piening and Carlo Bifulco and Matthew P. Lungren and Tristan Naumann and Sheng Wang and Hoifung Poon",
+        "year": "2025",
+        "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2400640"
+      },
+      {
+        "key": "zhang2024biomedclip",
+        "title": "BiomedCLIP: a multimodal biomedical foundation model pretrained from fifteen million scientific image-text pairs",
+        "authors": "Sheng Zhang and Yanbo Xu and Naoto Usuyama and Hanwen Xu and Jaspreet Bagga and Robert Tinn and Sam Preston and Rajesh Rao and Mu Wei and Naveen Valluri and Cliff Wong and Andrea Tupini and Yu Wang and Matt Mazzola and Swadheen Shukla and Lars Liden and Jianfeng Gao and Angela Crabtree and Brian Piening and Carlo Bifulco and Matthew P. Lungren and Tristan Naumann and Sheng Wang and Hoifung Poon",
+        "year": "2024"
+      },
+      {
+        "key": "zhang2025scientific",
+        "title": "Scientific large language models: A survey on biological \\& chemical domains",
+        "authors": "Zhang, Qiang and Ding, Keyan and Lv, Tianwen and Wang, Xinda and Yin, Qingyu and Zhang, Yiwen and Yu, Jing and Wang, Yuhao and Li, Xiaotong and Xiang, Zhuoyi and others",
+        "year": "2025"
+      },
+      {
+        "key": "zhang2025surveyexploring",
+        "title": "Exploring the role of large language models in the scientific method: from hypothesis to discovery",
+        "authors": "Zhang, Yanbo and Khan, Sumeer A and Mahmud, Adnan and Yang, Huck and Lavin, Alexander and Levin, Michael and Frey, Jeremy and Dunnmon, Jared and Evans, James and Bundy, Alan and others",
+        "year": "2025"
+      }
+    ]
+  },
+  {
+    "section": "Future Work",
+    "citation_count": 24,
+    "papers": [
+      {
+        "key": "Autoscience2025meet",
+        "title": "Meet Carl: The first AI system to produce academically peer-reviewed research",
+        "authors": "{Autoscience Institute",
+        "year": "2025"
+      },
+      {
+        "key": "Hastings2023AI",
+        "title": "AI for Scientific Discovery",
+        "authors": "J. Hastings",
+        "year": "2023",
+        "url": "https://doi.org/10.1201/9781003226642"
+      },
+      {
+        "key": "acosta2022multimodal",
+        "title": "Multimodal biomedical AI",
+        "authors": "Acosta, Juli{\\'a",
+        "year": "2022",
+        "url": "https://www.nature.com/articles/s41591-022-01981-2"
+      },
+      {
+        "key": "barman2025large",
+        "title": "Large Physics Models: Towards a collaborative approach with Large Language Models and Foundation Models",
+        "authors": "Barman, Kristian G and Caron, Sascha and Sullivan, Emily and de Regt, Henk W and de Austri, Roberto Ruiz and Boon, Mieke and F{\\",
+        "year": "2025"
+      },
+      {
+        "key": "chen2025scienceagentbench",
+        "title": "ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
+        "authors": "Ziru Chen and Shijie Chen and Yuting Ning and Qianheng Zhang and Boshi Wang and Botao Yu and Yifei Li and Zeyi Liao and Chen Wei and Zitong Lu and Vishal Dey and Mingyi Xue and Frazier N. Baker and Benjamin Burns and Daniel Adu-Ampratwum and Xuhui Huang and Xia Ning and Song Gao and Yu Su and Huan Sun",
+        "year": "2025"
+      },
+      {
+        "key": "gridach2025agentic",
+        "title": "Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions",
+        "authors": "Mourad Gridach and Jay Nanavati and Khaldoun Zine El Abidine and Lenon Mendes and Christina Mack",
+        "year": "2025"
+      },
+      {
+        "key": "jansen2024discoveryworld",
+        "title": "Discoveryworld: A virtual environment for developing and evaluating automated scientific discovery agents",
+        "authors": "Jansen, Peter and C{\\^o",
+        "year": "2024"
+      },
+      {
+        "key": "keat2024pgxqa",
+        "title": "PGxQA: A resource for evaluating LLM performance for pharmacogenomic QA tasks",
+        "authors": "Keat, Karl and Venkatesh, Rasika and Huang, Yidi and Kumar, Rachit and Tuteja, Sony and Sangkuhl, Katrin and Li, Binglan and Gong, Li and Whirl-Carrillo, Michelle and Klein, Teri E and others",
+        "year": "2024"
+      },
+      {
+        "key": "liu2025deploymentcentric",
+        "title": "Towards deployment-centric multimodal AI beyond vision and language",
+        "authors": "Xianyuan Liu and Jiayang Zhang and Shuo Zhou and Thijs L. van der Plas and Avish Vijayaraghavan and Anastasiia Grishina and Mengdie Zhuang and Daniel Schofield and Christopher Tomlinson and Yuhan Wang and Ruizhe Li and Louisa van Zeeland and Sina Tabakhi and Cyndie Demeocq and Xiang Li and Arunav Das and Orlando Timmerman and Thomas Baldwin-McDonald and Jinge Wu and Peizhen Bai and Zahraa Al Sahili and Omnia Alwazzan and Thao N. Do and Mohammod N. I. Suvon and Angeline Wang and Lucia Cipolina-Kun and Luigi A. Moretti and Lucas Farndale and Nitisha Jain and Natalia Efremova and Yan Ge and Marta Varela and Hak-Keung Lam and Oya Celiktutan and Ben R. Evans and Alejandro Coca-Castro and Honghan Wu and Zahraa S. Abdallah and Chen Chen and Valentin Danchev and Nataliya Tkachenko and Lei Lu and Tingting Zhu and Gregory G. Slabaugh and Roger K. Moore and William K. Cheung and Peter H. Charlton and Haiping Lu",
+        "year": "2025"
+      },
+      {
+        "key": "luo2025automateseehiddenpitfalls",
+        "title": "The More You Automate, the Less You See: Hidden Pitfalls of AI Scientist Systems",
+        "authors": "Ziming Luo and Atoosa Kasirzadeh and Nihar B. Shah",
+        "year": "2025"
+      },
+      {
+        "key": "m2024augmenting",
+        "title": "Augmenting large language models with chemistry tools",
+        "authors": "M. Bran, Andres and Cox, Sam and Schilter, Oliver and Baldassari, Carlo and White, Andrew D and Schwaller, Philippe",
+        "year": "2024",
+        "url": "https://www.nature.com/articles/s42256-024-00832-8"
+      },
+      {
+        "key": "majumder2024discoverybench",
+        "title": "DiscoveryBench: Towards Data-Driven Discovery with Large Language Models",
+        "authors": "Bodhisattwa Prasad Majumder and Harshit Surana and Dhruv Agarwal and Bhavana Dalvi Mishra and Abhijeetsingh Meena and Aryan Prakhar and Tirth Vora and Tushar Khot and Ashish Sabharwal and Peter Clark",
+        "year": "2024"
+      },
+      {
+        "key": "mo2024multimed",
+        "title": "MultiMed: Massively multimodal and multitask medical understanding",
+        "authors": "Mo, Shentong and Liang, Paul Pu",
+        "year": "2024"
+      },
+      {
+        "key": "reddy2024scientificdiscoverygenerativeai",
+        "title": "Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges",
+        "authors": "Chandan K Reddy and Parshin Shojaee",
+        "year": "2024"
+      },
+      {
+        "key": "schouten2024navigating",
+        "title": "Navigating the landscape of multimodal AI in medicine: a scoping review on technical challenges and clinical applications",
+        "authors": "Daan Schouten and Giulia Nicoletti and Bas Dille and Catherine Chia and Pierpaolo Vendittelli and Megan Schuurmans and Geert Litjens and Nadieh Khalili",
+        "year": "2024"
+      },
+      {
+        "key": "shao2025cogym",
+        "title": "Collaborative Gym: A Framework for Enabling and Evaluating Human-Agent Collaboration",
+        "authors": "Yijia Shao and Vinay Samuel and Yucheng Jiang and John Yang and Diyi Yang",
+        "year": "2025"
+      },
+      {
+        "key": "smbatyan2025aiagentsdesignimplement",
+        "title": "Can AI Agents Design and Implement Drug Discovery Pipelines?",
+        "authors": "Khachik Smbatyan and Tsolak Ghukasyan and Tigran Aghajanyan and Hovhannes Dabaghyan and Sergey Adamyan and Aram Bughdaryan and Vahagn Altunyan and Gagik Navasardyan and Aram Davtyan and Anush Hakobyan and Aram Gharibyan and Arman Fahradyan and Artur Hakobyan and Hasmik Mnatsakanyan and Narek Ginoyan and Garik Petrosyan",
+        "year": "2025"
+      },
+      {
+        "key": "swanson2025virtual",
+        "title": "The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies",
+        "authors": "Swanson, Kyle and Wu, Wesley and Bulaong, Nash L and Pak, John E and Zou, James",
+        "year": "2025"
+      },
+      {
+        "key": "tang2025airesearcher",
+        "title": "AI-Researcher: Autonomous Scientific Innovation",
+        "authors": "Jiabin Tang and Lianghao Xia and Zhonghang Li and Chao Huang",
+        "year": "2025"
+      },
+      {
+        "key": "wang2024scimon",
+        "title": "SciMON: Scientific Inspiration Machines Optimized for Novelty",
+        "authors": "Wang, Qingyun and Downey, Doug and Ji, Heng and Hope, Tom",
+        "year": "2024",
+        "url": "http://dx.doi.org/10.18653/v1/2024.acl-long.18"
+      },
+      {
+        "key": "yadav2024safe",
+        "title": "Safe Human-Robot Collaboration in Dynamic Environments: An AI-Powered Situation Awareness Perspective",
+        "authors": "Yadav, Suryanarayan Kumar and Shahi, Sanyogita",
+        "year": "2024"
+      },
+      {
+        "key": "yang2024moose",
+        "title": "MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses",
+        "authors": "Zonglin Yang and Wanhao Liu and Ben Gao and Tong Xie and Yuqiang Li and Wanli Ouyang and Soujanya Poria and Erik Cambria and Dongzhan Zhou",
+        "year": "2025"
+      },
+      {
+        "key": "zhang2025scientific",
+        "title": "Scientific large language models: A survey on biological \\& chemical domains",
+        "authors": "Zhang, Qiang and Ding, Keyan and Lv, Tianwen and Wang, Xinda and Yin, Qingyu and Zhang, Yiwen and Yu, Jing and Wang, Yuhao and Li, Xiaotong and Xiang, Zhuoyi and others",
+        "year": "2025"
+      },
+      {
+        "key": "zhou2024ai",
+        "title": "An AI Agent for Fully Automated Multi-Omic Analyses",
+        "authors": "Zhou, Juexiao and Zhang, Bin and Li, Guowei and Chen, Xiuying and Li, Haoyang and Xu, Xiaopeng and Chen, Siyuan and He, Wenjia and Xu, Chencheng and Liu, Liwei and others",
+        "year": "2024",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202407094"
+      }
+    ]
+  }
+]
