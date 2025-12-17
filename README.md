@@ -2,7 +2,7 @@
 
 > A curated list of papers on **Agentic Multimodal Large Language Models (MLLMs) for Scientific Discovery**
 
-This repository accompanies our survey paper: **"Exploring Agentic Multimodal Large Language Models: A Survey for AIScientists"**
+This repository accompanies our survey paper: **["Exploring Agentic Multimodal Large Language Models: A Survey for AIScientists"](https://www.techrxiv.org/users/998129/articles/1358530-exploring-agentic-multimodal-large-language-models-a-survey-for-aiscientists)**
 
 ### Comparison with Related Surveys
 
