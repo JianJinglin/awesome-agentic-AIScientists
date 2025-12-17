@@ -54,55 +54,35 @@ This repository accompanies our survey paper: **["Exploring Agentic Multimodal L
 ## 📊 Input & Output Modalities
 
 ```mermaid
-graph LR
-    A[Input/Output<br>Modalities] --> B[🧬 Sequence]
+graph TB
+    A[Input/Output Modalities] --> B[🧬 Sequence]
     A --> C[📐 Symbolic]
     A --> D[🖼️ Vision]
     A --> E[🕸️ Graph]
     A --> F[📡 Sensor]
     A --> G[🔗 Others]
 
-    B --> B1[Text]
-    B --> B2[Molecular]
-    B --> B3[Protein & DNA]
+    B --> B1[Text: BioMedLM, GeoGalactica, PMC-LLaMA, Meerkat, AstroSage, ChatClimate, ClinicalGPT]
+    B --> B2[Molecular: MolFM, ChemBERTa, GROVER, GPT-MolBERTa, GraphMVP, GENA, MassFormer, DecompDiff]
+    B --> B3[Protein & DNA: ProGen, ProtTrans, ProLLaMA, AlphaFold2, DNABERT, DNAGPT]
 
-    B1 --> B1p[BioMedLM, GeoGalactica,<br>PMC-LLaMA, Meerkat,<br>AstroSage, ClinicalGPT]
-    B2 --> B2p[MolFM, ChemBERTa, GROVER,<br>GPT-MolBERTa, GraphMVP,<br>DecompDiff]
-    B3 --> B3p[ProGen, ProtTrans, AlphaFold2,<br>DNABERT, ProLLaMA, DNAGPT]
+    C --> C1[Theorem: NaturalProver, LeanCopilot, SymbolicAI, AlphaGeometry]
+    C --> C2[Formula: LLMPhy, PHIA]
+    C --> C3[Algorithms: DiscoveryBench, SNIP, BioCoder, VisScience, AutoBA, Biomni, EHRAgent, MyCrunchGPT]
 
-    C --> C1[Theorem Proving]
-    C --> C2[Scientific Formula]
-    C --> C3[Algorithms]
+    D --> D1[Charts & Images: MATCHA, BioMedCLIP, MedRax, BioTrove]
+    D --> D2[Videos: VideoMol]
+    D --> D3[Spatial: BrainSegFounder, UrbanCLIP, PlanetaryG]
+    D --> D4[Diffusion: EVA]
 
-    C1 --> C1p[NaturalProver, LeanCopilot,<br>SymbolicAI, AlphaGeometry]
-    C2 --> C2p[LLMPhy, PHIA]
-    C3 --> C3p[DiscoveryBench, BioCoder,<br>Biomni, AutoBA,<br>EHRAgent, MyCrunchGPT]
+    E --> E1[Knowledge Graph: ESCARGOT, KANO, TCA-Operator, BioBridge]
+    E --> E2[Molecular Graph: MPNNs, GATGNN, MolFM, GIT-Mol, Prot2Text, DrugChat]
 
-    D --> D1[Charts & Images]
-    D --> D2[Videos]
-    D --> D3[Spatial Patterns]
+    F --> F1[Time Series: METS, NormWear, UniFault]
+    F --> F2[Spatial-Temporal: SatMAE, Scale-MAE, ClimaX, Free, DiffSTG]
 
-    D1 --> D1p[MATCHA, BioMedCLIP,<br>MedRax, BioTrove]
-    D2 --> D2p[VideoMol]
-    D3 --> D3p[BrainSegFounder, UrbanCLIP]
-
-    E --> E1[Knowledge Graphs]
-    E --> E2[Molecular Graphs]
-
-    E1 --> E1p[ESCARGOT, KANO, BioBridge]
-    E2 --> E2p[MPNNs, MolFM,<br>DrugChat, Prot2Text]
-
-    F --> F1[Time Series]
-    F --> F2[Spatial-Temporal]
-
-    F1 --> F1p[METS, NormWear, UniFault]
-    F2 --> F2p[SatMAE, Scale-MAE,<br>ClimaX, DiffSTG]
-
-    G --> G1[Tabular Data]
-    G --> G2[Spatial Omics]
-
-    G1 --> G1p[scGPT, Geneformer, scBERT,<br>GeneCompass, SCimilarity]
-    G2 --> G2p[NicheFormer, CellPLM]
+    G --> G1[Tabular: scGPT, SCFoundation, Geneformer, UCE, SCimilarity, GeneCompass, scBERT]
+    G --> G2[Spatial Omics: NicheFormer, CellPLM]
 ```
 
 <details>
@@ -110,20 +90,21 @@ graph LR
 
 | Category | Papers |
 |----------|--------|
-| **Text** | [BioMedLM](https://huggingface.co/stanford-crfm/BioMedLM), [GeoGalactica](https://arxiv.org/abs/2401.00434), [PMC-LLaMA](https://arxiv.org/abs/2304.14454), [Meerkat](https://arxiv.org/abs/2501.09754), [AstroSage](https://arxiv.org/abs/2501.09277), [ClinicalGPT](https://arxiv.org/abs/2306.09968) |
-| **Molecular** | [MolFM](https://arxiv.org/abs/2307.09484), [ChemBERTa](https://arxiv.org/abs/2209.01712), [GROVER](https://arxiv.org/abs/2007.02835), [GPT-MolBERTa](https://arxiv.org/abs/2310.03030), [GraphMVP](https://arxiv.org/abs/2110.07728), [DecompDiff](https://arxiv.org/abs/2403.07902) |
-| **Protein & DNA** | [ProGen](https://arxiv.org/abs/2004.03497), [ProtTrans](https://doi.org/10.1109/TPAMI.2021.3095381), [AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2), [DNABERT](https://doi.org/10.1093/bioinformatics/btab083), [ProLLaMA](https://arxiv.org/abs/2402.16445), [DNAGPT](https://arxiv.org/abs/2307.05628) |
+| **Text** | [BioMedLM](https://huggingface.co/stanford-crfm/BioMedLM), [GeoGalactica](https://arxiv.org/abs/2401.00434), [PMC-LLaMA](https://arxiv.org/abs/2304.14454), [Meerkat](https://arxiv.org/abs/2501.09754), [AstroSage](https://arxiv.org/abs/2501.09277), [ChatClimate](https://arxiv.org/abs/2304.05510), [ClinicalGPT](https://arxiv.org/abs/2306.09968) |
+| **Molecular** | [MolFM](https://arxiv.org/abs/2307.09484), [ChemBERTa](https://arxiv.org/abs/2209.01712), [GROVER](https://arxiv.org/abs/2007.02835), [GPT-MolBERTa](https://arxiv.org/abs/2310.03030), [GraphMVP](https://arxiv.org/abs/2110.07728), [GENA](https://arxiv.org/abs/2306.10761), [MassFormer](https://arxiv.org/abs/2401.03860), [DecompDiff](https://arxiv.org/abs/2403.07902) |
+| **Protein & DNA** | [ProGen](https://arxiv.org/abs/2004.03497), [ProtTrans](https://doi.org/10.1109/TPAMI.2021.3095381), [ProLLaMA](https://arxiv.org/abs/2402.16445), [AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2), [DNABERT](https://doi.org/10.1093/bioinformatics/btab083), [DNAGPT](https://arxiv.org/abs/2307.05628) |
 | **Theorem Proving** | [NaturalProver](https://arxiv.org/abs/2205.12910), [LeanCopilot](https://arxiv.org/abs/2404.12534), [SymbolicAI](https://arxiv.org/abs/2402.00854), [AlphaGeometry](https://www.nature.com/articles/s41586-023-06747-5) |
 | **Scientific Formula** | [LLMPhy](https://arxiv.org/abs/2411.08027), [PHIA](https://arxiv.org/abs/2408.05019) |
-| **Algorithms** | [DiscoveryBench](https://arxiv.org/abs/2407.01725), [BioCoder](https://arxiv.org/abs/2308.16458), [Biomni](https://arxiv.org/abs/2412.00637), [AutoBA](https://arxiv.org/abs/2309.10899), [EHRAgent](https://arxiv.org/abs/2401.07128), [MyCrunchGPT](https://arxiv.org/abs/2306.15551) |
+| **Algorithms** | [DiscoveryBench](https://arxiv.org/abs/2407.01725), [SNIP](https://arxiv.org/abs/2310.02227), [BioCoder](https://arxiv.org/abs/2308.16458), [VisScience](https://arxiv.org/abs/2409.09869), [AutoBA](https://arxiv.org/abs/2309.10899), [Biomni](https://arxiv.org/abs/2412.00637), [EHRAgent](https://arxiv.org/abs/2401.07128), [MyCrunchGPT](https://arxiv.org/abs/2306.15551) |
 | **Charts & Images** | [MATCHA](https://arxiv.org/abs/2212.09662), [BioMedCLIP](https://arxiv.org/abs/2303.00915), [MedRax](https://arxiv.org/abs/2502.02673), [BioTrove](https://arxiv.org/abs/2406.17720) |
 | **Videos** | [VideoMol](https://www.nature.com/articles/s41467-024-53570-z) |
-| **Spatial Patterns** | [BrainSegFounder](https://arxiv.org/abs/2406.07210), [UrbanCLIP](https://arxiv.org/abs/2310.18340) |
-| **Knowledge Graphs** | [ESCARGOT](https://academic.oup.com/bioinformatics/article/41/2/btaf031/7972741), [KANO](https://www.nature.com/articles/s42256-023-00654-0), [BioBridge](https://arxiv.org/abs/2310.03320) |
-| **Molecular Graphs** | [MPNNs](https://arxiv.org/abs/1704.01212), [MolFM](https://arxiv.org/abs/2307.09484), [DrugChat](https://arxiv.org/abs/2309.03907), [Prot2Text](https://arxiv.org/abs/2307.12033) |
+| **Spatial Patterns** | [BrainSegFounder](https://arxiv.org/abs/2406.07210), [UrbanCLIP](https://arxiv.org/abs/2310.18340), [PlanetaryG](https://arxiv.org/abs/2311.07903) |
+| **Diffusion & Flow** | [EVA](https://arxiv.org/abs/2211.07636) |
+| **Knowledge Graphs** | [ESCARGOT](https://academic.oup.com/bioinformatics/article/41/2/btaf031/7972741), [KANO](https://www.nature.com/articles/s42256-023-00654-0), [TCA-Operator](https://arxiv.org/abs/2302.03437), [BioBridge](https://arxiv.org/abs/2310.03320) |
+| **Molecular Graphs** | [MPNNs](https://arxiv.org/abs/1704.01212), [GATGNN](https://arxiv.org/abs/1910.02466), [MolFM](https://arxiv.org/abs/2307.09484), [GIT-Mol](https://arxiv.org/abs/2308.06911), [Prot2Text](https://arxiv.org/abs/2307.12033), [DrugChat](https://arxiv.org/abs/2309.03907) |
 | **Time Series** | [METS](https://arxiv.org/abs/2303.12311), [NormWear](https://arxiv.org/abs/2412.09758), [UniFault](https://arxiv.org/abs/2504.01373) |
-| **Spatial-Temporal** | [SatMAE](https://arxiv.org/abs/2207.08051), [Scale-MAE](https://arxiv.org/abs/2212.14532), [ClimaX](https://arxiv.org/abs/2301.10343), [DiffSTG](https://arxiv.org/abs/2301.13629) |
-| **Tabular Data** | [scGPT](https://www.nature.com/articles/s41592-024-02201-0), [Geneformer](https://www.nature.com/articles/s41586-023-06139-9), [scBERT](https://www.nature.com/articles/s42256-022-00534-z), [GeneCompass](https://www.nature.com/articles/s41422-023-00925-6), [SCimilarity](https://www.biorxiv.org/content/10.1101/2023.07.18.549537) |
+| **Spatial-Temporal** | [SatMAE](https://arxiv.org/abs/2207.08051), [Scale-MAE](https://arxiv.org/abs/2212.14532), [ClimaX](https://arxiv.org/abs/2301.10343), [Free](https://arxiv.org/abs/2501.08433), [DiffSTG](https://arxiv.org/abs/2301.13629) |
+| **Tabular Data** | [scGPT](https://www.nature.com/articles/s41592-024-02201-0), [SCFoundation](https://www.nature.com/articles/s41592-024-02305-7), [Geneformer](https://www.nature.com/articles/s41586-023-06139-9), [UCE](https://www.biorxiv.org/content/10.1101/2023.11.28.568918), [SCimilarity](https://www.biorxiv.org/content/10.1101/2023.07.18.549537), [GeneCompass](https://www.nature.com/articles/s41422-023-00925-6), [scBERT](https://www.nature.com/articles/s42256-022-00534-z) |
 | **Spatial Omics** | [NicheFormer](https://www.biorxiv.org/content/10.1101/2024.04.15.589472), [CellPLM](https://arxiv.org/abs/2312.00645) |
 
 </details>
@@ -132,176 +113,199 @@ graph LR
 
 Foundation models for sequential scientific data including natural language, molecular structures (SMILES), and protein sequences.
 
-- [ ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning](https://doi.ieeecomputersociety.org/10.1109/TPAMI.2021.3095381) (2022) - *Elnaggar et al.*
-- [Scalable querying of human cell atlases via a foundational model reveals commonalities across fibrosis-associated macrophages](https://www.biorxiv.org/content/10.1101/2023.07.18.549537v1) (2023) - *Heimberg et al.*
-- [Large-scale chemical language representations capture molecular structure and properties](https://doi.org/10.1038/s42256-022-00580-7) (2022) - *Ross et al.*
-- Chemberta-2: Towards chemical foundation models (2022) - *Ahmad et al.*
-- Gpt-molberta: Gpt molecular features language model for molecular property prediction (2023) - *Balaji et al.*
-- QuoteTarget: A sequence-based transformer protein language model to identify potentially druggable protein targets (2023) - *Chen et al.*
-- Llmphy: Complex physical reasoning using large language models and world models (2024) - *Cherian et al.*
-- scGPT: toward building a foundation model for single-cell multi-omics using generative AI (2024) - *Cui et al.*
-- Achieving GPT-4o level performance in astronomy with a specialized 8B-parameter large language model (2025) - *de Haan et al.*
-- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (2019) - *Devlin et al.*
-- Unifault: A fault diagnosis foundation model from bearing data (2025) - *Eldele et al.*
-- GENA-LM: a family of open-source foundational DNA language models for long sequences (2025) - *Fishman et al.*
-- Neural message passing for quantum chemistry (2017) - *Gilmer et al.*
-- Large-scale foundation model on single-cell transcriptomics (2024) - *Hao et al.*
-- Highly accurate protein structure prediction with AlphaFold (2021) - *Jumper et al.*
-- Small language models learn enhanced reasoning skills from medical textbooks (2025) - *Kim et al.*
-- Mycrunchgpt: A llm assisted framework for scientific machine learning (2023) - *Kumar et al.*
-- Cell2sentence: Teaching large language models the language of biology. bioRxiv (2023) - *Levine, Daniel, Le*
-- Geogalactica: A scientific large language model in geoscience (2023) - *Lin et al.*
-- Survey on foundation models for prognostics and health management in industrial cyber-physical systems (2024) - *Liu et al.*
-- Nature's Insight: A Novel Framework and Comprehensive Analysis of Agentic Reasoning Through the Lens of Neuroscience (2025) - *Liu et al.*
-- FREE: The Foundational Semantic Recognition for Modeling Environmental Ecosystems (2025) - *Luo et al.*
-- Toward Foundation Model for Multivariate Wearable Sensing of Physiological Signals (2024) - *Luo et al.*
-- Prollama: A protein large language model for multi-task protein language processing (2025) - *Lv et al.*
-- Progen: Language modeling for protein generation (2020) - *Madani et al.*
-- DiscoveryBench: Towards Data-Driven Discovery with Large Language Models (2024) - *Majumder et al.*
-- [Foundation models for generalist medical artificial intelligence](https://www.nature.com/articles/s41586-023-05881-4) (2023) - *Moor et al.*
-- Impact of Data Sparsity on Machine Learning for Fault Detection in Power System Protection (2025) - *Oelhaf et al.*
+#### Text
+| Paper | Year | Authors |
+|-------|------|---------|
+| [BioMedLM](https://huggingface.co/stanford-crfm/BioMedLM) | 2024 | Bolton et al. |
+| [GeoGalactica](https://arxiv.org/abs/2401.00434) | 2023 | Lin et al. |
+| [PMC-LLaMA](https://arxiv.org/abs/2304.14454) | 2024 | Wu et al. |
+| [Meerkat](https://arxiv.org/abs/2501.09754) | 2025 | Kim et al. |
+| [AstroSage](https://arxiv.org/abs/2501.09277) | 2025 | de Haan et al. |
+| [ChatClimate](https://arxiv.org/abs/2304.05510) | 2023 | Vaghefi et al. |
+| [ClinicalGPT](https://arxiv.org/abs/2306.09968) | 2023 | Wang et al. |
+
+#### Molecular
+| Paper | Year | Authors |
+|-------|------|---------|
+| [MolFM](https://arxiv.org/abs/2307.09484) | 2023 | Luo et al. |
+| [ChemBERTa](https://arxiv.org/abs/2209.01712) | 2022 | Ahmad et al. |
+| [GROVER](https://arxiv.org/abs/2007.02835) | 2020 | Rong et al. |
+| [GPT-MolBERTa](https://arxiv.org/abs/2310.03030) | 2023 | Balaji et al. |
+| [GraphMVP](https://arxiv.org/abs/2110.07728) | 2021 | Liu et al. |
+| [GENA](https://arxiv.org/abs/2306.10761) | 2025 | Fishman et al. |
+| [MassFormer](https://arxiv.org/abs/2401.03860) | 2024 | Young et al. |
+| [DecompDiff](https://arxiv.org/abs/2403.07902) | 2024 | Guan et al. |
+
+#### Protein & DNA
+| Paper | Year | Authors |
+|-------|------|---------|
+| [ProGen](https://arxiv.org/abs/2004.03497) | 2020 | Madani et al. |
+| [ProtTrans](https://doi.org/10.1109/TPAMI.2021.3095381) | 2022 | Elnaggar et al. |
+| [ProLLaMA](https://arxiv.org/abs/2402.16445) | 2025 | Lv et al. |
+| [AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2) | 2021 | Jumper et al. |
+| [DNABERT](https://doi.org/10.1093/bioinformatics/btab083) | 2021 | Ji et al. |
+| [DNAGPT](https://arxiv.org/abs/2307.05628) | 2023 | Zhang et al. |
 
 ### 📐 Symbolic (Math, Code, Physics)
 
 Models for mathematical proofs, scientific code generation, and physics reasoning.
 
-- Large Physics Models: Towards a collaborative approach with Large Language Models and Foundation Models (2025) - *Barman et al.*
-- SymbolicAI: A framework for logic-based approaches combining generative models and solvers (2024) - *Dinu et al.*
-- Large Language Model powered Symbolic Execution (2025) - *Li et al.*
-- Physics-informed LLM-agent for automated modulation design in power electronics systems (2024) - *Liu et al.*
-- Snip: Bridging mathematical symbolic and numeric realms with unified pre-training (2023) - *Meidani et al.*
-- [Generative Language Modeling for Automated Theorem Proving](https://arxiv.org/abs/2009.03393) (2020) - *Stanislas Polu, Ilya Sutskever*
-- Lean Copilot: Large Language Models as Copilots for Theorem Proving in Lean (2025) - *Song et al.*
-- BioCoder: A Benchmark for Bioinformatics Code Generation with Large Language Models (2024) - *Tang et al.*
-- An in-context learning agent for formal theorem-proving (2023) - *Thakur et al.*
-- Formal mathematical reasoning: A new frontier in ai (2024) - *Yang et al.*
+#### Theorem Proving
+| Paper | Year | Authors |
+|-------|------|---------|
+| [NaturalProver](https://arxiv.org/abs/2205.12910) | 2022 | Welleck et al. |
+| [LeanCopilot](https://arxiv.org/abs/2404.12534) | 2025 | Song et al. |
+| [SymbolicAI](https://arxiv.org/abs/2402.00854) | 2024 | Dinu et al. |
+| [AlphaGeometry](https://www.nature.com/articles/s41586-023-06747-5) | 2024 | Trinh et al. |
+
+#### Scientific Formula
+| Paper | Year | Authors |
+|-------|------|---------|
+| [LLMPhy](https://arxiv.org/abs/2411.08027) | 2024 | Cherian et al. |
+| [PHIA](https://arxiv.org/abs/2408.05019) | 2024 | Liu et al. |
+
+#### Algorithms & Code
+| Paper | Year | Authors |
+|-------|------|---------|
+| [DiscoveryBench](https://arxiv.org/abs/2407.01725) | 2024 | Majumder et al. |
+| [SNIP](https://arxiv.org/abs/2310.02227) | 2023 | Meidani et al. |
+| [BioCoder](https://arxiv.org/abs/2308.16458) | 2024 | Tang et al. |
+| [VisScience](https://arxiv.org/abs/2409.09869) | 2024 | Jiang et al. |
+| [AutoBA](https://arxiv.org/abs/2309.10899) | 2024 | Zhou et al. |
+| [Biomni](https://arxiv.org/abs/2412.00637) | 2025 | Huang et al. |
+| [EHRAgent](https://arxiv.org/abs/2401.07128) | 2024 | Shi et al. |
+| [MyCrunchGPT](https://arxiv.org/abs/2306.15551) | 2023 | Kumar et al. |
+| [RestGPT](https://arxiv.org/abs/2306.06624) | 2023 | Song et al. |
 
 ### 🖼️ Vision (Image, Video)
 
 Visual foundation models for scientific imaging including medical imaging, microscopy, and satellite imagery.
 
-- A Vision-Language foundation model to enhance efficiency of chest x-ray interpretation (2024) - *Chen et al.*
-- [MedRAX: Medical Reasoning Agent for Chest X-ray](https://arxiv.org/pdf/2502.02673) (2025) - *Fallahpour et al.*
-- [BioImage. IO Chatbot: a community-driven AI assistant for integrative computational bioimaging](https://www.nature.com/articles/s41592-024-02370-y) (2024) - *Lei, Wanlu, Fuster-Barcelo*
-- BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation (2022) - *Li et al.*
-- Llava-med: Training a large language-and-vision assistant for biomedicine in one day (2023) - *Li et al.*
-- Segment anything in medical images (2024) - *Ma et al.*
-- Learning Transferable Visual Models From Natural Language Supervision (2021) - *Radford et al.*
-- [Omega—harnessing the power of large language models for bioimage analysis](https://www.nature.com/articles/s41592-024-02310-w) (2024) - *Royer, Lo*
-- PathAsst: A Generative Foundation AI Assistant Towards Artificial General Intelligence of Pathology (2024) - *Sun et al.*
-- Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks (2022) - *Wang et al.*
-- Urbanclip: Learning text-enhanced urban region profiling with contrastive language-image pretraining from the web (2024) - *Yan et al.*
+#### Charts & Images
+| Paper | Year | Authors |
+|-------|------|---------|
+| [MATCHA](https://arxiv.org/abs/2212.09662) | 2023 | Liu et al. |
+| [BioMedCLIP](https://arxiv.org/abs/2303.00915) | 2023 | Zhang et al. |
+| [MedRax](https://arxiv.org/abs/2502.02673) | 2025 | Fallahpour et al. |
+| [BioTrove](https://arxiv.org/abs/2406.17720) | 2025 | Yang et al. |
+| [LLaVA-Med](https://arxiv.org/abs/2306.00890) | 2023 | Li et al. |
+| [Omega](https://www.nature.com/articles/s41592-024-02310-w) | 2024 | Royer & Lo |
+| [BioImage.IO Chatbot](https://www.nature.com/articles/s41592-024-02370-y) | 2024 | Lei et al. |
+
+#### Videos
+| Paper | Year | Authors |
+|-------|------|---------|
+| [VideoMol](https://www.nature.com/articles/s41467-024-53570-z) | 2024 | Xiang et al. |
+
+#### Spatial Patterns
+| Paper | Year | Authors |
+|-------|------|---------|
+| [BrainSegFounder](https://arxiv.org/abs/2406.07210) | 2024 | Cox et al. |
+| [UrbanCLIP](https://arxiv.org/abs/2310.18340) | 2024 | Yan et al. |
+| [PlanetaryG](https://arxiv.org/abs/2311.07903) | 2023 | Gao et al. |
+
+#### Diffusion & Flow
+| Paper | Year | Authors |
+|-------|------|---------|
+| [EVA](https://arxiv.org/abs/2211.07636) | 2022 | Fang et al. |
 
 ### 🕸️ Graph (Knowledge Graph, Molecular Graph)
 
 Graph neural networks and knowledge graph methods for scientific reasoning.
 
-- Transfer learning enables predictions in network biology (2023) - *Theodoris et al.*
-- Graph of logic: Enhancing llm reasoning with graphs and symbolic logic (2024) - *Alotaibi et al.*
-- Knowledge graph-enhanced molecular contrastive learning with functional prompt (2023) - *Fang et al.*
-- A Comprehensive Survey of Dynamic Graph Neural Networks: Models, Frameworks, Benchmarks, Experiments and Challenges (2024) - *Feng et al.*
-- DrugChat: towards enabling ChatGPT-like capabilities on drug molecule graphs (2023) - *Liang et al.*
-- SymAgent: A Neural-Symbolic Self-Learning Agent Framework for Complex Reasoning over Knowledge Graphs (2025) - *Liu et al.*
-- [ESCARGOT: an AI agent leveraging large language models, dynamic graph of thoughts, and biomedical knowledge graphs for enhanced reasoning](https://academic.oup.com/bioinformatics/article/41/2/btaf031/7972741) (2025) - *Matsumoto et al.*
-- MechAgents: Large language model multi-agent collaborations can solve mechanics problems, generate new data, and integrate knowledge (2023) - *Bo Ni, Markus J. Buehler*
-- Electromiographic signal processing using embedded artificial intelligence: An adaptive filtering approach (2022) - *Proan*
-- [Graph neural networks for materials science and chemistry](https://www.nature.com/articles/s43246-022-00315-6) (2022) - *Reiser et al.*
-- Learning to simulate complex physics with graph networks (2020) - *Sanchez-Gonzalez et al.*
-- Injecting Domain-Specific Knowledge into Large Language Models: A Comprehensive Survey (2025) - *Song et al.*
-- Biobridge: Bridging biomedical foundation models via knowledge graphs (2023) - *Wang et al.*
-- GeneCompass: deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species foundation model (2024) - *Yang et al.*
-- Graph representation learning in bioinformatics: trends, methods and applications (2022) - *Yi et al.*
+#### Knowledge Graphs
+| Paper | Year | Authors |
+|-------|------|---------|
+| [ESCARGOT](https://academic.oup.com/bioinformatics/article/41/2/btaf031/7972741) | 2025 | Matsumoto et al. |
+| [KANO](https://www.nature.com/articles/s42256-023-00654-0) | 2023 | Fang et al. |
+| [TCA-Operator](https://arxiv.org/abs/2302.03437) | 2023 | Xu et al. |
+| [BioBridge](https://arxiv.org/abs/2310.03320) | 2023 | Wang et al. |
+
+#### Molecular Graphs
+| Paper | Year | Authors |
+|-------|------|---------|
+| [MPNNs](https://arxiv.org/abs/1704.01212) | 2017 | Gilmer et al. |
+| [GATGNN](https://arxiv.org/abs/1910.02466) | 2020 | Louis et al. |
+| [MolFM](https://arxiv.org/abs/2307.09484) | 2023 | Luo et al. |
+| [GIT-Mol](https://arxiv.org/abs/2308.06911) | 2024 | Liu et al. |
+| [Prot2Text](https://arxiv.org/abs/2307.12033) | 2024 | Abdine et al. |
+| [DrugChat](https://arxiv.org/abs/2309.03907) | 2023 | Liang et al. |
 
 ### 📡 Sensor & Time Series
 
 Models for sensor data, time series analysis, and spatial-temporal data.
 
-- A visual--omics foundation model to bridge histopathology with spatial transcriptomics (2025) - *Chen et al.*
-- SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery (2023) - *Cong et al.*
-- Frozen Language Model Helps ECG Zero-Shot Learning (2023) - *Li et al.*
-- Sensorllm: Aligning large language models with motion sensors for human activity recognition (2024) - *Li et al.*
-- Foundation models for time series analysis: A tutorial and survey (2024) - *Liang et al.*
-- ClimaX: A foundation model for weather and climate (2023) - *Nguyen et al.*
-- Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning (2023) - *Reed et al.*
-- Nicheformer: a foundation model for single-cell and spatial omics (2024) - *Schaar et al.*
-- Transformers in time series: A survey (2022) - *Wen et al.*
-- Single cells are spatial tokens: Transformers for spatial transcriptomic data imputation (2023) - *Wen et al.*
-- Robust sensor selection based on maximum correntropy criterion for ocean data reconstruction (2024) - *Zhang et al.*
+#### Time Series
+| Paper | Year | Authors |
+|-------|------|---------|
+| [METS](https://arxiv.org/abs/2303.12311) | 2023 | Li et al. |
+| [NormWear](https://arxiv.org/abs/2412.09758) | 2024 | Luo et al. |
+| [UniFault](https://arxiv.org/abs/2504.01373) | 2025 | Eldele et al. |
+
+#### Spatial-Temporal
+| Paper | Year | Authors |
+|-------|------|---------|
+| [SatMAE](https://arxiv.org/abs/2207.08051) | 2023 | Cong et al. |
+| [Scale-MAE](https://arxiv.org/abs/2212.14532) | 2023 | Reed et al. |
+| [ClimaX](https://arxiv.org/abs/2301.10343) | 2023 | Nguyen et al. |
+| [Free](https://arxiv.org/abs/2501.08433) | 2025 | Luo et al. |
+| [DiffSTG](https://arxiv.org/abs/2301.13629) | 2024 | Wen et al. |
 
 ### 🔗 Multi-modal Fusion
 
 Methods for integrating multiple modalities in scientific MLLMs.
 
-- Prot2text: Multimodal protein’s function generation with gnns and transformers (2024) - *Abdine et al.*
-- [Multimodal biomedical AI](https://www.nature.com/articles/s41591-022-01981-2) (2022) - *Acosta, Julia*
-- MicroVQA: A Multimodal Reasoning Benchmark for Microscopy-Based Scientific Research (2025) - *Burgess et al.*
-- MetaPath Chat: multimodal generative artificial intelligence chatbot for clinical pathology (2024) - *Chen et al.*
-- DecompDiff: diffusion models with decomposed priors for structure-based drug design (2024) - *Guan et al.*
-- VisScience: An Extensive Benchmark for Evaluating K12 Educational Multi-modal Scientific Reasoning (2024) - *Jiang et al.*
-- A Multimodal Ensemble Deep Learning Model for Functional Outcome Prognosis of Stroke Patients (2024) - *Jung et al.*
-- Review of multimodal machine learning approaches in healthcare (2025) - *Krones et al.*
-- Alzheimer’s disease diagnosis from multi-modal data via feature inductive learning and dual multilevel graph neural network (2024) - *Lei et al.*
-- MMSci: A Dataset for Graduate-Level Multi-Discipline Multimodal Scientific Understanding (2025) - *Li et al.*
+#### Tabular Data
+| Paper | Year | Authors |
+|-------|------|---------|
+| [scGPT](https://www.nature.com/articles/s41592-024-02201-0) | 2024 | Cui et al. |
+| [SCFoundation](https://www.nature.com/articles/s41592-024-02305-7) | 2024 | Hao et al. |
+| [Geneformer](https://www.nature.com/articles/s41586-023-06139-9) | 2023 | Theodoris et al. |
+| [UCE](https://www.biorxiv.org/content/10.1101/2023.11.28.568918) | 2023 | Rosen et al. |
+| [SCimilarity](https://www.biorxiv.org/content/10.1101/2023.07.18.549537) | 2023 | Heimberg et al. |
+| [GeneCompass](https://www.nature.com/articles/s41422-023-00925-6) | 2024 | Yang et al. |
+| [scBERT](https://www.nature.com/articles/s42256-022-00534-z) | 2022 | Yang et al. |
+
+#### Spatial Omics
+| Paper | Year | Authors |
+|-------|------|---------|
+| [NicheFormer](https://www.biorxiv.org/content/10.1101/2024.04.15.589472) | 2024 | Schaar et al. |
+| [CellPLM](https://arxiv.org/abs/2312.00645) | 2024 | Wen et al. |
+
+#### Multimodal Biomedical
+| Paper | Year | Authors |
+|-------|------|---------|
+| [Multimodal biomedical AI](https://www.nature.com/articles/s41591-022-01981-2) | 2022 | Acosta et al. |
+| [Prot2Text](https://arxiv.org/abs/2307.12033) | 2024 | Abdine et al. |
+| [DecompDiff](https://arxiv.org/abs/2403.07902) | 2024 | Guan et al. |
+| [MicroVQA](https://arxiv.org/abs/2501.05893) | 2025 | Burgess et al. |
+| [MMSci](https://arxiv.org/abs/2407.04903) | 2025 | Li et al. |
 
 ---
 
 ## ⚙️ Methods for Scientific MLLM Agents
 
 ```mermaid
-graph LR
-    A[Methods for<br>Scientific MLLM<br>Agents] --> B[🏋️ Agent<br>Training]
-    A --> C[🚀 Agent<br>Inference]
-    A --> D[🤝 Multi-Agent<br>System]
+graph TB
+    A[Methods for Scientific MLLM Agents] --> B[🏋️ Agent Training]
+    A --> C[🚀 Agent Inference]
+    A --> D[🤝 Multi-Agent System]
 
-    B --> B1[Supervised<br>Fine-Tuning]
-    B --> B2[Reinforcement<br>Learning]
-    B --> B3[Contrastive &<br>Adversarial]
+    B --> B1[SFT: LLaVA-Med, MedMax, ChatNT, ProtAgents, TxGemma, MMed-RAG, ScDCA]
+    B --> B2[RL: ResearchAgent, MAVIS, BindGPT, AtomAgents, DrugGen, AgentHospital, MedAgentGym, SynFlowNet]
+    B --> B3[Contrastive: DrugCLIP, SimCLR, DINO, SupReMix, GVAT]
 
-    B1 --> B1p[LLaVA-Med, MedMax, ChatNT,<br>ProtAgents, TxGemma,<br>MMed-RAG, ScDCA]
+    C --> C1[RAG: ColaCare, i-MedRAG, ClinicalRAG, AutoProteinEngine]
+    C --> C2[KG: ESCARGOT]
+    C --> C3[ICL: LLMPhy, GeoLLM-Engine, ProtTex, MolReGPT, InstructProtein]
+    C --> C4[Planning: RAISE, LLM-RDF, DrugAgent]
+    C --> C5[Tool: Crispr-GPT, Biomni, AutoBA, MedRax, Omega, BioDiscoveryAgent]
+    C --> C6[Self-Critic: GeneAgent, Reflexion, ArgMed-Agents]
+    C --> C7[Memory: Graphiti, STMA]
 
-    B2 --> B2a[Human Feedback]
-    B2 --> B2b[Simulation Feedback]
-    B2 --> B2c[Trajectory Learning]
-
-    B2a --> B2ap[ResearchAgent, MAVIS]
-    B2b --> B2bp[BindGPT, AtomAgents, DrugGen,<br>AgentHospital, Leanabell-Prover]
-    B2c --> B2cp[MedAgentGym, SynFlowNet]
-
-    B3 --> B3p[DrugCLIP, SimCLR, DINO,<br>SupReMix, GVAT]
-
-    C --> C1[Integrating<br>Domain Knowledge]
-    C --> C2[Complex Workflow<br>Handling]
-    C --> C3[Improving<br>Accuracy]
-
-    C1 --> C1a[RAG]
-    C1 --> C1b[Knowledge Graph]
-    C1 --> C1c[In-Context Learning]
-
-    C1a --> C1ap[ColaCare, i-MedRAG, ClinicalRAG,<br>BioImage, AutoProteinEngine]
-    C1b --> C1bp[ESCARGOT]
-    C1c --> C1cp[LLMPhy, GeoLLM-Engine, ProtTex,<br>MolReGPT, InstructProtein]
-
-    C2 --> C2a[Planning]
-    C2 --> C2b[Tool Learning]
-    C2 --> C2c[Multi-step Reasoning]
-
-    C2a --> C2ap[RAISE, LLM-RDF, DrugAgent]
-    C2b --> C2bp[Crispr-GPT, Biomni, AutoBA,<br>MedRax, Omega, BioDiscoveryAgent]
-    C2c --> C2cp[MT-Mol, MedAgent]
-
-    C3 --> C3a[Self-Critic]
-    C3 --> C3b[External Memory]
-
-    C3a --> C3ap[GeneAgent, Reflexion,<br>ArgMed-Agents]
-    C3b --> C3bp[Graphiti, STMA]
-
-    D --> D1[Collaboration]
-    D --> D2[Debate]
-    D --> D3[Adaptive Recruitment]
-
-    D1 --> D1p[ReConcile]
-    D2 --> D2p[MAD, MedAgents]
-    D3 --> D3p[MDAgents, ColaCare]
+    D --> D1[Collaboration: ReConcile]
+    D --> D2[Debate: MAD, MedAgents]
+    D --> D3[Adaptive: MDAgents, ColaCare]
 ```
 
 <details>
