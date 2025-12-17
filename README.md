@@ -1,4 +1,4 @@
-# Agentic AI Scientists
+# Multimodal Agentic AI Scientists
 
 > A curated list of papers on **Agentic Multimodal Large Language Models (MLLMs) for Scientific Discovery**
 
