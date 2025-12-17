@@ -4,6 +4,21 @@
 
 This repository accompanies our survey paper: **"Exploring Agentic Multimodal Large Language Models: A Survey for AIScientists"**
 
+### Comparison with Related Surveys
+
+| Paper | Taxonomy | Ag. | DM. | Method | HCI | Ben. | #Dom. |
+|:------|:--------:|:---:|:---:|:------:|:---:|:---:|:-----:|
+| [Zhang et al. (2024)](https://arxiv.org/abs/2401.00426) | Domain | ✗ | Seq.+ | Train. only | ✗ | ✓ | 6 |
+| [Gridach et al. (2025)](https://arxiv.org/abs/2503.01153) | Sci. Workflow | ✓ | ✗ | Infer. only | ✓ | ✗ | 4 |
+| [Luo et al. (2025)](https://arxiv.org/abs/2501.04306) | Sci. Workflow | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
+| [Zhang et al. (2025)](https://arxiv.org/abs/2502.09247) | Sci. Workflow | ✗ | Seq.+ | ✗ | ✗ | ✗ | ✗ |
+| [Ren et al. (2025)](https://arxiv.org/abs/2503.03924) | Agent Composition | ✓ | ✗ | Train. & Infer. | ✗ | ✓ | 6+ |
+| [Wei et al. (2025)](https://arxiv.org/abs/2503.10794) | Auto. & Domain | ✓ | ✗ | Infer. only | ✗ | ✓ | 4 |
+| [Hu et al. (2025)](https://arxiv.org/abs/2503.16894) | Data & Domain | ✓ | ✓ | ✗ | ✗ | ✓ | 6+ |
+| **Ours** | **ML Pipeline** | ✓ | ✓ | **Train. & Infer.** | ✓ | ✓ | **10** |
+
+<sub>**Ag.** = Agentic AI; **DM.** = Data Modality; **HCI** = Human-Computer Interaction; **Ben.** = Benchmark; **#Dom.** = Number of domains; **Seq.+** = Sequence and more modalities; **Train.** = Agent Training; **Infer.** = Agent Inference</sub>
+
 <img src="assets/figure_overview.png" alt="Overview of the agentic MLLM framework for scientific discovery" width="100%"/>
 
 *Overview of the agentic MLLM framework for scientific discovery*
