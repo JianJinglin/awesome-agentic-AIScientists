@@ -6,6 +6,8 @@
 
 This repository accompanies our survey paper: **["Exploring Agentic Multimodal Large Language Models: A Survey for AIScientists"](https://www.techrxiv.org/users/998129/articles/1358530-exploring-agentic-multimodal-large-language-models-a-survey-for-aiscientists)**
 
+**AIScientists** are autonomous agents powered by multimodal large language models (MLLMs) that can understand papers, generate hypotheses, plan and conduct experiments, analyze results, and draft manuscripts across the entire scientific research lifecycle. But how do we build one? Here we summarize the pipeline to develop a strong multimodal agentic AIScientist and provide example studies across 10+ scientific domains.
+
 ### Comparison with Related Surveys
 
 | Paper | Taxonomy | Ag. | DM. | Method | HCI | Ben. | #Dom. |
@@ -21,11 +23,11 @@ This repository accompanies our survey paper: **["Exploring Agentic Multimodal L
 
 <sub>**Ag.** = Agentic AI; **DM.** = Data Modality; **HCI** = Human-Computer Interaction; **Ben.** = Benchmark; **#Dom.** = Number of domains; **Seq.+** = Sequence and more modalities; **Train.** = Agent Training; **Infer.** = Agent Inference</sub>
 
+### Ours: A ML Pipeline Perspective
+
 <img src="assets/figure_overview.png" alt="Overview of the agentic MLLM framework for scientific discovery" width="100%"/>
 
-*Overview of the agentic MLLM framework for scientific discovery*
-
-**AIScientists** are autonomous agents powered by multimodal large language models (MLLMs) that can understand papers, generate hypotheses, plan and conduct experiments, analyze results, and draft manuscripts across the entire scientific research lifecycle. But how do we build one? Here we summarize the pipeline to develop a strong multimodal agentic AIScientist and provide example studies across 10+ scientific domains.
+*Overview of the agentic MLLM framework for scientific discovery: The pipeline begins with diverse **Input & Output** modalities, followed by **Methods** including Agent Training and Agent Inference, then **Evaluation** with benchmarks and metrics, and finally **Human-AI Collaboration** throughout the pipeline.*
 
 ---
 
