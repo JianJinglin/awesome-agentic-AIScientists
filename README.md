@@ -39,8 +39,8 @@ This repository accompanies our survey paper: **["Exploring Agentic Multimodal L
   - [📡 Sensor & Time Series](#-sensor--time-series)
   - [🔗 Multi-modal Fusion](#-multi-modal-fusion)
 - [⚙️ Methods for Scientific MLLM Agents](#️-methods-for-scientific-mllm-agents)
-  - [🎯 Agent Training](#-agent-training)
-  - [🔮 Agent Inference](#-agent-inference)
+  - [🏋️ Agent Training](#️-agent-training)
+  - [🚀 Agent Inference](#-agent-inference)
   - [🤝 Multi-Agent Systems](#-multi-agent-systems)
 - [📈 Benchmarks & Evaluation](#-benchmarks--evaluation)
 - [🧑‍🔬 Human-AI Collaboration](#-human-ai-collaboration)
@@ -168,7 +168,7 @@ Methods for integrating multiple modalities in scientific MLLMs.
 
 ## ⚙️ Methods for Scientific MLLM Agents
 
-### 🎯 Agent Training
+### 🏋️ Agent Training
 
 #### Supervised Fine-Tuning (SFT)
 
@@ -209,7 +209,7 @@ Including RLHF, DPO, and reward-based training methods.
 - Improved Techniques for Training GANs (2016) - *Salimans et al.*
 - SupReMix: Supervised Contrastive Learning for Medical Imaging Regression with Mixup (2025) - *Wu et al.*
 
-### 🔮 Agent Inference
+### 🚀 Agent Inference
 
 #### Retrieval-Augmented Generation (RAG)
 
