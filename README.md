@@ -69,86 +69,142 @@ graph LR
     B1 --> B1a(BioMedLM)
     B1 --> B1b(GeoGalactica)
     B1 --> B1c(PMC-LLaMA)
+    B1 --> B1d(Meerkat)
+    B1 --> B1e(AstroSage)
+    B1 --> B1f(ClinicalGPT)
     B2 --> B2a(MolFM)
     B2 --> B2b(ChemBERTa)
     B2 --> B2c(GROVER)
+    B2 --> B2d(GPT-MolBERTa)
+    B2 --> B2e(GraphMVP)
+    B2 --> B2f(DecompDiff)
     B3 --> B3a(ProGen)
     B3 --> B3b(ProtTrans)
     B3 --> B3c(AlphaFold2)
     B3 --> B3d(DNABERT)
+    B3 --> B3e(ProLLaMA)
+    B3 --> B3f(DNAGPT)
 
     C --> C1[Theorem Proving]
     C --> C2[Scientific Formula]
     C --> C3[Algorithms]
 
-    C1 --> C1a(LeanCopilot)
-    C1 --> C1b(AlphaGeometry)
+    C1 --> C1a(NaturalProver)
+    C1 --> C1b(LeanCopilot)
+    C1 --> C1c(SymbolicAI)
+    C1 --> C1d(AlphaGeometry)
     C2 --> C2a(LLMPhy)
-    C3 --> C3a(BioCoder)
-    C3 --> C3b(Biomni)
-    C3 --> C3c(EHRAgent)
+    C2 --> C2b(PHIA)
+    C3 --> C3a(DiscoveryBench)
+    C3 --> C3b(BioCoder)
+    C3 --> C3c(Biomni)
+    C3 --> C3d(AutoBA)
+    C3 --> C3e(EHRAgent)
+    C3 --> C3f(MyCrunchGPT)
 
     D --> D1[Charts & Images]
     D --> D2[Videos]
     D --> D3[Spatial Patterns]
 
-    D1 --> D1a(BioMedCLIP)
-    D1 --> D1b(MedRax)
+    D1 --> D1a(MATCHA)
+    D1 --> D1b(BioMedCLIP)
+    D1 --> D1c(MedRax)
+    D1 --> D1d(BioTrove)
     D2 --> D2a(VideoMol)
-    D3 --> D3a(UrbanCLIP)
+    D3 --> D3a(BrainSegFounder)
+    D3 --> D3b(UrbanCLIP)
 
     E --> E1[Knowledge Graphs]
     E --> E2[Molecular Graphs]
 
     E1 --> E1a(ESCARGOT)
     E1 --> E1b(KANO)
-    E2 --> E2a(MolFM)
-    E2 --> E2b(DrugChat)
+    E1 --> E1c(BioBridge)
+    E2 --> E2a(MPNNs)
+    E2 --> E2b(MolFM)
+    E2 --> E2c(DrugChat)
+    E2 --> E2d(Prot2Text)
 
     F --> F1[Time Series]
     F --> F2[Spatial-Temporal]
 
-    F1 --> F1a(NormWear)
+    F1 --> F1a(METS)
+    F1 --> F1b(NormWear)
+    F1 --> F1c(UniFault)
     F2 --> F2a(SatMAE)
-    F2 --> F2b(ClimaX)
+    F2 --> F2b(Scale-MAE)
+    F2 --> F2c(ClimaX)
+    F2 --> F2d(DiffSTG)
 
     G --> G1[Tabular Data]
     G --> G2[Spatial Omics]
 
     G1 --> G1a(scGPT)
     G1 --> G1b(Geneformer)
+    G1 --> G1c(scBERT)
+    G1 --> G1d(GeneCompass)
+    G1 --> G1e(SCimilarity)
     G2 --> G2a(NicheFormer)
+    G2 --> G2b(CellPLM)
 
-    click B1a "https://arxiv.org/abs/2211.08561" _blank
-    click B1b "https://arxiv.org/abs/2311.01760" _blank
-    click B1c "https://arxiv.org/abs/2305.09617" _blank
+    click B1a "https://huggingface.co/stanford-crfm/BioMedLM" _blank
+    click B1b "https://arxiv.org/abs/2401.00434" _blank
+    click B1c "https://arxiv.org/abs/2304.14454" _blank
+    click B1d "https://arxiv.org/abs/2501.09754" _blank
+    click B1e "https://arxiv.org/abs/2501.09277" _blank
+    click B1f "https://arxiv.org/abs/2306.09968" _blank
     click B2a "https://arxiv.org/abs/2307.09484" _blank
     click B2b "https://arxiv.org/abs/2209.01712" _blank
     click B2c "https://arxiv.org/abs/2007.02835" _blank
+    click B2d "https://arxiv.org/abs/2310.03030" _blank
+    click B2e "https://arxiv.org/abs/2110.07728" _blank
+    click B2f "https://arxiv.org/abs/2403.07902" _blank
     click B3a "https://arxiv.org/abs/2004.03497" _blank
-    click B3b "https://ieeexplore.ieee.org/document/9477085" _blank
+    click B3b "https://doi.org/10.1109/TPAMI.2021.3095381" _blank
     click B3c "https://www.nature.com/articles/s41586-021-03819-2" _blank
-    click B3d "https://academic.oup.com/bioinformatics/article/37/15/2112/6128680" _blank
-    click C1a "https://arxiv.org/abs/2404.18564" _blank
-    click C1b "https://www.nature.com/articles/s41586-023-06924-6" _blank
+    click B3d "https://doi.org/10.1093/bioinformatics/btab083" _blank
+    click B3e "https://arxiv.org/abs/2402.16445" _blank
+    click B3f "https://arxiv.org/abs/2307.05628" _blank
+    click C1a "https://arxiv.org/abs/2205.12910" _blank
+    click C1b "https://arxiv.org/abs/2404.12534" _blank
+    click C1c "https://arxiv.org/abs/2402.00854" _blank
+    click C1d "https://www.nature.com/articles/s41586-023-06747-5" _blank
     click C2a "https://arxiv.org/abs/2411.08027" _blank
-    click C3a "https://arxiv.org/abs/2308.16458" _blank
-    click C3b "https://arxiv.org/abs/2412.00637" _blank
-    click C3c "https://arxiv.org/abs/2401.07128" _blank
-    click D1a "https://arxiv.org/abs/2303.00915" _blank
-    click D1b "https://arxiv.org/abs/2502.02673" _blank
-    click D2a "https://arxiv.org/abs/2406.00614" _blank
-    click D3a "https://arxiv.org/abs/2310.18340" _blank
+    click C2b "https://arxiv.org/abs/2408.05019" _blank
+    click C3a "https://arxiv.org/abs/2407.01725" _blank
+    click C3b "https://arxiv.org/abs/2308.16458" _blank
+    click C3c "https://arxiv.org/abs/2412.00637" _blank
+    click C3d "https://arxiv.org/abs/2309.10899" _blank
+    click C3e "https://arxiv.org/abs/2401.07128" _blank
+    click C3f "https://arxiv.org/abs/2306.15551" _blank
+    click D1a "https://arxiv.org/abs/2212.09662" _blank
+    click D1b "https://arxiv.org/abs/2303.00915" _blank
+    click D1c "https://arxiv.org/abs/2502.02673" _blank
+    click D1d "https://arxiv.org/abs/2406.17720" _blank
+    click D2a "https://www.nature.com/articles/s41467-024-53570-z" _blank
+    click D3a "https://arxiv.org/abs/2406.07210" _blank
+    click D3b "https://arxiv.org/abs/2310.18340" _blank
     click E1a "https://academic.oup.com/bioinformatics/article/41/2/btaf031/7972741" _blank
-    click E1b "https://arxiv.org/abs/2303.01807" _blank
-    click E2a "https://arxiv.org/abs/2307.09484" _blank
-    click E2b "https://arxiv.org/abs/2309.03907" _blank
-    click F1a "https://arxiv.org/abs/2408.11964" _blank
+    click E1b "https://www.nature.com/articles/s42256-023-00654-0" _blank
+    click E1c "https://arxiv.org/abs/2310.03320" _blank
+    click E2a "https://arxiv.org/abs/1704.01212" _blank
+    click E2b "https://arxiv.org/abs/2307.09484" _blank
+    click E2c "https://arxiv.org/abs/2309.03907" _blank
+    click E2d "https://arxiv.org/abs/2307.12033" _blank
+    click F1a "https://arxiv.org/abs/2303.12311" _blank
+    click F1b "https://arxiv.org/abs/2412.09758" _blank
+    click F1c "https://arxiv.org/abs/2504.01373" _blank
     click F2a "https://arxiv.org/abs/2207.08051" _blank
-    click F2b "https://arxiv.org/abs/2301.10343" _blank
+    click F2b "https://arxiv.org/abs/2212.14532" _blank
+    click F2c "https://arxiv.org/abs/2301.10343" _blank
+    click F2d "https://arxiv.org/abs/2301.13629" _blank
     click G1a "https://www.nature.com/articles/s41592-024-02201-0" _blank
     click G1b "https://www.nature.com/articles/s41586-023-06139-9" _blank
+    click G1c "https://www.nature.com/articles/s42256-022-00534-z" _blank
+    click G1d "https://www.nature.com/articles/s41422-023-00925-6" _blank
+    click G1e "https://www.biorxiv.org/content/10.1101/2023.07.18.549537" _blank
     click G2a "https://www.biorxiv.org/content/10.1101/2024.04.15.589472" _blank
+    click G2b "https://arxiv.org/abs/2312.00645" _blank
 ```
 
 ### 🧬 Sequence (Text, Molecule, Protein)
@@ -281,8 +337,12 @@ graph LR
     B --> B3[Contrastive &<br>Adversarial]
 
     B1 --> B1a(LLaVA-Med)
-    B1 --> B1b(ProtAgents)
-    B1 --> B1c(TxGemma)
+    B1 --> B1b(MedMax)
+    B1 --> B1c(ChatNT)
+    B1 --> B1d(ProtAgents)
+    B1 --> B1e(TxGemma)
+    B1 --> B1f(MMed-RAG)
+    B1 --> B1g(ScDCA)
 
     B2 --> B2a[Human Feedback]
     B2 --> B2b[Simulation Feedback]
@@ -293,11 +353,16 @@ graph LR
     B2b --> B2b1(BindGPT)
     B2b --> B2b2(AtomAgents)
     B2b --> B2b3(DrugGen)
-    B2c --> B2c1(SynFlowNet)
+    B2b --> B2b4(AgentHospital)
+    B2b --> B2b5(Leanabell-Prover)
+    B2c --> B2c1(MedAgentGym)
+    B2c --> B2c2(SynFlowNet)
 
     B3 --> B3a(DrugCLIP)
-    B3 --> B3b(DINO)
-    B3 --> B3c(SupReMix)
+    B3 --> B3b(SimCLR)
+    B3 --> B3c(DINO)
+    B3 --> B3d(SupReMix)
+    B3 --> B3e(GVAT)
 
     C --> C1[Integrating<br>Domain Knowledge]
     C --> C2[Complex Workflow<br>Handling]
@@ -309,63 +374,104 @@ graph LR
 
     C1a --> C1a1(ColaCare)
     C1a --> C1a2(i-MedRAG)
+    C1a --> C1a3(ClinicalRAG)
+    C1a --> C1a4(BioImage)
+    C1a --> C1a5(AutoProteinEngine)
     C1b --> C1b1(ESCARGOT)
-    C1c --> C1c1(GeoLLM-Engine)
-    C1c --> C1c2(InstructProtein)
+    C1c --> C1c1(LLMPhy)
+    C1c --> C1c2(GeoLLM-Engine)
+    C1c --> C1c3(ProtTex)
+    C1c --> C1c4(MolReGPT)
+    C1c --> C1c5(InstructProtein)
 
     C2 --> C2a[Planning]
     C2 --> C2b[Tool Learning]
     C2 --> C2c[Multi-step Reasoning]
 
     C2a --> C2a1(RAISE)
+    C2a --> C2a2(LLM-RDF)
+    C2a --> C2a3(DrugAgent)
     C2b --> C2b1(Crispr-GPT)
     C2b --> C2b2(Biomni)
     C2b --> C2b3(AutoBA)
+    C2b --> C2b4(MedRax)
+    C2b --> C2b5(Omega)
+    C2b --> C2b6(BioDiscoveryAgent)
     C2c --> C2c1(MT-Mol)
+    C2c --> C2c2(MedAgent)
 
     C3 --> C3a[Self-Critic]
     C3 --> C3b[External Memory]
 
     C3a --> C3a1(GeneAgent)
     C3a --> C3a2(Reflexion)
-    C3b --> C3b1(STMA)
+    C3a --> C3a3(ArgMed-Agents)
+    C3b --> C3b1(Graphiti)
+    C3b --> C3b2(STMA)
 
     D --> D1[Collaboration]
     D --> D2[Debate]
     D --> D3[Adaptive Recruitment]
 
     D1 --> D1a(ReConcile)
-    D2 --> D2a(MedAgents)
+    D2 --> D2a(MAD)
+    D2 --> D2b(MedAgents)
     D3 --> D3a(MDAgents)
+    D3 --> D3b(ColaCare)
 
     click B1a "https://arxiv.org/abs/2306.00890" _blank
-    click B1b "https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00013g" _blank
-    click B1c "https://arxiv.org/abs/2503.14156" _blank
+    click B1b "https://arxiv.org/abs/2406.12450" _blank
+    click B1c "https://arxiv.org/abs/2405.07880" _blank
+    click B1d "https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00013g" _blank
+    click B1e "https://arxiv.org/abs/2503.14156" _blank
+    click B1f "https://arxiv.org/abs/2410.13085" _blank
+    click B1g "https://arxiv.org/abs/2412.13478" _blank
     click B2a1 "https://arxiv.org/abs/2404.07738" _blank
-    click B2a2 "https://arxiv.org/abs/2407.11686" _blank
+    click B2a2 "https://arxiv.org/abs/2407.21973" _blank
     click B2b1 "https://arxiv.org/abs/2406.03686" _blank
     click B2b2 "https://arxiv.org/abs/2407.10022" _blank
-    click B2b3 "https://arxiv.org/abs/2408.00124" _blank
-    click B2c1 "https://arxiv.org/abs/2405.01155" _blank
+    click B2b3 "https://arxiv.org/abs/2411.14157" _blank
+    click B2b4 "https://arxiv.org/abs/2405.02957" _blank
+    click B2b5 "https://arxiv.org/abs/2503.05918" _blank
+    click B2c1 "https://arxiv.org/abs/2504.00777" _blank
+    click B2c2 "https://arxiv.org/abs/2405.01155" _blank
     click B3a "https://arxiv.org/abs/2310.06367" _blank
-    click B3b "https://arxiv.org/abs/2304.07193" _blank
-    click B3c "https://arxiv.org/abs/2301.02328" _blank
+    click B3b "https://arxiv.org/abs/2002.05709" _blank
+    click B3c "https://arxiv.org/abs/2304.07193" _blank
+    click B3d "https://arxiv.org/abs/2301.02328" _blank
+    click B3e "https://www.sciencedirect.com/science/article/pii/S1110016824015813" _blank
     click C1a1 "https://arxiv.org/abs/2403.05572" _blank
     click C1a2 "https://arxiv.org/abs/2408.00727" _blank
+    click C1a3 "https://aclanthology.org/2024.knowledgellm-1.3/" _blank
+    click C1a4 "https://www.nature.com/articles/s41592-024-02370-y" _blank
+    click C1a5 "https://arxiv.org/abs/2411.04440" _blank
     click C1b1 "https://academic.oup.com/bioinformatics/article/41/2/btaf031/7972741" _blank
-    click C1c1 "https://arxiv.org/abs/2310.17029" _blank
-    click C1c2 "https://arxiv.org/abs/2310.03269" _blank
-    click C2a1 "https://arxiv.org/abs/2501.13834" _blank
+    click C1c1 "https://arxiv.org/abs/2411.08027" _blank
+    click C1c2 "https://arxiv.org/abs/2310.17029" _blank
+    click C1c3 "https://arxiv.org/abs/2501.03410" _blank
+    click C1c4 "https://arxiv.org/abs/2306.09561" _blank
+    click C1c5 "https://arxiv.org/abs/2310.03269" _blank
+    click C2a1 "https://arxiv.org/abs/2506.08625" _blank
+    click C2a2 "https://www.nature.com/articles/s41467-024-54457-x" _blank
+    click C2a3 "https://arxiv.org/abs/2411.15692" _blank
     click C2b1 "https://arxiv.org/abs/2404.18021" _blank
     click C2b2 "https://arxiv.org/abs/2412.00637" _blank
     click C2b3 "https://arxiv.org/abs/2309.10899" _blank
+    click C2b4 "https://arxiv.org/abs/2502.02673" _blank
+    click C2b5 "https://www.nature.com/articles/s41592-024-02310-w" _blank
+    click C2b6 "https://arxiv.org/abs/2405.17631" _blank
     click C2c1 "https://arxiv.org/abs/2505.20820" _blank
+    click C2c2 "https://arxiv.org/abs/2503.01664" _blank
     click C3a1 "https://arxiv.org/abs/2405.10753" _blank
     click C3a2 "https://arxiv.org/abs/2303.11366" _blank
-    click C3b1 "https://arxiv.org/abs/2501.16739" _blank
+    click C3a3 "https://arxiv.org/abs/2403.06294" _blank
+    click C3b1 "https://arxiv.org/abs/2501.00831" _blank
+    click C3b2 "https://arxiv.org/abs/2501.16739" _blank
     click D1a "https://arxiv.org/abs/2309.13007" _blank
-    click D2a "https://arxiv.org/abs/2311.10537" _blank
+    click D2a "https://arxiv.org/abs/2305.19118" _blank
+    click D2b "https://arxiv.org/abs/2311.10537" _blank
     click D3a "https://arxiv.org/abs/2404.15488" _blank
+    click D3b "https://arxiv.org/abs/2403.05572" _blank
 ```
 
 ### 🏋️ Agent Training
