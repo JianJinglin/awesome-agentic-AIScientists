@@ -2,6 +2,8 @@
 
 > A curated list of papers on **Agentic Multimodal Large Language Models (MLLMs) for Scientific Discovery**
 
+📢 **We welcome contributions!** If you have papers to add, please [submit an issue](https://github.com/JianJinglin/awesome-agentic-AIScientists/issues)!
+
 This repository accompanies our survey paper: **["Exploring Agentic Multimodal Large Language Models: A Survey for AIScientists"](https://www.techrxiv.org/users/998129/articles/1358530-exploring-agentic-multimodal-large-language-models-a-survey-for-aiscientists)**
 
 ### Comparison with Related Surveys
@@ -48,7 +50,6 @@ This repository accompanies our survey paper: **["Exploring Agentic Multimodal L
   - [Multi-Agent Systems](#multi-agent-systems)
 - [Benchmarks & Evaluation](#benchmarks--evaluation)
 - [Human-AI Collaboration](#human-ai-collaboration)
-- [Related Surveys](#related-surveys)
 
 ---
 
@@ -337,40 +338,6 @@ Including RLHF, DPO, and reward-based training methods.
 - [Directory of Useful Decoys, Enhanced (DUD-E): Better Ligands and Decoys for Better Benchmarking](https://doi.org/10.1021/jm300687e) (2012) - *Mysinger et al.*
 
 ---
-
-## Related Surveys
-
-- [ ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning](https://doi.ieeecomputersociety.org/10.1109/TPAMI.2021.3095381) (2022) - *Elnaggar et al.*
-- Transfer learning enables predictions in network biology (2023) - *Theodoris et al.*
-- Chemberta-2: Towards chemical foundation models (2022) - *Ahmad et al.*
-- Large Physics Models: Towards a collaborative approach with Large Language Models and Foundation Models (2025) - *Barman et al.*
-- SciBERT: A pretrained language model for scientific text (2019) - *Beltagy et al.*
-- MicroVQA: A Multimodal Reasoning Benchmark for Microscopy-Based Scientific Research (2025) - *Burgess et al.*
-- A Vision-Language foundation model to enhance efficiency of chest x-ray interpretation (2024) - *Chen et al.*
-- BrainSegFounder: towards 3D foundation models for neuroimage segmentation (2024) - *Cox et al.*
-- scGPT: toward building a foundation model for single-cell multi-omics using generative AI (2024) - *Cui et al.*
-- SymbolicAI: A framework for logic-based approaches combining generative models and solvers (2024) - *Dinu et al.*
-- Knowledge graph-enhanced molecular contrastive learning with functional prompt (2023) - *Fang et al.*
-- Neural message passing for quantum chemistry (2017) - *Gilmer et al.*
-- Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions (2025) - *Gridach et al.*
-- Domain-specific language model pretraining for biomedical natural language processing (2021) - *Gu et al.*
-- A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers (2025) - *Hu et al.*
-- Highly accurate protein structure prediction with AlphaFold (2021) - *Jumper et al.*
-- [BioImage. IO Chatbot: a community-driven AI assistant for integrative computational bioimaging](https://www.nature.com/articles/s41592-024-02370-y) (2024) - *Lei, Wanlu, Fuster-Barcelo*
-- Cell2sentence: Teaching large language models the language of biology. bioRxiv (2023) - *Levine, Daniel, Le*
-- Llava-med: Training a large language-and-vision assistant for biomedicine in one day (2023) - *Li et al.*
-- Temporal fusion transformers for interpretable multi-horizon time series forecasting (2021) - *Lim, Bryan, Ari*
-
----
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-To add a paper:
-1. Fork this repository
-2. Add the paper to the appropriate section in `README.md`
-3. Submit a pull request
 
 ## Citation
 
