@@ -2,7 +2,7 @@
 
 > A curated list of papers on **Agentic Multimodal Large Language Models (MLLMs) for Scientific Discovery**
 
-📢 **We welcome contributions!** If you have papers to add, please [submit an issue](https://github.com/JianJinglin/awesome-agentic-AIScientists/issues)!
+🚀 **Join us in building the AI for Science community!** Know a great paper we missed? [Open an issue](https://github.com/JianJinglin/awesome-agentic-AIScientists/issues) — together, let's accelerate scientific discovery with AI!
 
 This repository accompanies our survey paper: **["Exploring Agentic Multimodal Large Language Models: A Survey for AIScientists"](https://www.techrxiv.org/users/998129/articles/1358530-exploring-agentic-multimodal-large-language-models-a-survey-for-aiscientists)**
 
