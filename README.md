@@ -8,11 +8,12 @@ This repository accompanies our survey paper: **"Exploring Agentic Multimodal La
 
 *Overview of the agentic MLLM framework for scientific discovery*
 
+**AIScientists** are autonomous agents powered by multimodal large language models (MLLMs) that can understand papers, generate hypotheses, plan and conduct experiments, analyze results, and draft manuscripts across the entire scientific research lifecycle.
+
 ---
 
 ## Table of Contents
 
-- [AI Scientist Systems](#ai-scientist-systems)
 - [Input & Output Modalities](#input--output-modalities)
   - [Sequence (Text, Molecule, Protein)](#sequence-text-molecule-protein)
   - [Symbolic (Math, Code, Physics)](#symbolic-math-code-physics)
@@ -33,23 +34,6 @@ This repository accompanies our survey paper: **"Exploring Agentic Multimodal La
 - [Benchmarks & Evaluation](#benchmarks--evaluation)
 - [Human-AI Collaboration](#human-ai-collaboration)
 - [Related Surveys](#related-surveys)
-
----
-
-## AI Scientist Systems
-
-Key papers on fully automated or semi-automated AI systems for scientific discovery.
-
-- [ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models](https://api.semanticscholar.org/CorpusID:269042844) (2024) - *Baek et al.*
-- [Chain of Ideas: Revolutionizing Research Via Novel Idea Development with LLM Agents](https://api.semanticscholar.org/CorpusID:273403983) (2024) - *Li et al.*
-- [Scideator: Human-LLM Scientific Idea Generation Grounded in Research-Paper Facet Recombination](https://api.semanticscholar.org/CorpusID:272827497) (2024) - *Radensky et al.*
-- [CycleResearcher: Improving Automated Research via Automated Review](https://api.semanticscholar.org/CorpusID:273811997) (2024) - *Weng et al.*
-- Autonomous chemical research with large language models (2023) - *Boiko et al.*
-- [The ai scientist: Towards fully automated open-ended scientific discovery](http://arxiv.org/abs/2408.06292) (2024) - *Lu et al.*
-- [Augmenting large language models with chemistry tools](https://www.nature.com/articles/s42256-024-00832-8) (2024) - *M. Bran et al.*
-- [An autonomous laboratory for the accelerated synthesis of novel materials](https://www.nature.com/articles/s41586-023-06734-w) (2023) - *Szymanski et al.*
-- [Self-driving laboratories for chemistry and materials science](https://pubs.acs.org/doi/10.1021/acs.chemrev.4c00055) (2024) - *Tom et al.*
-- [GeneAgent: Self-verification Language Agent for Gene Set Knowledge Discovery using Domain Databases](http://arxiv.org/abs/2405.16205) (2024) - *Wang et al.*
 
 ---
 
