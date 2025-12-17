@@ -53,6 +53,37 @@ This repository accompanies our survey paper: **["Exploring Agentic Multimodal L
 
 ## 📊 Input & Output Modalities
 
+```mermaid
+graph LR
+    A[Input/Output<br>Modalities] --> B[🧬 Sequence]
+    A --> C[📐 Symbolic]
+    A --> D[🖼️ Vision]
+    A --> E[🕸️ Graph]
+    A --> F[📡 Sensor]
+    A --> G[🔗 Others]
+
+    B --> B1[Text]
+    B --> B2[Molecular]
+    B --> B3[Protein & DNA]
+
+    C --> C1[Theorem Proving]
+    C --> C2[Scientific Formula]
+    C --> C3[Algorithms]
+
+    D --> D1[Charts & Images]
+    D --> D2[Videos]
+    D --> D3[Spatial Patterns]
+
+    E --> E1[Knowledge Graphs]
+    E --> E2[Molecular Graphs]
+
+    F --> F1[Time Series]
+    F --> F2[Spatial-Temporal]
+
+    G --> G1[Tabular Data]
+    G --> G2[Spatial Omics]
+```
+
 ### 🧬 Sequence (Text, Molecule, Protein)
 
 Foundation models for sequential scientific data including natural language, molecular structures (SMILES), and protein sequences.
@@ -171,6 +202,40 @@ Methods for integrating multiple modalities in scientific MLLMs.
 ---
 
 ## ⚙️ Methods for Scientific MLLM Agents
+
+```mermaid
+graph LR
+    A[Methods for<br>Scientific MLLM<br>Agents] --> B[🏋️ Agent<br>Training]
+    A --> C[🚀 Agent<br>Inference]
+    A --> D[🤝 Multi-Agent<br>System]
+
+    B --> B1[Supervised<br>Fine-Tuning]
+    B --> B2[Reinforcement<br>Learning]
+    B --> B3[Contrastive &<br>Adversarial]
+
+    B2 --> B2a[Human Feedback]
+    B2 --> B2b[Simulation Feedback]
+    B2 --> B2c[Trajectory Learning]
+
+    C --> C1[Integrating<br>Domain Knowledge]
+    C --> C2[Complex Workflow<br>Handling]
+    C --> C3[Improving<br>Accuracy]
+
+    C1 --> C1a[RAG]
+    C1 --> C1b[Knowledge Graph]
+    C1 --> C1c[In-Context Learning]
+
+    C2 --> C2a[Planning]
+    C2 --> C2b[Tool Learning]
+    C2 --> C2c[Multi-step Reasoning]
+
+    C3 --> C3a[Self-Critic]
+    C3 --> C3b[External Memory]
+
+    D --> D1[Collaboration]
+    D --> D2[Debate]
+    D --> D3[Adaptive Recruitment]
+```
 
 ### 🏋️ Agent Training
 
