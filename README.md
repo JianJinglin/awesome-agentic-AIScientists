@@ -8,7 +8,7 @@ This repository accompanies our survey paper: **["Exploring Agentic Multimodal L
 
 ### To Start With: What is AIScientist?
 
-**AIScientists** are autonomous agents powered by multimodal large language models (MLLMs) that can understand papers, generate hypotheses, plan and conduct experiments, analyze results, and draft manuscripts across the entire scientific research lifecycle. But how do we build one? Here we summarize the pipeline to develop a strong multimodal agentic AIScientist and provide example studies across 10+ scientific domains.
+**AIScientists** are autonomous agents powered by multimodal large language models (MLLMs) that can understand papers, generate hypotheses, plan and conduct experiments, analyze results, and draft manuscripts across the entire scientific research lifecycle ([Lu et al., 2024](http://arxiv.org/abs/2408.06292); [Boiko et al., 2023](https://www.nature.com/articles/s41586-023-06792-0); [Gottweis et al., 2025](http://arxiv.org/abs/2502.18864)). But how do we build one? Here we summarize the pipeline to develop a strong multimodal agentic AIScientist and provide example studies across 10+ scientific domains.
 
 ### Comparison with Related Surveys
 
