@@ -31,31 +31,25 @@ This repository accompanies our survey paper: **["Exploring Agentic Multimodal L
 
 ## Table of Contents
 
-- [Input & Output Modalities](#input--output-modalities)
-  - [Sequence (Text, Molecule, Protein)](#sequence-text-molecule-protein)
-  - [Symbolic (Math, Code, Physics)](#symbolic-math-code-physics)
-  - [Vision (Image, Video)](#vision-image-video)
-  - [Graph (Knowledge Graph, Molecular Graph)](#graph-knowledge-graph-molecular-graph)
-  - [Sensor & Time Series](#sensor--time-series)
-  - [Multi-modal Fusion](#multi-modal-fusion)
-- [Methods for Scientific MLLM Agents](#methods-for-scientific-mllm-agents)
-  - [Agent Training](#agent-training)
-    - [Supervised Fine-Tuning (SFT)](#supervised-fine-tuning-sft)
-    - [Reinforcement Learning (RL)](#reinforcement-learning-rl)
-    - [Contrastive & Adversarial Learning](#contrastive--adversarial-learning)
-  - [Agent Inference](#agent-inference)
-    - [Retrieval-Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
-    - [In-Context Learning (ICL)](#in-context-learning-icl)
-    - [Planning & Tool Use](#planning--tool-use)
-  - [Multi-Agent Systems](#multi-agent-systems)
-- [Benchmarks & Evaluation](#benchmarks--evaluation)
-- [Human-AI Collaboration](#human-ai-collaboration)
+- [📊 Input & Output Modalities](#-input--output-modalities)
+  - [🧬 Sequence (Text, Molecule, Protein)](#-sequence-text-molecule-protein)
+  - [📐 Symbolic (Math, Code, Physics)](#-symbolic-math-code-physics)
+  - [🖼️ Vision (Image, Video)](#️-vision-image-video)
+  - [🕸️ Graph (Knowledge Graph, Molecular Graph)](#️-graph-knowledge-graph-molecular-graph)
+  - [📡 Sensor & Time Series](#-sensor--time-series)
+  - [🔗 Multi-modal Fusion](#-multi-modal-fusion)
+- [⚙️ Methods for Scientific MLLM Agents](#️-methods-for-scientific-mllm-agents)
+  - [🎯 Agent Training](#-agent-training)
+  - [🔮 Agent Inference](#-agent-inference)
+  - [🤝 Multi-Agent Systems](#-multi-agent-systems)
+- [📈 Benchmarks & Evaluation](#-benchmarks--evaluation)
+- [🧑‍🔬 Human-AI Collaboration](#-human-ai-collaboration)
 
 ---
 
-## Input & Output Modalities
+## 📊 Input & Output Modalities
 
-### Sequence (Text, Molecule, Protein)
+### 🧬 Sequence (Text, Molecule, Protein)
 
 Foundation models for sequential scientific data including natural language, molecular structures (SMILES), and protein sequences.
 
@@ -88,7 +82,7 @@ Foundation models for sequential scientific data including natural language, mol
 - [Foundation models for generalist medical artificial intelligence](https://www.nature.com/articles/s41586-023-05881-4) (2023) - *Moor et al.*
 - Impact of Data Sparsity on Machine Learning for Fault Detection in Power System Protection (2025) - *Oelhaf et al.*
 
-### Symbolic (Math, Code, Physics)
+### 📐 Symbolic (Math, Code, Physics)
 
 Models for mathematical proofs, scientific code generation, and physics reasoning.
 
@@ -103,7 +97,7 @@ Models for mathematical proofs, scientific code generation, and physics reasonin
 - An in-context learning agent for formal theorem-proving (2023) - *Thakur et al.*
 - Formal mathematical reasoning: A new frontier in ai (2024) - *Yang et al.*
 
-### Vision (Image, Video)
+### 🖼️ Vision (Image, Video)
 
 Visual foundation models for scientific imaging including medical imaging, microscopy, and satellite imagery.
 
@@ -119,7 +113,7 @@ Visual foundation models for scientific imaging including medical imaging, micro
 - Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks (2022) - *Wang et al.*
 - Urbanclip: Learning text-enhanced urban region profiling with contrastive language-image pretraining from the web (2024) - *Yan et al.*
 
-### Graph (Knowledge Graph, Molecular Graph)
+### 🕸️ Graph (Knowledge Graph, Molecular Graph)
 
 Graph neural networks and knowledge graph methods for scientific reasoning.
 
@@ -139,7 +133,7 @@ Graph neural networks and knowledge graph methods for scientific reasoning.
 - GeneCompass: deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species foundation model (2024) - *Yang et al.*
 - Graph representation learning in bioinformatics: trends, methods and applications (2022) - *Yi et al.*
 
-### Sensor & Time Series
+### 📡 Sensor & Time Series
 
 Models for sensor data, time series analysis, and spatial-temporal data.
 
@@ -155,7 +149,7 @@ Models for sensor data, time series analysis, and spatial-temporal data.
 - Single cells are spatial tokens: Transformers for spatial transcriptomic data imputation (2023) - *Wen et al.*
 - Robust sensor selection based on maximum correntropy criterion for ocean data reconstruction (2024) - *Zhang et al.*
 
-### Multi-modal Fusion
+### 🔗 Multi-modal Fusion
 
 Methods for integrating multiple modalities in scientific MLLMs.
 
@@ -172,9 +166,9 @@ Methods for integrating multiple modalities in scientific MLLMs.
 
 ---
 
-## Methods for Scientific MLLM Agents
+## ⚙️ Methods for Scientific MLLM Agents
 
-### Agent Training
+### 🎯 Agent Training
 
 #### Supervised Fine-Tuning (SFT)
 
@@ -215,7 +209,7 @@ Including RLHF, DPO, and reward-based training methods.
 - Improved Techniques for Training GANs (2016) - *Salimans et al.*
 - SupReMix: Supervised Contrastive Learning for Medical Imaging Regression with Mixup (2025) - *Wu et al.*
 
-### Agent Inference
+### 🔮 Agent Inference
 
 #### Retrieval-Augmented Generation (RAG)
 
@@ -258,7 +252,7 @@ Including RLHF, DPO, and reward-based training methods.
 - [BioImage. IO Chatbot: a community-driven AI assistant for integrative computational bioimaging](https://www.nature.com/articles/s41592-024-02370-y) (2024) - *Lei, Wanlu, Fuster-Barcelo*
 - STMA: A spatio-temporal memory agent for long-horizon embodied task planning (2025) - *Lei et al.*
 
-### Multi-Agent Systems
+### 🤝 Multi-Agent Systems
 
 - [Enhancing diagnostic capability with multi-agents conversational large language models](https://www.nature.com/articles/s41746-025-01550-0) (2025) - *Chen et al.*
 - [ProtAgents: protein discovery via large language model multi-agent collaborations combining physics and machine learning](https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00013g) (2024) - *Ghafarollahi, Alireza, Buehler, Markus J*
@@ -269,7 +263,7 @@ Including RLHF, DPO, and reward-based training methods.
 
 ---
 
-## Benchmarks & Evaluation
+## 📈 Benchmarks & Evaluation
 
 - Meet Carl: The first AI system to produce academically peer-reviewed research (2025) - *Autoscience Institute*
 - [Accelerating Research with Automated Literature Reviews: A Rag-Based Framework](https://api.semanticscholar.org/CorpusID:277095571) (2025) - *Abhinav Balasubramanian*
@@ -314,7 +308,7 @@ Including RLHF, DPO, and reward-based training methods.
 
 ---
 
-## Human-AI Collaboration
+## 🧑‍🔬 Human-AI Collaboration
 
 - Codescientist: End-to-end semi-automated scientific discovery with code-based experimentation (2025) - *Jansen et al.*
 - Benchmarking large language models on multiple tasks in bioinformatics nlp with prompting (2025) - *Jiang et al.*
