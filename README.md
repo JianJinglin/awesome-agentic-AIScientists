@@ -4,7 +4,7 @@
 
 This repository accompanies our survey paper: **"Exploring Agentic Multimodal Large Language Models: A Survey for AIScientists"**
 
-![Overview of the agentic MLLM framework for scientific discovery](assets/figure_overview.png)
+<img src="assets/figure_overview.png" alt="Overview of the agentic MLLM framework for scientific discovery" width="100%"/>
 
 *Overview of the agentic MLLM framework for scientific discovery*
 
