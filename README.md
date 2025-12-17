@@ -66,43 +66,89 @@ graph LR
     B --> B2[Molecular]
     B --> B3[Protein & DNA]
 
-    B1 --> B1p[BioMedLM, GeoGalactica,<br>Meerkat, AstroSage,<br>ChatClimate, PMC-LLaMA]
-    B2 --> B2p[MolFM, GPT-Molberta,<br>ChemBERTa, GENA,<br>GraphMVP, GROVER]
-    B3 --> B3p[ProGen, ProtTrans,<br>ProLLaMA, AlphaFold2,<br>DNABERT, DNAGPT]
+    B1 --> B1a(BioMedLM)
+    B1 --> B1b(GeoGalactica)
+    B1 --> B1c(PMC-LLaMA)
+    B2 --> B2a(MolFM)
+    B2 --> B2b(ChemBERTa)
+    B2 --> B2c(GROVER)
+    B3 --> B3a(ProGen)
+    B3 --> B3b(ProtTrans)
+    B3 --> B3c(AlphaFold2)
+    B3 --> B3d(DNABERT)
 
     C --> C1[Theorem Proving]
     C --> C2[Scientific Formula]
     C --> C3[Algorithms]
 
-    C1 --> C1p[NaturalProver, LeanCopilot,<br>SymbolicAI, AlphaGeometry]
-    C2 --> C2p[LLMPhy, PHIA]
-    C3 --> C3p[DiscoveryBench, BioCoder,<br>AutoAgent, AutoBA,<br>Biomni, EHRAgent]
+    C1 --> C1a(LeanCopilot)
+    C1 --> C1b(AlphaGeometry)
+    C2 --> C2a(LLMPhy)
+    C3 --> C3a(BioCoder)
+    C3 --> C3b(Biomni)
+    C3 --> C3c(EHRAgent)
 
     D --> D1[Charts & Images]
     D --> D2[Videos]
     D --> D3[Spatial Patterns]
 
-    D1 --> D1p[MATCHA, BioMedClip,<br>MedRax, BioTrove]
-    D2 --> D2p[VideoMol]
-    D3 --> D3p[BrainSegFounder,<br>UrbanCLIP, PlanetaryG]
+    D1 --> D1a(BioMedCLIP)
+    D1 --> D1b(MedRax)
+    D2 --> D2a(VideoMol)
+    D3 --> D3a(UrbanCLIP)
 
     E --> E1[Knowledge Graphs]
     E --> E2[Molecular Graphs]
 
-    E1 --> E1p[ESCARGOT, KANO,<br>TCA-Operator, BioBridge]
-    E2 --> E2p[MPNNs, GATGNN, MolFM,<br>GIT-Mol, Prot2Text, DrugChat]
+    E1 --> E1a(ESCARGOT)
+    E1 --> E1b(KANO)
+    E2 --> E2a(MolFM)
+    E2 --> E2b(DrugChat)
 
     F --> F1[Time Series]
     F --> F2[Spatial-Temporal]
 
-    F1 --> F1p[METS, NormWear,<br>UniFault]
-    F2 --> F2p[SatMAE, Scale-MAE,<br>ClimaX, FREE, DiffSTG]
+    F1 --> F1a(NormWear)
+    F2 --> F2a(SatMAE)
+    F2 --> F2b(ClimaX)
 
     G --> G1[Tabular Data]
     G --> G2[Spatial Omics]
 
-    G1 --> G1p[scGPT, SCFoundation,<br>Geneformer, UCE,<br>scBERT, GeneCompass]
-    G2 --> G2p[NicheFormer, CellPLM]
+    G1 --> G1a(scGPT)
+    G1 --> G1b(Geneformer)
+    G2 --> G2a(NicheFormer)
+
+    click B1a "https://arxiv.org/abs/2211.08561" _blank
+    click B1b "https://arxiv.org/abs/2311.01760" _blank
+    click B1c "https://arxiv.org/abs/2305.09617" _blank
+    click B2a "https://arxiv.org/abs/2307.09484" _blank
+    click B2b "https://arxiv.org/abs/2209.01712" _blank
+    click B2c "https://arxiv.org/abs/2007.02835" _blank
+    click B3a "https://arxiv.org/abs/2004.03497" _blank
+    click B3b "https://ieeexplore.ieee.org/document/9477085" _blank
+    click B3c "https://www.nature.com/articles/s41586-021-03819-2" _blank
+    click B3d "https://academic.oup.com/bioinformatics/article/37/15/2112/6128680" _blank
+    click C1a "https://arxiv.org/abs/2404.18564" _blank
+    click C1b "https://www.nature.com/articles/s41586-023-06924-6" _blank
+    click C2a "https://arxiv.org/abs/2411.08027" _blank
+    click C3a "https://arxiv.org/abs/2308.16458" _blank
+    click C3b "https://arxiv.org/abs/2412.00637" _blank
+    click C3c "https://arxiv.org/abs/2401.07128" _blank
+    click D1a "https://arxiv.org/abs/2303.00915" _blank
+    click D1b "https://arxiv.org/abs/2502.02673" _blank
+    click D2a "https://arxiv.org/abs/2406.00614" _blank
+    click D3a "https://arxiv.org/abs/2310.18340" _blank
+    click E1a "https://academic.oup.com/bioinformatics/article/41/2/btaf031/7972741" _blank
+    click E1b "https://arxiv.org/abs/2303.01807" _blank
+    click E2a "https://arxiv.org/abs/2307.09484" _blank
+    click E2b "https://arxiv.org/abs/2309.03907" _blank
+    click F1a "https://arxiv.org/abs/2408.11964" _blank
+    click F2a "https://arxiv.org/abs/2207.08051" _blank
+    click F2b "https://arxiv.org/abs/2301.10343" _blank
+    click G1a "https://www.nature.com/articles/s41592-024-02201-0" _blank
+    click G1b "https://www.nature.com/articles/s41586-023-06139-9" _blank
+    click G2a "https://www.biorxiv.org/content/10.1101/2024.04.15.589472" _blank
 ```
 
 ### 🧬 Sequence (Text, Molecule, Protein)
@@ -234,17 +280,24 @@ graph LR
     B --> B2[Reinforcement<br>Learning]
     B --> B3[Contrastive &<br>Adversarial]
 
-    B1 --> B1p[LLaVA-Med, MedMax,<br>ChatNT, ProtAgents,<br>TxGemma, MMed-RAG]
+    B1 --> B1a(LLaVA-Med)
+    B1 --> B1b(ProtAgents)
+    B1 --> B1c(TxGemma)
 
     B2 --> B2a[Human Feedback]
     B2 --> B2b[Simulation Feedback]
     B2 --> B2c[Trajectory Learning]
 
-    B2a --> B2ap[ResearchAgent, MAVIS]
-    B2b --> B2bp[BindGPT, AtomAgents,<br>DrugGen, AgentHospital,<br>Leanabell-Prover-V2]
-    B2c --> B2cp[MedAgentGym, SynFlowNet]
+    B2a --> B2a1(ResearchAgent)
+    B2a --> B2a2(MAVIS)
+    B2b --> B2b1(BindGPT)
+    B2b --> B2b2(AtomAgents)
+    B2b --> B2b3(DrugGen)
+    B2c --> B2c1(SynFlowNet)
 
-    B3 --> B3p[DrugCLIP, SimCLR, DINO,<br>cpDistiller, SupReMix,<br>RAFGAE, MLGAN]
+    B3 --> B3a(DrugCLIP)
+    B3 --> B3b(DINO)
+    B3 --> B3c(SupReMix)
 
     C --> C1[Integrating<br>Domain Knowledge]
     C --> C2[Complex Workflow<br>Handling]
@@ -254,31 +307,65 @@ graph LR
     C1 --> C1b[Knowledge Graph]
     C1 --> C1c[In-Context Learning]
 
-    C1a --> C1ap[ColaCare, ClinicalRAG,<br>i-MedRAG, DrugAgent,<br>AutoProteinEngine]
-    C1b --> C1bp[ESCARGOT]
-    C1c --> C1cp[LLMPhy, GeoLLM-Engine,<br>Prottex, MolReGPT,<br>InstructProtein]
+    C1a --> C1a1(ColaCare)
+    C1a --> C1a2(i-MedRAG)
+    C1b --> C1b1(ESCARGOT)
+    C1c --> C1c1(GeoLLM-Engine)
+    C1c --> C1c2(InstructProtein)
 
     C2 --> C2a[Planning]
     C2 --> C2b[Tool Learning]
     C2 --> C2c[Multi-step Reasoning]
 
-    C2a --> C2ap[LLM-RDF, DrugAgent,<br>RAISE, MCTSR]
-    C2b --> C2bp[MedRax, Crispr-GPT,<br>Biomni, AutoBA,<br>BioDiscoveryAgent, Omega]
-    C2c --> C2cp[MT-Mol, MedAgent]
+    C2a --> C2a1(RAISE)
+    C2b --> C2b1(Crispr-GPT)
+    C2b --> C2b2(Biomni)
+    C2b --> C2b3(AutoBA)
+    C2c --> C2c1(MT-Mol)
 
     C3 --> C3a[Self-Critic]
     C3 --> C3b[External Memory]
 
-    C3a --> C3ap[GeneAgent, Reflexion,<br>ArgMed-Agents]
-    C3b --> C3bp[Graphiti, STMA]
+    C3a --> C3a1(GeneAgent)
+    C3a --> C3a2(Reflexion)
+    C3b --> C3b1(STMA)
 
     D --> D1[Collaboration]
     D --> D2[Debate]
     D --> D3[Adaptive Recruitment]
 
-    D1 --> D1p[ReConcile]
-    D2 --> D2p[MAD, MedAgents]
-    D3 --> D3p[MDAgents, CoreCare]
+    D1 --> D1a(ReConcile)
+    D2 --> D2a(MedAgents)
+    D3 --> D3a(MDAgents)
+
+    click B1a "https://arxiv.org/abs/2306.00890" _blank
+    click B1b "https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00013g" _blank
+    click B1c "https://arxiv.org/abs/2503.14156" _blank
+    click B2a1 "https://arxiv.org/abs/2404.07738" _blank
+    click B2a2 "https://arxiv.org/abs/2407.11686" _blank
+    click B2b1 "https://arxiv.org/abs/2406.03686" _blank
+    click B2b2 "https://arxiv.org/abs/2407.10022" _blank
+    click B2b3 "https://arxiv.org/abs/2408.00124" _blank
+    click B2c1 "https://arxiv.org/abs/2405.01155" _blank
+    click B3a "https://arxiv.org/abs/2310.06367" _blank
+    click B3b "https://arxiv.org/abs/2304.07193" _blank
+    click B3c "https://arxiv.org/abs/2301.02328" _blank
+    click C1a1 "https://arxiv.org/abs/2403.05572" _blank
+    click C1a2 "https://arxiv.org/abs/2408.00727" _blank
+    click C1b1 "https://academic.oup.com/bioinformatics/article/41/2/btaf031/7972741" _blank
+    click C1c1 "https://arxiv.org/abs/2310.17029" _blank
+    click C1c2 "https://arxiv.org/abs/2310.03269" _blank
+    click C2a1 "https://arxiv.org/abs/2501.13834" _blank
+    click C2b1 "https://arxiv.org/abs/2404.18021" _blank
+    click C2b2 "https://arxiv.org/abs/2412.00637" _blank
+    click C2b3 "https://arxiv.org/abs/2309.10899" _blank
+    click C2c1 "https://arxiv.org/abs/2505.20820" _blank
+    click C3a1 "https://arxiv.org/abs/2405.10753" _blank
+    click C3a2 "https://arxiv.org/abs/2303.11366" _blank
+    click C3b1 "https://arxiv.org/abs/2501.16739" _blank
+    click D1a "https://arxiv.org/abs/2309.13007" _blank
+    click D2a "https://arxiv.org/abs/2311.10537" _blank
+    click D3a "https://arxiv.org/abs/2404.15488" _blank
 ```
 
 ### 🏋️ Agent Training
