@@ -1,8 +1,5 @@
 # Agentic AI Scientists
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-
 > A curated list of papers on **Agentic Multimodal Large Language Models (MLLMs) for Scientific Discovery**
 
 This repository accompanies our survey paper: **"Exploring Agentic Multimodal Large Language Models: A Survey for AIScientists"**
