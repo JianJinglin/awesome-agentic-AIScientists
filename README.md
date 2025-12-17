@@ -66,22 +66,43 @@ graph LR
     B --> B2[Molecular]
     B --> B3[Protein & DNA]
 
+    B1 --> B1p[BioMedLM, GeoGalactica,<br>Meerkat, AstroSage,<br>ChatClimate, PMC-LLaMA]
+    B2 --> B2p[MolFM, GPT-Molberta,<br>ChemBERTa, GENA,<br>GraphMVP, GROVER]
+    B3 --> B3p[ProGen, ProtTrans,<br>ProLLaMA, AlphaFold2,<br>DNABERT, DNAGPT]
+
     C --> C1[Theorem Proving]
     C --> C2[Scientific Formula]
     C --> C3[Algorithms]
+
+    C1 --> C1p[NaturalProver, LeanCopilot,<br>SymbolicAI, AlphaGeometry]
+    C2 --> C2p[LLMPhy, PHIA]
+    C3 --> C3p[DiscoveryBench, BioCoder,<br>AutoAgent, AutoBA,<br>Biomni, EHRAgent]
 
     D --> D1[Charts & Images]
     D --> D2[Videos]
     D --> D3[Spatial Patterns]
 
+    D1 --> D1p[MATCHA, BioMedClip,<br>MedRax, BioTrove]
+    D2 --> D2p[VideoMol]
+    D3 --> D3p[BrainSegFounder,<br>UrbanCLIP, PlanetaryG]
+
     E --> E1[Knowledge Graphs]
     E --> E2[Molecular Graphs]
+
+    E1 --> E1p[ESCARGOT, KANO,<br>TCA-Operator, BioBridge]
+    E2 --> E2p[MPNNs, GATGNN, MolFM,<br>GIT-Mol, Prot2Text, DrugChat]
 
     F --> F1[Time Series]
     F --> F2[Spatial-Temporal]
 
+    F1 --> F1p[METS, NormWear,<br>UniFault]
+    F2 --> F2p[SatMAE, Scale-MAE,<br>ClimaX, FREE, DiffSTG]
+
     G --> G1[Tabular Data]
     G --> G2[Spatial Omics]
+
+    G1 --> G1p[scGPT, SCFoundation,<br>Geneformer, UCE,<br>scBERT, GeneCompass]
+    G2 --> G2p[NicheFormer, CellPLM]
 ```
 
 ### 🧬 Sequence (Text, Molecule, Protein)
@@ -213,9 +234,17 @@ graph LR
     B --> B2[Reinforcement<br>Learning]
     B --> B3[Contrastive &<br>Adversarial]
 
+    B1 --> B1p[LLaVA-Med, MedMax,<br>ChatNT, ProtAgents,<br>TxGemma, MMed-RAG]
+
     B2 --> B2a[Human Feedback]
     B2 --> B2b[Simulation Feedback]
     B2 --> B2c[Trajectory Learning]
+
+    B2a --> B2ap[ResearchAgent, MAVIS]
+    B2b --> B2bp[BindGPT, AtomAgents,<br>DrugGen, AgentHospital,<br>Leanabell-Prover-V2]
+    B2c --> B2cp[MedAgentGym, SynFlowNet]
+
+    B3 --> B3p[DrugCLIP, SimCLR, DINO,<br>cpDistiller, SupReMix,<br>RAFGAE, MLGAN]
 
     C --> C1[Integrating<br>Domain Knowledge]
     C --> C2[Complex Workflow<br>Handling]
@@ -225,16 +254,31 @@ graph LR
     C1 --> C1b[Knowledge Graph]
     C1 --> C1c[In-Context Learning]
 
+    C1a --> C1ap[ColaCare, ClinicalRAG,<br>i-MedRAG, DrugAgent,<br>AutoProteinEngine]
+    C1b --> C1bp[ESCARGOT]
+    C1c --> C1cp[LLMPhy, GeoLLM-Engine,<br>Prottex, MolReGPT,<br>InstructProtein]
+
     C2 --> C2a[Planning]
     C2 --> C2b[Tool Learning]
     C2 --> C2c[Multi-step Reasoning]
 
+    C2a --> C2ap[LLM-RDF, DrugAgent,<br>RAISE, MCTSR]
+    C2b --> C2bp[MedRax, Crispr-GPT,<br>Biomni, AutoBA,<br>BioDiscoveryAgent, Omega]
+    C2c --> C2cp[MT-Mol, MedAgent]
+
     C3 --> C3a[Self-Critic]
     C3 --> C3b[External Memory]
+
+    C3a --> C3ap[GeneAgent, Reflexion,<br>ArgMed-Agents]
+    C3b --> C3bp[Graphiti, STMA]
 
     D --> D1[Collaboration]
     D --> D2[Debate]
     D --> D3[Adaptive Recruitment]
+
+    D1 --> D1p[ReConcile]
+    D2 --> D2p[MAD, MedAgents]
+    D3 --> D3p[MDAgents, CoreCare]
 ```
 
 ### 🏋️ Agent Training
