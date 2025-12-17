@@ -6,9 +6,9 @@
 
 This repository accompanies our survey paper: **["Exploring Agentic Multimodal Large Language Models: A Survey for AIScientists"](https://www.techrxiv.org/users/998129/articles/1358530-exploring-agentic-multimodal-large-language-models-a-survey-for-aiscientists)**
 
-### To Start With: What is AIScientist?
+### What is an AIScientist?
 
-**AIScientists** are autonomous agents powered by multimodal large language models (MLLMs) that can understand papers, generate hypotheses, plan and conduct experiments, analyze results, and draft manuscripts across the entire scientific research lifecycle ([Lu et al., 2024](http://arxiv.org/abs/2408.06292); [Boiko et al., 2023](https://www.nature.com/articles/s41586-023-06792-0); [Gottweis et al., 2025](http://arxiv.org/abs/2502.18864)). But how do we build one? Here we summarize the pipeline to develop a strong multimodal agentic AIScientist and provide example studies across 10+ scientific domains.
+**AIScientists** are autonomous agents powered by multimodal large language models (MLLMs) that can understand papers, generate hypotheses, plan and conduct experiments, analyze results, and draft manuscripts across the entire scientific research lifecycle ([Lu et al., 2024](http://arxiv.org/abs/2408.06292); [Boiko et al., 2023](https://www.nature.com/articles/s41586-023-06792-0); [Gottweis et al., 2025](http://arxiv.org/abs/2502.18864)). But how do we build one? This survey summarizes a complete pipeline for developing multimodal agentic AIScientists, with representative studies spanning 10+ scientific domains.
 
 ### Comparison with Related Surveys
 
@@ -29,7 +29,7 @@ This repository accompanies our survey paper: **["Exploring Agentic Multimodal L
 
 <img src="assets/figure_overview.png" alt="Overview of the agentic MLLM framework for scientific discovery" width="100%"/>
 
-*Overview of the agentic MLLM framework for scientific discovery: The pipeline begins with diverse **Input & Output** modalities, followed by **Methods** including Agent Training and Agent Inference, then **Evaluation** with benchmarks and metrics, and finally **Human-AI Collaboration** throughout the pipeline.*
+*Overview of our framework: Starting from diverse **Input & Output** modalities, through **Agent Training** and **Inference** methods, to **Evaluation** benchmarks—with **Human-AI Collaboration** integrated at every stage.*
 
 ---
 
