@@ -23,7 +23,7 @@ This repository accompanies our survey paper: **["Exploring Agentic Multimodal L
 
 <sub>**Ag.** = Agentic AI; **DM.** = Data Modality; **HCI** = Human-Computer Interaction; **Ben.** = Benchmark; **#Dom.** = Number of domains; **Seq.+** = Sequence and more modalities; **Train.** = Agent Training; **Infer.** = Agent Inference</sub>
 
-### Ours: A ML Pipeline Perspective
+### Ours: An End-to-End Developer Pipeline
 
 <img src="assets/figure_overview.png" alt="Overview of the agentic MLLM framework for scientific discovery" width="100%"/>
 
