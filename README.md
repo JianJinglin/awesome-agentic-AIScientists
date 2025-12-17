@@ -1,6 +1,5 @@
-# Awesome Agentic AI Scientists
+# Agentic AI Scientists
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
@@ -9,9 +8,9 @@
 This repository accompanies our survey paper: **"Exploring Agentic Multimodal Large Language Models: A Survey for AIScientists"**
 
 <p align="center">
-  <img src="assets/ai_scientist_timeline.png" alt="Timeline of AI Scientist Systems" width="800"/>
+  <img src="assets/figure_overview.png" alt="Overview of the agentic MLLM framework for scientific discovery" width="100%"/>
 </p>
-<p align="center"><em>Timeline of major AIScientist systems from leading research institutions (2023-2025)</em></p>
+<p align="center"><em>Overview of the agentic MLLM framework for scientific discovery</em></p>
 
 ---
 
