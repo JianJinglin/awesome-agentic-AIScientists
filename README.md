@@ -53,62 +53,6 @@ This repository accompanies our survey paper: **["Exploring Agentic Multimodal L
 
 ## 📊 Input & Output Modalities
 
-```mermaid
-graph TB
-    A[Input/Output Modalities] --> B[🧬 Sequence]
-    A --> C[📐 Symbolic]
-    A --> D[🖼️ Vision]
-    A --> E[🕸️ Graph]
-    A --> F[📡 Sensor]
-    A --> G[🔗 Others]
-
-    B --> B1[Text: BioMedLM, GeoGalactica, PMC-LLaMA, Meerkat, AstroSage, ChatClimate, ClinicalGPT]
-    B --> B2[Molecular: MolFM, ChemBERTa, GROVER, GPT-MolBERTa, GraphMVP, GENA, MassFormer, DecompDiff]
-    B --> B3[Protein & DNA: ProGen, ProtTrans, ProLLaMA, AlphaFold2, DNABERT, DNAGPT]
-
-    C --> C1[Theorem: NaturalProver, LeanCopilot, SymbolicAI, AlphaGeometry]
-    C --> C2[Formula: LLMPhy, PHIA]
-    C --> C3[Algorithms: DiscoveryBench, SNIP, BioCoder, VisScience, AutoBA, Biomni, EHRAgent, MyCrunchGPT]
-
-    D --> D1[Charts & Images: MATCHA, BioMedCLIP, MedRax, BioTrove]
-    D --> D2[Videos: VideoMol]
-    D --> D3[Spatial: BrainSegFounder, UrbanCLIP, PlanetaryG]
-    D --> D4[Diffusion: EVA]
-
-    E --> E1[Knowledge Graph: ESCARGOT, KANO, TCA-Operator, BioBridge]
-    E --> E2[Molecular Graph: MPNNs, GATGNN, MolFM, GIT-Mol, Prot2Text, DrugChat]
-
-    F --> F1[Time Series: METS, NormWear, UniFault]
-    F --> F2[Spatial-Temporal: SatMAE, Scale-MAE, ClimaX, Free, DiffSTG]
-
-    G --> G1[Tabular: scGPT, SCFoundation, Geneformer, UCE, SCimilarity, GeneCompass, scBERT]
-    G --> G2[Spatial Omics: NicheFormer, CellPLM]
-```
-
-<details>
-<summary>📎 Paper Links (click to expand)</summary>
-
-| Category | Papers |
-|----------|--------|
-| **Text** | [BioMedLM](https://huggingface.co/stanford-crfm/BioMedLM), [GeoGalactica](https://arxiv.org/abs/2401.00434), [PMC-LLaMA](https://arxiv.org/abs/2304.14454), [Meerkat](https://arxiv.org/abs/2501.09754), [AstroSage](https://arxiv.org/abs/2501.09277), [ChatClimate](https://arxiv.org/abs/2304.05510), [ClinicalGPT](https://arxiv.org/abs/2306.09968) |
-| **Molecular** | [MolFM](https://arxiv.org/abs/2307.09484), [ChemBERTa](https://arxiv.org/abs/2209.01712), [GROVER](https://arxiv.org/abs/2007.02835), [GPT-MolBERTa](https://arxiv.org/abs/2310.03030), [GraphMVP](https://arxiv.org/abs/2110.07728), [GENA](https://arxiv.org/abs/2306.10761), [MassFormer](https://arxiv.org/abs/2401.03860), [DecompDiff](https://arxiv.org/abs/2403.07902) |
-| **Protein & DNA** | [ProGen](https://arxiv.org/abs/2004.03497), [ProtTrans](https://doi.org/10.1109/TPAMI.2021.3095381), [ProLLaMA](https://arxiv.org/abs/2402.16445), [AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2), [DNABERT](https://doi.org/10.1093/bioinformatics/btab083), [DNAGPT](https://arxiv.org/abs/2307.05628) |
-| **Theorem Proving** | [NaturalProver](https://arxiv.org/abs/2205.12910), [LeanCopilot](https://arxiv.org/abs/2404.12534), [SymbolicAI](https://arxiv.org/abs/2402.00854), [AlphaGeometry](https://www.nature.com/articles/s41586-023-06747-5) |
-| **Scientific Formula** | [LLMPhy](https://arxiv.org/abs/2411.08027), [PHIA](https://arxiv.org/abs/2408.05019) |
-| **Algorithms** | [DiscoveryBench](https://arxiv.org/abs/2407.01725), [SNIP](https://arxiv.org/abs/2310.02227), [BioCoder](https://arxiv.org/abs/2308.16458), [VisScience](https://arxiv.org/abs/2409.09869), [AutoBA](https://arxiv.org/abs/2309.10899), [Biomni](https://arxiv.org/abs/2412.00637), [EHRAgent](https://arxiv.org/abs/2401.07128), [MyCrunchGPT](https://arxiv.org/abs/2306.15551) |
-| **Charts & Images** | [MATCHA](https://arxiv.org/abs/2212.09662), [BioMedCLIP](https://arxiv.org/abs/2303.00915), [MedRax](https://arxiv.org/abs/2502.02673), [BioTrove](https://arxiv.org/abs/2406.17720) |
-| **Videos** | [VideoMol](https://www.nature.com/articles/s41467-024-53570-z) |
-| **Spatial Patterns** | [BrainSegFounder](https://arxiv.org/abs/2406.07210), [UrbanCLIP](https://arxiv.org/abs/2310.18340), [PlanetaryG](https://arxiv.org/abs/2311.07903) |
-| **Diffusion & Flow** | [EVA](https://arxiv.org/abs/2211.07636) |
-| **Knowledge Graphs** | [ESCARGOT](https://academic.oup.com/bioinformatics/article/41/2/btaf031/7972741), [KANO](https://www.nature.com/articles/s42256-023-00654-0), [TCA-Operator](https://arxiv.org/abs/2302.03437), [BioBridge](https://arxiv.org/abs/2310.03320) |
-| **Molecular Graphs** | [MPNNs](https://arxiv.org/abs/1704.01212), [GATGNN](https://arxiv.org/abs/1910.02466), [MolFM](https://arxiv.org/abs/2307.09484), [GIT-Mol](https://arxiv.org/abs/2308.06911), [Prot2Text](https://arxiv.org/abs/2307.12033), [DrugChat](https://arxiv.org/abs/2309.03907) |
-| **Time Series** | [METS](https://arxiv.org/abs/2303.12311), [NormWear](https://arxiv.org/abs/2412.09758), [UniFault](https://arxiv.org/abs/2504.01373) |
-| **Spatial-Temporal** | [SatMAE](https://arxiv.org/abs/2207.08051), [Scale-MAE](https://arxiv.org/abs/2212.14532), [ClimaX](https://arxiv.org/abs/2301.10343), [Free](https://arxiv.org/abs/2501.08433), [DiffSTG](https://arxiv.org/abs/2301.13629) |
-| **Tabular Data** | [scGPT](https://www.nature.com/articles/s41592-024-02201-0), [SCFoundation](https://www.nature.com/articles/s41592-024-02305-7), [Geneformer](https://www.nature.com/articles/s41586-023-06139-9), [UCE](https://www.biorxiv.org/content/10.1101/2023.11.28.568918), [SCimilarity](https://www.biorxiv.org/content/10.1101/2023.07.18.549537), [GeneCompass](https://www.nature.com/articles/s41422-023-00925-6), [scBERT](https://www.nature.com/articles/s42256-022-00534-z) |
-| **Spatial Omics** | [NicheFormer](https://www.biorxiv.org/content/10.1101/2024.04.15.589472), [CellPLM](https://arxiv.org/abs/2312.00645) |
-
-</details>
-
 ### 🧬 Sequence (Text, Molecule, Protein)
 
 Foundation models for sequential scientific data including natural language, molecular structures (SMILES), and protein sequences.
@@ -284,53 +228,6 @@ Methods for integrating multiple modalities in scientific MLLMs.
 ---
 
 ## ⚙️ Methods for Scientific MLLM Agents
-
-```mermaid
-graph TB
-    A[Methods for Scientific MLLM Agents] --> B[🏋️ Agent Training]
-    A --> C[🚀 Agent Inference]
-    A --> D[🤝 Multi-Agent System]
-
-    B --> B1[SFT: LLaVA-Med, MedMax, ChatNT, ProtAgents, TxGemma, MMed-RAG, ScDCA]
-    B --> B2[RL: ResearchAgent, MAVIS, BindGPT, AtomAgents, DrugGen, AgentHospital, MedAgentGym, SynFlowNet]
-    B --> B3[Contrastive: DrugCLIP, SimCLR, DINO, SupReMix, GVAT]
-
-    C --> C1[RAG: ColaCare, i-MedRAG, ClinicalRAG, AutoProteinEngine]
-    C --> C2[KG: ESCARGOT]
-    C --> C3[ICL: LLMPhy, GeoLLM-Engine, ProtTex, MolReGPT, InstructProtein]
-    C --> C4[Planning: RAISE, LLM-RDF, DrugAgent]
-    C --> C5[Tool: Crispr-GPT, Biomni, AutoBA, MedRax, Omega, BioDiscoveryAgent]
-    C --> C6[Self-Critic: GeneAgent, Reflexion, ArgMed-Agents]
-    C --> C7[Memory: Graphiti, STMA]
-
-    D --> D1[Collaboration: ReConcile]
-    D --> D2[Debate: MAD, MedAgents]
-    D --> D3[Adaptive: MDAgents, ColaCare]
-```
-
-<details>
-<summary>📎 Paper Links (click to expand)</summary>
-
-| Category | Papers |
-|----------|--------|
-| **Supervised Fine-Tuning** | [LLaVA-Med](https://arxiv.org/abs/2306.00890), [MedMax](https://arxiv.org/abs/2406.12450), [ChatNT](https://arxiv.org/abs/2405.07880), [ProtAgents](https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00013g), [TxGemma](https://arxiv.org/abs/2503.14156), [MMed-RAG](https://arxiv.org/abs/2410.13085), [ScDCA](https://arxiv.org/abs/2412.13478) |
-| **Human Feedback** | [ResearchAgent](https://arxiv.org/abs/2404.07738), [MAVIS](https://arxiv.org/abs/2407.21973) |
-| **Simulation Feedback** | [BindGPT](https://arxiv.org/abs/2406.03686), [AtomAgents](https://arxiv.org/abs/2407.10022), [DrugGen](https://arxiv.org/abs/2411.14157), [AgentHospital](https://arxiv.org/abs/2405.02957), [Leanabell-Prover](https://arxiv.org/abs/2503.05918) |
-| **Trajectory Learning** | [MedAgentGym](https://arxiv.org/abs/2504.00777), [SynFlowNet](https://arxiv.org/abs/2405.01155) |
-| **Contrastive & Adversarial** | [DrugCLIP](https://arxiv.org/abs/2310.06367), [SimCLR](https://arxiv.org/abs/2002.05709), [DINO](https://arxiv.org/abs/2304.07193), [SupReMix](https://arxiv.org/abs/2301.02328), [GVAT](https://www.sciencedirect.com/science/article/pii/S1110016824015813) |
-| **RAG** | [ColaCare](https://arxiv.org/abs/2403.05572), [i-MedRAG](https://arxiv.org/abs/2408.00727), [ClinicalRAG](https://aclanthology.org/2024.knowledgellm-1.3/), [BioImage](https://www.nature.com/articles/s41592-024-02370-y), [AutoProteinEngine](https://arxiv.org/abs/2411.04440) |
-| **Knowledge Graph** | [ESCARGOT](https://academic.oup.com/bioinformatics/article/41/2/btaf031/7972741) |
-| **In-Context Learning** | [LLMPhy](https://arxiv.org/abs/2411.08027), [GeoLLM-Engine](https://arxiv.org/abs/2310.17029), [ProtTex](https://arxiv.org/abs/2501.03410), [MolReGPT](https://arxiv.org/abs/2306.09561), [InstructProtein](https://arxiv.org/abs/2310.03269) |
-| **Planning** | [RAISE](https://arxiv.org/abs/2506.08625), [LLM-RDF](https://www.nature.com/articles/s41467-024-54457-x), [DrugAgent](https://arxiv.org/abs/2411.15692) |
-| **Tool Learning** | [Crispr-GPT](https://arxiv.org/abs/2404.18021), [Biomni](https://arxiv.org/abs/2412.00637), [AutoBA](https://arxiv.org/abs/2309.10899), [MedRax](https://arxiv.org/abs/2502.02673), [Omega](https://www.nature.com/articles/s41592-024-02310-w), [BioDiscoveryAgent](https://arxiv.org/abs/2405.17631) |
-| **Multi-step Reasoning** | [MT-Mol](https://arxiv.org/abs/2505.20820), [MedAgent](https://arxiv.org/abs/2503.01664) |
-| **Self-Critic** | [GeneAgent](https://arxiv.org/abs/2405.10753), [Reflexion](https://arxiv.org/abs/2303.11366), [ArgMed-Agents](https://arxiv.org/abs/2403.06294) |
-| **External Memory** | [Graphiti](https://arxiv.org/abs/2501.00831), [STMA](https://arxiv.org/abs/2501.16739) |
-| **Collaboration** | [ReConcile](https://arxiv.org/abs/2309.13007) |
-| **Debate** | [MAD](https://arxiv.org/abs/2305.19118), [MedAgents](https://arxiv.org/abs/2311.10537) |
-| **Adaptive Recruitment** | [MDAgents](https://arxiv.org/abs/2404.15488), [ColaCare](https://arxiv.org/abs/2403.05572) |
-
-</details>
 
 ### 🏋️ Agent Training
 
