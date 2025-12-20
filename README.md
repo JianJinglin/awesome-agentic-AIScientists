@@ -215,8 +215,16 @@ Including RLHF, DPO, and reward-based training methods.
 
 If you find this resource helpful, please cite our survey:
 
-**Cite as:** Jinglin Jian, Yi R. Fung, Denghui Zhang, et al. Exploring Agentic Multimodal Large Language Models: A Survey for AIScientists. TechRxiv. December 01, 2025.
-DOI: [10.36227/techrxiv.176344216.60619335/v2](https://doi.org/10.36227/techrxiv.176344216.60619335/v2)
+```bibtex
+@article{jian2025agentic,
+  title={Exploring Agentic Multimodal Large Language Models: A Survey for AIScientists},
+  author={Jian, Jinglin and Fung, Yi R. and Zhang, Denghui and Liang, Yiqian and Chen, Qingyu and Lu, Zhiyong and Wang, Qingyun},
+  journal={TechRxiv},
+  year={2025},
+  month={December},
+  doi={10.36227/techrxiv.176344216.60619335/v2}
+}
+```
 
 ## Star History
 
