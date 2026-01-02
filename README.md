@@ -6,6 +6,8 @@
 
 This repository accompanies our survey paper: **["Exploring Agentic Multimodal Large Language Models: A Survey for AIScientists"](https://www.techrxiv.org/users/998129/articles/1358530-exploring-agentic-multimodal-large-language-models-a-survey-for-aiscientists)**
 
+<img src="assets/AIScientist_githubrepo.png" alt="AIScientist GitHub Repository Overview" width="100%"/>
+
 ### What is an AIScientist?
 
 **AIScientists** are autonomous agents powered by multimodal large language models (MLLMs) that can understand papers, generate hypotheses, plan and conduct experiments, analyze results, and draft manuscripts across the entire scientific research lifecycle ([Lu et al., 2024](http://arxiv.org/abs/2408.06292); [Boiko et al., 2023](https://www.nature.com/articles/s41586-023-06792-0); [Gottweis et al., 2025](http://arxiv.org/abs/2502.18864)). But how do we build one? This survey summarizes a complete pipeline for developing multimodal agentic AIScientists, with representative studies spanning 10+ scientific domains.
@@ -29,7 +31,7 @@ This repository accompanies our survey paper: **["Exploring Agentic Multimodal L
 
 <img src="assets/figure_overview.png" alt="Overview of the agentic MLLM framework for scientific discovery" width="100%"/>
 
-*Overview of our framework: Starting from diverse **Input & Output** modalities, through **Agent Training** and **Inference** methods, to **Evaluation** benchmarks—with **Human-AI Collaboration** integrated at every stage.*
+*Overview of our framework: Starting from diverse **Input & Output** modalities, through **Agent Training** and **Inference** methods, to **Evaluation** benchmarks, with **Human-AI Collaboration** integrated at every stage.*
 
 ---
 
